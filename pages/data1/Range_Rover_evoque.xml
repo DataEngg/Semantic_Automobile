@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Mpeg7 
+	xmlns="urn:mpeg:mpeg7:schema:2004" 
+	xmlns:mpeg7="urn:mpeg:mpeg7:schema:2004" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="urn:mpeg:mpeg7:schema:2004 mpeg7-2004.xsd"> 
+
+	<Description xsi:type="ContentEntityType">
+	<MultimediaContent xsi:type="ImageType">
+	<Image id="Range_Rover_evoque">
+	
+	<MediaInformation>
+		<MediaProfile>
+			<MediaFormat>
+				<Title type="main" xml:lang="en-US">Range Rover Evoque</Title>
+				<Content href="MPEG7ContentCS">
+					<Name>image</Name>
+				</Content>
+				<FileFormat href="urn:mpeg:mepg7:cs:VisualCodingFormatCS:2001:1">
+					<Name>jpeg</Name>
+				</FileFormat>
+			   <VisualCoding>
+					<Frame height="300" width="200"/>
+			   </VisualCoding>
+			</MediaFormat>
+			<MediaInstance>
+				<InstanceIdentifier>Range_Rover_evoque</InstanceIdentifier>
+				<MediaLocator>
+					<MediaUri>Images/Range_Rover_evoque.jpg</MediaUri>
+				</MediaLocator>
+				<Abstract>
+					<FreeTextAnnotation>Range_Rover_Evoque-with both two-wheel and four-wheel drive. The Evoque is designed to appeal to urban buyers and meet requirements for lower CO2 emissions and fuel economy. The production vehicle is similar to the Land Rover LRX concept.
+						
+					</FreeTextAnnotation>
+				</Abstract>
+				<StructuredAnnotation>
+					<WhatObject href="http://www.semanticweb.org/Vivek_Gupta/ontologies/Automobile#Desert_Car"> 
+					        <Name>Desert_Car</Name> 
+					</WhatObject>
+				</StructuredAnnotation>
+			</MediaInstance>
+		</MediaProfile>
+	</MediaInformation>
+	</Image>
+	</MultimediaContent>
+	</Description>
+</Mpeg7>

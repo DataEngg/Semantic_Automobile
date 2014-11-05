@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mpeg7
+	xmlns="urn:mpeg:mpeg7:schema:2004"
+	xmlns:mpeg7="urn:mpeg:mpeg7:schema:2004"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="urn:mpeg:mpeg7:schema:2004 mpeg7-2004.xsd">
+
+	<DescriptionMetadata>
+		<Version>1.0</Version>
+		<Comment>
+			<StructuredTextAnnotation>
+				<Concept>Sports_Car</Concept>
+				<FileName>
+					<MediaUri>Images/accent.jpg</MediaUri>
+				</FileName>
+			</StructuredTextAnnotation>
+		</Comment>
+	</DescriptionMetadata>
+	<Description xsi:type="ContentEntityType">
+		<MultimediaContent xsi:type="ImageType">
+			<Image id="image1">
+				<MediaInformation>
+					<MediaProfile>
+						<MediaFormat>
+							<Content href="urn:mpeg:mpeg7:cs:ContentCS:2001">
+								<Name>Image</Name>
+							</Content>
+							
+							<FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001">
+								<Name>jpg</Name>
+							</FileFormat>
+							
+						</MediaFormat>
+					</MediaProfile>
+				</MediaInformation>
+				<CreationInformation>
+					<Creation>
+						<Title type="main" xml:lang="en-US">A7_Sportback</Title>
+						<TitleMedia>
+							<TitleImage>
+								<MediaUri>Images/audi_logo.jpg</MediaUri>
+							</TitleImage>
+						</TitleMedia>
+						<Abstract>
+							<FreeTextAnnotation>The Audi A7 is a great-looking and beautifully built car. It's superb at devouring motorway miles thanks to its
+					stunning high-speed composure and impressive refinement. Use of aluminium in the body keeps weight, and fuel consumption, down.</FreeTextAnnotation>
+						</Abstract>
+						<Creator>
+							<Role href="urn:mpeg:mpeg7:cs:RoleCS:2001:SINGER"></Role>
+							<Agent>
+								<xsi:type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">mpeg7:OrganizationType</xsi:type>
+								<Name>Audi</Name>
+							</Agent>
+						</Creator>
+					</Creation>
+					
+				</CreationInformation>
+				
+			</Image>
+		</MultimediaContent>
+	</Description>
+</Mpeg7> 

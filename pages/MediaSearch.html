@@ -1,0 +1,747 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Multimedia Search</title>
+<meta name="keywords" content="automobile ontology, semantic web, multimedia ontology, automobile manufactuers, audi, bmw, DTC, monorail," />
+<meta name="description" content="Automobile Ontology as part of Semantic Web Course Cirriculum" />
+<link href="themes/5/js-image-slider.css" rel="stylesheet" type="text/css" />
+    <script src="themes/5/js-image-slider.js" type="text/javascript"></script>
+    <link href="generic.css" rel="stylesheet" type="text/css" />
+<link href="css/templatemo_style.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery-1-4-2.min.js"></script>
+  <!-- Chang URLs to wherever Video.js files will be hosted -->
+  <link href="video-js.css" rel="stylesheet" type="text/css">
+  <!-- video.js must be in the <head> for older IEs to work. -->
+  <script src="video.js"></script>
+
+  <!-- Unless using the CDN hosted version, update the URL to the Flash SWF -->
+  <script>
+    videojs.options.flash.swf = "video-js.swf";
+  </script>
+
+<!--script type="text/javascript" src="/jqueryui/js/jquery-ui-1.7.2.custom.min.js"></script-->
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/showhide.js"></script>
+<script type="text/JavaScript" src="js/jquery.mousewheel.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/ddsmoothmenu.css" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/ddsmoothmenu.js">
+
+/***********************************************
+* Smooth Navigational Menu- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+</script>
+
+<script type="text/javascript">
+
+ddsmoothmenu.init({
+	mainmenuid: "templatemo_menu", //menu DIV id
+	orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
+	classname: 'ddsmoothmenu', //class added to menu's outer DIV
+	//customtheme: ["#1c5a80", "#18374a"],
+	contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
+})
+
+</script>
+
+<!-- Load the CloudCarousel JavaScript file -->
+<script type="text/JavaScript" src="js/cloud-carousel.1.0.5.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/scripts.js"></script>
+		<script type="text/javascript" src="js/getdetails.js"></script>
+		<script type="text/javascript" src="js/jquery.elevatezoom.js"></script>
+                <script type="text/javascript" src="js/jquery.dropotron-1.0.js"></script>
+                <script type="text/javascript" src="js/jquery.slidertron-1.1.js"></script>
+				<link href="magiczoom/magiczoom.css" rel="stylesheet" type="text/css" media="screen"/>
+
+
+	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+	<script type="text/javascript" src="engine1/jquery.js"></script>
+	<script src="magiczoom/magiczoom.js" type="text/javascript"></script>
+	<!-- End WOWSlider.com HEAD section -->
+
+<script type="text/javascript">
+$(document).ready(function(){
+
+	// This initialises carousels on the container elements specified, in this case, carousel1.
+	$("#carousel1").CloudCarousel(
+		{
+			reflHeight: 40,
+			reflGap:2,
+			titleBox: $('#da-vinci-title'),
+			altBox: $('#da-vinci-alt'),
+			buttonLeft: $('#slider-left-but'),
+			buttonRight: $('#slider-right-but'),
+			yRadius:30,
+			xPos: 480,
+			yPos: 32,
+			speed:0.15
+		}
+	);
+});
+
+
+</script>
+ <script type="text/javascript">
+	$(function() {
+		$('#menu > ul').dropotron({
+			mode: 'fade',
+			globalOffsetY: 11,
+			offsetY: -15
+		});
+		$('#slider').slidertron({
+			viewerSelector: '.viewer',
+			indicatorSelector: '.indicator span',
+			reelSelector: '.reel',
+			slidesSelector: '.slide',
+			speed: 'slow',
+			advanceDelay: 4000
+		});
+	});
+</script>
+
+<style type="text/css">
+
+#Layer1 {
+	position:absolute;
+	left:50px;
+	top:1px;
+	width:114px;
+	height:107px;
+	z-index:1;
+}
+#Layer2 {
+	position:absolute;
+	left:258px;
+	top:53px;
+	width:700px;
+	height:37px;
+	z-index:2;
+}
+#Layer3 {
+	position:absolute;
+	left:71px;
+	top:165px;
+	width:39px;
+	height:39px;
+	z-index:2;
+}
+#Layer4 {
+	position:absolute;
+	left:4px;
+	top:112px;
+	width:903px;
+	height:907px;
+	z-index:2;
+}
+#left-overlay{
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	height: 550px;
+	width: 1000px;
+	top: 100px;
+	left: -1001px;
+	border: 1px solid black;
+	background-color: white;
+	z-index: 20;
+	
+	border-radius: 0 5px 5px 0;
+}
+#pullmap{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	right: -20px;
+	top: 100px;
+	float: right;
+	background-color: #EAEAEA;
+	height:450px;
+	width:20px;
+	box-shadow: 2px 0 2px 0 #777;
+	border-radius: 0 5px 5px 0;
+}
+#pullmap:hover{
+	background-color: #C0C0C0;
+	box-shadow: 2px 0 2px 0 #A0A0A0;
+	cursor: pointer;
+}
+#overlay-close{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 40px;
+	color: #FFF;
+	text-align: center;
+	background-color: #6699AA;
+	box-shadow: 0 0 1px 1px #6699AA;
+}
+#overlay-close:hover{
+	width: 50px;
+	box-shadow: 0 0 2px 2px #6699CC;
+	background-color: #6699CC;
+	cursor: pointer;
+	font-weight: bold;
+}
+#overlay-main{
+	text-align: center;
+	vertical-align: center;
+	height: 500px;
+}
+#overlay-mapImage{
+	width: 800px;
+	height: 500px;
+}
+#overlay-footer{
+	border-top: 1px dashed #AAA;
+	position: absolute;
+	text-align: right;
+	font-family: trebuchet ms;
+	font-size: 16px;
+	right: 0px;
+	bottom: 0px;
+	width: 98%;
+}
+
+#lightbox-overlay{
+	display: none;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(20, 20, 20, 0.9);
+	z-index: 10;
+}
+
+#Layer5 {
+	position:absolute;
+	left:904px;
+	top:131px;
+	width:249px;
+	height:363px;
+	z-index:3;
+}
+#Layer6 {
+	position:absolute;
+	left:130px;
+	top:603px;
+	width:1014px;
+	height:351px;
+	z-index:4;
+}
+#Layer7 {
+	position:absolute;
+	left:148px;
+	top:1038px;
+	width:982px;
+	height:194px;
+	z-index:5;
+}
+#Layer8 {
+	position:absolute;
+	left:148px;
+	top:1295px;
+	width:982px;
+	height:194px;
+	z-index:6;
+}
+#Layer9 {
+	position:absolute;
+	left:147px;
+	top:1554px;
+	width:983px;
+	height:197px;
+	z-index:7;
+}
+#Layer10 {
+	position:absolute;
+	left:147px;
+	top:1811px;
+	width:982px;
+	height:183px;
+	z-index:8;
+}
+#Layer11 {
+	position:absolute;
+	left:147px;
+	top:2072px;
+	width:982px;
+	height:181px;
+	z-index:9;
+}
+#Layer12 {
+	position:absolute;
+	left:146px;
+	top:2334px;
+	width:983px;
+	height:187px;
+	z-index:10;
+}
+#Layer13 {
+	position:absolute;
+	left:2px;
+	top:1211px;
+	width:1350px;
+	height:40px;
+	z-index:11;
+}
+#Layer14 {
+	position:absolute;
+	left:1050px;
+	top:4px;
+	width:176px;
+	height:26px;
+	z-index:12;
+}
+#Layer15 {
+	position:absolute;
+	left:3px;
+	top:2053px;
+	width:1186px;
+	height:506px;
+	z-index:13;
+}
+#Layer16 {
+	position:absolute;
+	left:-36px;
+	top:2043px;
+	width:1298px;
+	height:522px;
+	z-index:13;
+	overflow:hidden;
+	visibility: inherit;
+	background-image:url(images/templatemo_bg_bottom.jpg);
+
+
+}
+#Layer17 {
+	position:absolute;
+	left:146px;
+	top:2069px;
+	width:982px;
+	height:190px;
+	z-index:14;
+}
+#Layer18 {
+	position:absolute;
+	left:147px;
+	top:2060px;
+	width:981px;
+	height:217px;
+	z-index:14;
+}
+#Layer19 {
+	position:absolute;
+	left:147px;
+	top:2327px;
+	width:980px;
+	height:226px;
+	z-index:15;
+}
+#Layer20 {
+	position:absolute;
+	left:850px;
+	top:676px;
+	width:173px;
+	height:22px;
+	z-index:16;
+}
+#Layer21 {
+	position:absolute;
+	left:803px;
+	top:809px;
+	width:311px;
+	height:77px;
+	z-index:16;
+}
+#Layer22 {
+	position:absolute;
+	left:802px;
+	top:640px;
+	width:250px;
+	height:31px;
+	z-index:17;
+}
+#Layer23 {
+	position:absolute;
+	left:798px;
+	top:686px;
+	width:288px;
+	height:113px;
+	z-index:18;
+}
+
+
+
+.style1 {color: #c2c2d6}
+.style2 {color: #c2c2d6}
+.style5 {color: #808080}
+#Layer24 {
+	position:absolute;
+	left:180px;
+	top:4px;
+	width:841px;
+	height:71px;
+	z-index:91;
+}
+</style>
+</head>
+
+<body id="home">
+<div id="Layer24"><img src="images/Automobile.png" width="841" height="71"/></div>
+<br/><br/><br/>
+<script type="text/javascript">
+function Zoom(ID) {
+
+ID.style.height='350px';
+ID.style.width = '370px';
+
+}
+function checkIndividual()
+
+alert("hello");
+}
+</script>
+<div id="left-overlay">
+			<div id="pullmap">
+				<img src="images/pullmap.png"/>
+			</div>
+			<div style="border-bottom: 2px solid #ddd;text-align: right;margin: 2px;margin-top: 25px;">
+				<div id="overlay-close">Close</div>
+				<div style="font-family: verdana;font-weight: bolder;">Automobile Ontology Graph</div>
+			</div>
+			<div id="overlay-main">
+				<a href="images/automobileontologygraph.jpg" title="Automobile Graph" class="MagicZoom" rel="right-click: true;"><img id="overlay-mapImage" src="images/automobileontologygraph.jpg" data-zoom-image="images/automobileontologygraph.jpg"/>
+			</div>
+			<div id="overlay-footer">Click on the Ontology items to explore</div>
+</div>
+
+<!-- END of templatemo_footer -->
+<div id="Layer13">
+<div id="templatemo_footer_wrapper">
+    <div id="templatemo_footer">
+
+   	<span class="style5"><a href="credits.html" target="_parent">Credits</a> || Copyright © 2013 AutomobileOntology.    </span></div>
+    <!-- END of templatemo_footer_wrapper -->
+</div>
+</div>
+<div id="Layer14">
+  <div class="footer_social_button">
+                    <a href="http://facebook.com/automobileontology/"><img src="images/facebook.png" title="facebook" alt="facebook" /></a>
+
+                    <a href="http://twitter.com/automobileonto/"><img src="images/twitter.png" title="twitter" alt="twitter" /></a>
+                    <a href="https://www.youtube.com/watch?v=or2k7dZBr5c"><img src="images/youtube.png" title="youtube" alt="youtube" /></a>
+
+</div></div>
+<div id="templatemo_header_wrapper">
+<div class="page-out">
+<div class="page-in">
+<div class="page">
+<div class="main">
+<div class="header">
+ <div class="topmenu">
+<ul>
+  <li style="background: transparent none repeat scroll 0% 50%; -moz-background-clip: initial; -moz-background-origin: initial; -moz-background-inline-policy: initial; padding-left: 0px;"><a href="index.html"><b><span>Home</span></b></a></li>
+  <li><a href="Mediasearch.html"><b><span>Multimedia Search</span></b></a></li>
+  <li><a href="http://localhost:3030/sparql.tpl"><b><span>SPARQL Endpoint&nbsp;</span></b></a></li>
+  <li><a href="OntologyTour.html"><b><span>Ontology Tour</span></b></a></li>
+  <li><a href="credits.html"><b><span>Credits</span></b></a></li>
+ 
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  <!-- end of templatemo_menu -->
+    <div class="cleaner"></div>
+</div>	<!-- END of templatemo_header_wrapper -->
+
+<div class="Search" id="sear">
+  <div align="left" class="style1">
+  </div>
+</div>
+<br>
+
+<div class="keyword" id="key">
+  <div align="left" class="style1">
+ 
+    <div align="center">
+	<script type="text/javascript">
+	function dosubmit()
+	{
+var selectedItem = document.formName1.text.selectedIndex;
+var selectedItemValue =document.formName1.text.options[selectedItem].value;
+var selectedItemText =document.formName1.text.options[selectedItem].text;
+if (selectedItem != 0) {
+document.formName2.Keywords.value = selectedItemText;
+}
+else
+{
+document.formName2.Keywords.value ="Wrong Option";
+}
+
+	}
+	</script>
+	<h3><font color="#c2c2d6">Select From Here and Get Your Query FulFill</font></h3>
+	<br>
+	<form name="formName1">
+  <select name="text" onChange="dosubmit()">
+  <option id="a1">Select From Here</option>
+  <option id="a2">Pulsar_220</option>
+  <option id="a3">Apache_RTR</option>
+  <option id="a4">Tug_Boat</option>
+  <option id="a5">Civilian_ship</option>
+  <option id="a6">Carrier_Ship</option>
+  <option id="a7">Maersk_Line</option>
+  <option id="a8">Dhow_Ship</option>
+  <option id="a9">Desert_Car</option>
+  <option id="a10">Range_Rover_Evoque</option>
+  <option id="a11">Subaru_Forester</option>
+  <option id="a12">Evo_x_rs_Road</option>
+  <option id="a13">Lancer_Evolution</option>
+  <option id="a14">Nissan_Leaf</option>
+  <option id="a15">Airways_Fighter</option>
+  <option id="a16">Cessna_Citation_cj4</option>
+  <option id="a17">Fighter_Plane</option>
+  <option id="a18">Electric_car</option>
+  <option id="a19">Government_Bus</option>
+  <option id="a20">Red_Dtc</option>
+  <option id="a21">Metro</option>
+  <option id="a22">Kolkata_Metro</option>
+  <option id="a23">Delhi_Metro</option>
+  <option id="a24">Military_Ship</option>
+  <option id="a25">Uss_Arizona</option>
+  <option id="a26">Hms_Hood</option>
+  <option id="a27">Mono_Rail</option>
+ 
+  <option id="a30">Personal_Car</option>
+  <option id="a31">Honda_Civic</option>
+  <option id="a32">Hyundai_Accent</option>
+  <option id="a33">Maruti_Alto</option>
+  <option id="a34">Maruti_Suzuki_Swift</option>
+  <option id="a35">Passenger_Plane</option>
+  <option id="a36">Air_India</option>
+  <option id="a37">Private_Bus</option>
+  <option id="a38">Volvo_bus</option>
+  <option id="a39">Space_shuttle</option>
+ 
+  <option id="a42">Sports_Car</option>
+  <option id="a43">Bmw_M3</option>
+  <option id="a44">Bmw_x3</option>
+  <option id="a45">A7_Sportback</option>
+  <option id="a46">Aston_Martin_db9</option>
+  <option id="a47">Bmw_z4</option>
+  <option id="a48">Bmw_750</option>
+ 
+  <option id="a50">Porsche_911sc</option>
+  <option id="a51">Fiat_x1_9</option>
+  <option id="a52">audi_r8</option>
+  <option id="a53">Bmw_z1</option>
+  <option id="a54">Taxi</option>
+  <option id="a55">Innova</option>
+  <option id="a56">Indica</option>
+  <option id="a57">Truck_Transportation</option>
+  <option id="a58">Amw_Truck</option>
+  <option id="a59">Bike</option>
+</select>
+</form>
+<br>
+<br>
+	 <form action="" method="get" onsubmit="return checkForm(this)" name="formName2">
+     <input type="text" name="Keywords" size="50" id="field">
+	 <div style="position:Relative; width: 300px; height: 30px; border: 1px solid; text-align:center;">
+<input type="submit" value="Get" style="position:relative; width: 80px; height: 30px;" onclick=""/>
+
+<input type="reset" value="Reset" style="position:relative; width: 70px; height: 30px;" id="reset"/>
+</form>
+</div>
+  </div>
+</div>
+</div>
+<br/>
+<div align="center">
+
+<script type="text/javascript">
+    document.getElementById('reset').onclick= function() {
+        var field= document.getElementById('field');
+        field.value= field.defaultValue;
+    };
+</script>
+<script type="text/javascript">
+var regx_chr = /^([a-zA-Z0-9_]+)$/;
+var s=new Array();
+var l;
+function checkForm(frm1) {
+  var fre = false;
+
+
+  var field = frm1.field;
+
+
+
+  if( field.value.search(regx_chr)==-1) {
+    alert('It Should Conatins Alphanumeric Character without space Along With Underscore');
+    field.select();
+  }
+
+  else fre = true;
+  if(fre==true)
+  {
+   //alert("the field contains the text " + frm1.Keywords.value);
+    l=frm1.Keywords.value;
+	like();
+   // search();
+ }
+
+
+  return fre;
+}
+function like()
+ {   //var f=l;
+	 if (window.XMLHttpRequest)
+
+             {// code for IE7+, Firefox, Chrome, Opera, Safari
+                 xmlhttp=new XMLHttpRequest();
+             }
+         else
+             {// code for IE6, IE5
+                 xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+             }
+
+         xmlhttp.open("GET","annotated_dataset.xml",false);
+         xmlhttp.send();
+         xmlDoc=xmlhttp.responseXML;
+           document.write("<html>");
+		  document.write("<title>Images</title>");
+		 document.write("<body background=images/Beautiful.jpg>");		 
+		 //document.write("<body bgcolor='red'>");
+		document.write("<table border=1 width='800' align='center'>");
+		document.write("<tr><th width='110'>Media Object</th><th>Image</th><th>Manufacturer</th><th>Short Description</th><th>More Info</th></tr>");
+         var x=xmlDoc.getElementsByTagName("StructuredTextAnnotation");
+		 //var m=xmlDoc.getElementsByTagName("FileName");
+
+
+         for (var i=0;i<x.length;i++)
+            {				
+          if((l.toLowerCase()).match((x[i].getElementsByTagName("Concept")[0].childNodes[0].nodeValue).toLowerCase()) || (l.toLowerCase()).match((x[i].getElementsByTagName("Title")[0].childNodes[0].nodeValue).toLowerCase()))
+		  {
+		// alert("kjdjcsdc");
+		  var y=xmlDoc.getElementsByTagName("MediaUri");
+			var z=xmlDoc.getElementsByTagName("MediaUri1");
+		 var u=xmlDoc.getElementsByTagName("Title");
+		 var n=xmlDoc.getElementsByTagName("FreeTextAnnotation");
+		 document.write("<tr>");
+		 document.write("<td><h3>"+u[i].childNodes[0].nodeValue+"</h3></td>");
+		  document.write("<td><img src='"+y[i].childNodes[0].nodeValue+"' width='200' height='200'/></td>");
+		  document.write("<td><img src='"+z[i].childNodes[0].nodeValue+"' width='100' height='100' /></td>");
+		  document.write("<td>"+n[i].childNodes[0].nodeValue+"</td>");
+		   document.write("<td> <a href='media1.html?myvar="+u[i].childNodes[0].nodeValue+"' target='_blank'>Know More about "+u[i].childNodes[0].nodeValue+"</a> </td>");		 
+         document.write("</tr>");        
+		  }
+			}			
+		 document.write("</table>");
+       document.write("</body>");
+		  document.write("</html>");		 
+		
+		
+		
+}
+
+
+
+
+
+
+
+</script>
+
+</div>
+</br>
+</br>
+
+<div  align="center" id="kunal">
+<h2 class="style2"> Video </h2></div><br>
+<div id="slide" style="width:1350px;height:220px">
+<div id="slide1" style="width:330px;height:200;float:left" align="left">
+ <video id="example_video_1" class="video-js vjs-default-skin" controls preload="none" width="320" height="200"
+      poster="images/logo1.png"
+      data-setup="{}">
+    <source src="Video/---Ghost Ryderz Show at CET -u0026 VIT with the Pulsar 200NS_2.mp4" type='video/mp4' />
+
+    <track kind="captions" src="demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+    <track kind="subtitles" src="demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+  </video>
+</div>
+<div id="slide2" style="width:330px;height:200px;float:left" align="left">
+ <video id="example_video_1" class="video-js vjs-default-skin" controls preload="none" width="320" height="200"
+      poster="images/logo1.png"
+      data-setup="{}">
+    <source src="Video/2013.mp4" type='video/mp4' />
+
+    <track kind="captions" src="demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+    <track kind="subtitles" src="demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+  </video>
+</div>
+<div id="slide3" style="width:330px;height:200px;float:left" align="left">
+ <video id="example_video_1" class="video-js vjs-default-skin" controls preload="none" width="320" height="200"
+      poster="images/logo1.png"
+      data-setup="{}">
+    <source src="Video/CARS 2 movie trailer official 2011 - YouTube.mp4" type='video/mp4' />
+
+    <track kind="captions" src="demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+    <track kind="subtitles" src="demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+  </video>
+</div>
+<div id="slide4" style="width:330px;height:200px;float:left" align="left">
+ <video id="example_video_1" class="video-js vjs-default-skin" controls preload="none" width="320" height="200"
+      poster="images/logo1.png"
+      data-setup="{}">
+    <source src="Video/CARS 2 movie trailer official 2011 - YouTube.mp4" type='video/mp4' />
+
+    <track kind="captions" src="demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+    <track kind="subtitles" src="demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+  </video>
+
+
+
+</div>
+</div>
+<div align="center">
+<h2 class="style2"> Images Show </h2></div><br>
+<div id="wowslider-container1">
+	<div class="ws_images"><ul>
+<li><img src="data1/images/3dcarandbikehdwallpaper.jpg" alt="Honda CBR " title="Honda CBR " id="wows1_0"/></li>
+<li><img src="data1/images/automobile_allst.jpg" alt="Cars" title="Cars" id="wows1_1"/></li>
+<li><img src="data1/images/bikehdwallpapersphotos.jpg" alt="Ninja" title="Ninja" id="wows1_2"/></li>
+<li><img src="data1/images/custom_bike_wallpapers_64.jpg" alt="Ghost Ryder" title="Ghost Ryder" id="wows1_3"/></li>
+<li><img src="data1/images/ferrari_458_italia1366x768.jpg" alt="Ferrari" title="Ferrari" id="wows1_4"/></li>
+</ul></div>
+<div class="ws_thumbs">
+<div>
+<a href="#" title="Honda CBR "><img src="data1/tooltips/3dcarandbikehdwallpaper.jpg" alt="" /></a>
+<a href="#" title="Cars"><img src="data1/tooltips/automobile_allst.jpg" alt="" /></a>
+<a href="#" title="Ninja"><img src="data1/tooltips/bikehdwallpapersphotos.jpg" alt="" /></a>
+<a href="#" title="Ghost Ryder"><img src="data1/tooltips/custom_bike_wallpapers_64.jpg" alt="" /></a>
+<a href="#" title="Ferrari"><img src="data1/tooltips/ferrari_458_italia1366x768.jpg" alt="" /></a>
+</div>
+</div>
+<span class="wsl"><a href="http://wowslider.com">Website Slideshow Maker</a> by WOWSlider.com v4.8</span>
+	<div class="ws_shadow"></div>
+</div>
+	<script type="text/javascript" src="engine1/wowslider.js"></script>
+	<script type="text/javascript" src="engine1/script.js"></script>
+</body>
+
+</html>

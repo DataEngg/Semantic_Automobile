@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Mpeg7 
+	xmlns="urn:mpeg:mpeg7:schema:2004" 
+	xmlns:mpeg7="urn:mpeg:mpeg7:schema:2004" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="urn:mpeg:mpeg7:schema:2004 mpeg7-2004.xsd"> 
+
+	<Description xsi:type="ContentEntityType">
+	<MultimediaContent xsi:type="ImageType">
+	<Image id="myimage">
+	
+	<MediaInformation>
+		<MediaProfile>
+			<MediaFormat>
+				<Title type="main" xml:lang="en-US">VOLVO</Title>
+				<Content href="MPEG7ContentCS">
+					<Name>image</Name>
+				</Content>
+				<FileFormat href="urn:mpeg:mepg7:cs:VisualCodingFormatCS:2001:1">
+					<Name>jpeg</Name>
+				</FileFormat>
+			   <VisualCoding>
+					<Frame height="300" width="200"/>
+			   </VisualCoding>
+			</MediaFormat>
+			<MediaInstance>
+				<InstanceIdentifier>volvo_bus</InstanceIdentifier>
+				<MediaLocator>
+					<MediaUri>Images/volvo_bus.jpg</MediaUri>
+				</MediaLocator>
+				<Abstract>
+					<FreeTextAnnotation>Luxurious Traveller buses at affordable prices.</FreeTextAnnotation>
+				</Abstract>
+				<StructuralUnit  href="http://www.semanticweb.org/sony/ontologies/Automobile#Bus"> 
+				        <Name>Bus</Name> 
+				</StructuralUnit>
+				<StructuredAnnotation>
+					<WhatObject href="http://www.semanticweb.org/sony/ontologies/Automobile#Bus"> 
+					        <Name>Bus</Name> 
+					</WhatObject>
+				</StructuredAnnotation>
+
+			</MediaInstance>
+		</MediaProfile>
+	</MediaInformation>
+	</Image>
+	</MultimediaContent>
+	</Description>
+</Mpeg7>

@@ -1,0 +1,38 @@
+<div id="Layer11">
+<div id="templatemo_bottom_wrapper">
+    <div id="templatemo_bottom">
+    	<div class="col one_third">
+        	<h4><span></span>Blogroll</h4>
+            <div class="bottom_box">
+                <ul class="footer_list">
+                    <li><a href="http://www.templatemo.com/page/1">Free CSS Templates</a></li>
+                    <li><a href="http://www.webdesignmo.com/blog">Web Design Resources</a></li>
+                    <li><a href="http://www.flashmo.com">Free Flash Templates</a></li>
+                    <li><a href="http://www.templatemo.com">Website Templates</a></li>
+                    <li><a href="http://www.koflash.com">Free Web Gallery</a></li>
+                </ul>  
+			</div>
+        </div>   
+    	<div class="cleaner"></div>
+    </div> <!-- END of tempatemo_bottom -->
+</div>
+</div>
+<div id="Layer12">
+<div id="templatemo_bottom_wrapper">
+    <div id="templatemo_bottom">
+    	<div class="col one_third">
+        	<h4><span></span>Blogroll</h4>
+            <div class="bottom_box">
+                <ul class="footer_list">
+                    <li><a href="http://www.templatemo.com/page/1">Free CSS Templates</a></li>
+                    <li><a href="http://www.webdesignmo.com/blog">Web Design Resources</a></li>
+                    <li><a href="http://www.flashmo.com">Free Flash Templates</a></li>
+                    <li><a href="http://www.templatemo.com">Website Templates</a></li>
+                    <li><a href="http://www.koflash.com">Free Web Gallery</a></li>
+                </ul>  
+			</div>
+        </div>   
+    	<div class="cleaner"></div>
+    </div> <!-- END of tempatemo_bottom -->
+</div>
+</div>

@@ -1,0 +1,2375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mpeg7
+	xmlns="urn:mpeg:mpeg7:schema:2004"
+	xmlns:mpeg7="urn:mpeg:mpeg7:schema:2004"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="urn:mpeg:mpeg7:schema:2004 mpeg7-2004.xsd">
+
+	<DescriptionMetadata>
+		<Version>1.0</Version>
+		<Comment>
+		
+			<StructuredTextAnnotation>
+				<Concept>Bike</Concept>
+				
+				<FileName>
+					<MediaUri>Images/pulsar220.jpg</MediaUri>
+					<MediaUri1>Images/bajaj_logo.jpg</MediaUri1>
+					<VideoUri>Video/pulsar220.mp4</VideoUri>
+					<Title type="main" xml:lang="en-US">Pulsar_220</Title>
+					
+						<hasPower>220 cc</hasPower>
+						<hasSeatingCapacity>2</hasSeatingCapacity>
+						<hasPrice>90500 rupees</hasPrice>
+						<hasWheels>2</hasWheels>
+						<hasSpeed>220 Kmph</hasSpeed>
+						<hasRating>4.5</hasRating>
+					
+						
+				</FileName>
+			</StructuredTextAnnotation>
+			
+			<StructuredTextAnnotation>
+				<Concept>Bike</Concept>
+				
+				<FileName>
+					<MediaUri>Images/apache_rtr.jpg</MediaUri>
+					<MediaUri1>Images/tvs_logo.jpg</MediaUri1>
+					<Title type="main" xml:lang="en-US">Apache_Rtr</Title>
+						
+						<hasPower>180 cc</hasPower>
+						<hasSeatingCapacity>2</hasSeatingCapacity>
+						<hasPrice>76800 rupees</hasPrice>
+						<hasWheels>2</hasWheels>
+						<hasSpeed>180 Kmph</hasSpeed>
+						<hasRating>4.1</hasRating>
+				</FileName>
+			</StructuredTextAnnotation>
+			
+			<StructuredTextAnnotation>
+				<Concept>Civilian_Ship</Concept>
+				
+				<FileName>
+					<MediaUri>Images/tug_boat.jpg</MediaUri>
+					<MediaUri1>Images/stx_finland_logo.jpg</MediaUri1>
+					<Title type="main" xml:lang="en-US">Tug_Boat</Title>
+					
+						<hasPower>750 HP</hasPower>
+						<hasSeatingCapacity>600</hasSeatingCapacity>
+						<hasPrice>600000000 rupees</hasPrice>
+						<hasWheels>NA</hasWheels>
+						<hasSpeed>30 Knots</hasSpeed>
+						<hasRating>4.0</hasRating>
+				</FileName>
+				
+			</StructuredTextAnnotation>
+			
+			<StructuredTextAnnotation>
+				<Concept>Carrier_Ship</Concept>
+				
+				<FileName>
+					<MediaUri>Images/maersk_line.jpg</MediaUri>
+					<MediaUri1>Images/samsung_logo.jpg</MediaUri1>
+					<Title type="main" xml:lang="en-US">Maersk_Line</Title>
+					
+						<hasPower>730 HP</hasPower>
+						<hasSeatingCapacity>800</hasSeatingCapacity>
+						<hasPrice>580000000 rupees</hasPrice>
+						<hasWheels>NA</hasWheels>
+						<hasSpeed>28 Knots</hasSpeed>
+						<hasRating>4.2</hasRating>
+					
+				</FileName>
+			</StructuredTextAnnotation>
+			
+			<StructuredTextAnnotation>
+				<Concept>Civilian_Ship</Concept>
+				
+				<FileName>
+					<MediaUri>Images/dhow.jpg</MediaUri>
+					<MediaUri1>Images/stx_finland_logo.jpg</MediaUri1>
+					<Title type="main" xml:lang="en-US">Dhow_Ship</Title>
+					
+						<hasPower>720 HP</hasPower>
+						<hasSeatingCapacity>400</hasSeatingCapacity>
+						<hasPrice>525000000 rupees</hasPrice>
+						<hasWheels>NA</hasWheels>
+						<hasSpeed>25 Knots</hasSpeed>
+						<hasRating>3.9</hasRating>
+					
+				</FileName>
+			</StructuredTextAnnotation>
+			
+			<StructuredTextAnnotation>
+				<Concept>Desert_Car</Concept>
+				
+				<FileName>
+					<MediaUri>Images/Range_rover_evoque.jpg</MediaUri>
+					<MediaUri1>Images/range_logo.jpg</MediaUri1>
+					<Title type="main" xml:lang="en-US">Range_Rover_Evoque</Title>
+					
+						<hasPower>480 cc</hasPower>
+						<hasSeatingCapacity>4</hasSeatingCapacity>
+						<hasPrice>725000 rupees</hasPrice>
+						<hasWheels>4</hasWheels>
+						<hasSpeed>90 Kmph</hasSpeed>
+						<hasRating>4.4</hasRating>
+						
+				</FileName>
+			</StructuredTextAnnotation>
+			
+			<StructuredTextAnnotation>
+				<Concept>Desert_Car</Concept>
+				
+				<FileName>
+					<MediaUri>Images/Subaru_Forester.jpg</MediaUri>
+					<MediaUri1>Images/subaru_logo.jpg</MediaUri1>
+					<Title type="main" xml:lang="en-US">Subaru_Forester</Title>
+					
+						<hasPower>680 cc</hasPower>
+						<hasSeatingCapacity>4</hasSeatingCapacity>
+						<hasPrice>840000 rupees</hasPrice>
+						<hasWheels>4</hasWheels>
+						<hasSpeed>100 Kmph</hasSpeed>
+						<hasRating>4.8</hasRating>
+					
+				</FileName>
+			</StructuredTextAnnotation>
+			
+			<StructuredTextAnnotation>
+				<Concept>Desert_Car</Concept>
+				 <FileName>
+					<MediaUri>Images/evo_x_rs_road.jpg</MediaUri>
+					<MediaUri1>Images/mitsubishi_logo.jpg</MediaUri1>
+					<Title type="main" xml:lang="en-US">Evo_x_rs_road</Title>
+				
+						<hasPower>630 cc</hasPower>
+						<hasSeatingCapacity>4</hasSeatingCapacity>
+						<hasPrice>675000 rupees</hasPrice>
+						<hasWheels>4</hasWheels>
+						<hasSpeed>85 Kmph</hasSpeed>
+						<hasRating>4.2</hasRating>
+				</FileName>
+			</StructuredTextAnnotation>
+			
+			<StructuredTextAnnotation>
+				<Concept>Desert_Car</Concept>
+				
+				<FileName>
+					<MediaUri>Images/lancer_evolution.jpg</MediaUri>
+					<MediaUri1>Images/mitsubishi_logo.jpg</MediaUri1>
+					<Title type="main" xml:lang="en-US">Lancer_Evolution</Title>
+					
+						<hasPower>850 cc</hasPower>
+						<hasSeatingCapacity>4</hasSeatingCapacity>
+						<hasPrice>1050000 rupees</hasPrice>
+						<hasWheels>4</hasWheels>
+						<hasSpeed>110 Kmph</hasSpeed>
+						<hasRating>4.8</hasRating>
+				</FileName>
+			</StructuredTextAnnotation>
+			
+			<StructuredTextAnnotation>
+				<Concept>Electric_Car</Concept>
+				
+				<FileName>
+					<MediaUri>Images/nissan_leaf.jpg</MediaUri>
+					<MediaUri1>Images/nissan_logo.jpg</MediaUri1>
+					<Title type="main" xml:lang="en-US">Nissan_Leaf</Title>
+					
+						<hasPower>350 HP</hasPower>
+						<hasSeatingCapacity>6</hasSeatingCapacity>
+						<hasPrice>1180000 rupees</hasPrice>
+						<hasWheels>4</hasWheels>
+						<hasSpeed>125 Kmph</hasSpeed>
+						<hasRating>4.9</hasRating>
+				</FileName>
+			</StructuredTextAnnotation>
+			
+			<StructuredTextAnnotation>
+				<Concept>Fighter_Plane</Concept>
+				<FileName>
+					<MediaUri>Images/airways_fighter.jpg</MediaUri>
+					<MediaUri1>Images/hal_logo.jpg</MediaUri1>
+					<Title type="main" xml:lang="en-US">Airways_Fighter</Title>
+					
+						<hasPower>2400 HP</hasPower>
+						<hasSeatingCapacity>2</hasSeatingCapacity>
+						<hasPrice>118000000 rupees</hasPrice>
+						<hasWheels>5</hasWheels>
+						<hasSpeed>600 Mph</hasSpeed>
+						<hasRating>4.2</hasRating>
+						
+				</FileName>
+			</StructuredTextAnnotation>
+			
+			<StructuredTextAnnotation>
+				<Concept>Fighter_Plane</Concept>
+				
+				<FileName>
+					<MediaUri>Images/cessna_citation_cj4.jpg</MediaUri>
+					<MediaUri1>Images/hal_logo.jpg</MediaUri1>
+					<Title type="main" xml:lang="en-US">Cessna_Citation_cj4</Title>
+					
+						<hasPower>3000 rupees HP</hasPower>
+						<hasSeatingCapacity>2</hasSeatingCapacity>
+						<hasPrice>1623000000 rupees</hasPrice>
+						<hasWheels>5</hasWheels>
+						<hasSpeed>750 Mph</hasSpeed>
+						<hasRating>4.8</hasRating>
+				</FileName>
+			</StructuredTextAnnotation>
+			
+			<StructuredTextAnnotation>
+				<Concept>Government_Bus</Concept>
+				
+				<FileName>
+					<MediaUri>Images/red_dtc.jpg</MediaUri>
+					<MediaUri1>Images/tata_logo.jpg</MediaUri1>
+					<Title type="main" xml:lang="en-US">Red_Dtc</Title>
+					
+						<hasPower>1350 cc</hasPower>
+						<hasSeatingCapacity>40</hasSeatingCapacity>
+						<hasPrice>8000000 rupees</hasPrice>
+						<hasWheels>8</hasWheels>
+						<hasSpeed>90 Kmph</hasSpeed>
+						<hasRating>4.9</hasRating>
+				</FileName>
+			</StructuredTextAnnotation>
+			
+			<StructuredTextAnnotation>
+				<Concept>Metro</Concept>
+				
+				<FileName>
+					<MediaUri>Images/kolkata_metro.jpg</MediaUri>
+					<MediaUri1>Images/hitachi_logo.jpg</MediaUri1>
+					<Title type="main" xml:lang="en-US">Kolkata_Metro</Title>
+					
+						<hasPower>750 HP</hasPower>
+						<hasSeatingCapacity>400</hasSeatingCapacity>
+						<hasPrice>49500000 rupees</hasPrice>
+						<hasWheels>80</hasWheels>
+						<hasSpeed>120 Kmph</hasSpeed>
+						<hasRating>4.6</hasRating>
+				</FileName>
+			</StructuredTextAnnotation>
+			
+			<StructuredTextAnnotation>
+				<Concept>Metro</Concept>
+				
+				<FileName>
+					<MediaUri>Images/delhi_metro.jpg</MediaUri>
+					<MediaUri1>Images/bombardier_logo.jpg</MediaUri1>
+					<Title type="main" xml:lang="en-US">Delhi_Metro</Title>
+					
+						<hasPower>850 HP</hasPower>
+						<hasSeatingCapacity>500</hasSeatingCapacity>
+						<hasPrice>78500000 rupees</hasPrice>
+						<hasWheels>96</hasWheels>
+						<hasSpeed>120 Kmph</hasSpeed>
+						<hasRating>5.0</hasRating>
+				</FileName>
+			</StructuredTextAnnotation>
+			
+			<StructuredTextAnnotation>
+				<Concept>Military_Ship</Concept>
+				
+				<FileName>
+					<MediaUri>Images/uss_arizona.jpg</MediaUri>
+					<MediaUri1>Images/honda_logo.jpg</MediaUri1>
+					<Title type="main" xml:lang="en-US">Uss Arizona</Title>
+					
+						<hasPower>950 HP</hasPower>
+						<hasSeatingCapacity>700</hasSeatingCapacity>
+						<hasPrice>134500000 rupees</hasPrice>
+						<hasWheels>NA</hasWheels>
+						<hasSpeed>35 Knots</hasSpeed>
+						<hasRating>4.6</hasRating>
+				</FileName>
+			</StructuredTextAnnotation>
+
+			<StructuredTextAnnotation>
+				<Concept>Military_Ship</Concept>
+				
+				<FileName>
+					<MediaUri>Images/hms_hood.jpg</MediaUri>
+					<MediaUri1>Images/hal_logo.jpg</MediaUri1>
+					<Title type="main" xml:lang="en-US">HMS_Hood</Title>
+					
+						<hasPower>1350 HP</hasPower>
+						<hasSeatingCapacity>900</hasSeatingCapacity>
+						<hasPrice>174800000 rupees</hasPrice>
+						<hasWheels>NA</hasWheels>
+						<hasSpeed>30 Knots</hasSpeed>
+						<hasRating>4.3</hasRating>
+				</FileName>
+			</StructuredTextAnnotation>			
+			
+			<StructuredTextAnnotation>
+				<Concept>Mono_Rail</Concept>
+				
+				<FileName>
+					<MediaUri>Images/mono_rail.jpg</MediaUri>
+					<MediaUri1>Images/scomi_logo.jpg</MediaUri1>
+					<Title type="main" xml:lang="en-US">Kuala_Lumpur_Mono_Rail</Title>
+					
+						<hasPower>650 HP</hasPower>
+						<hasSeatingCapacity>60</hasSeatingCapacity>
+						<hasPrice>98800000 rupees</hasPrice>
+						<hasWheels>36</hasWheels>
+						<hasSpeed>80 Kmph</hasSpeed>
+						<hasRating>4.5</hasRating>
+				</FileName>
+			</StructuredTextAnnotation>
+			
+			<StructuredTextAnnotation>
+				<Concept>Mono_Rail</Concept>
+				
+				<FileName>
+					<MediaUri>Images/mumbai_mono_rail.jpg</MediaUri>
+					<MediaUri1>Images/bombardier_logo.jpg</MediaUri1>
+					<Title type="main" xml:lang="en-US">Mumbai_Mono_Rail</Title>
+					
+						<hasPower>700 HP</hasPower>
+						<hasSeatingCapacity>55</hasSeatingCapacity>
+						<hasPrice>106000000 rupees</hasPrice>
+						<hasWheels>44</hasWheels>
+						<hasSpeed>80 Kmph</hasSpeed>
+						<hasRating>4.7</hasRating>
+				</FileName>
+			</StructuredTextAnnotation>
+			
+			<StructuredTextAnnotation>
+				<Concept>Personal_Car</Concept>
+				
+				<FileName>
+					<MediaUri>Images/civic.jpg</MediaUri>
+					<MediaUri1>Images/honda_logo.jpg</MediaUri1>
+					<Title type="main" xml:lang="en-US">Honda_Civic</Title>
+						
+						<hasPower>650 cc</hasPower>
+						<hasSeatingCapacity>6</hasSeatingCapacity>
+						<hasPrice>750000 rupees</hasPrice>
+						<hasWheels>4</hasWheels>
+						<hasSpeed>120 Kmph</hasSpeed>
+						<hasRating>4.6</hasRating>
+				</FileName>
+			</StructuredTextAnnotation>
+			
+			<StructuredTextAnnotation>
+				<Concept>Personal_Car</Concept>
+				<FileName>
+					<MediaUri>Images/accent.jpg</MediaUri>
+					<MediaUri1>Images/hyundai_logo.jpg</MediaUri1>
+					<Title type="main" xml:lang="en-US">Hyundai_Accent</Title>
+					
+						<hasPower>630 cc</hasPower>
+						<hasSeatingCapacity>6</hasSeatingCapacity>
+						<hasPrice>725000 rupees</hasPrice>
+						<hasWheels>4</hasWheels>
+						<hasSpeed>120 Kmph</hasSpeed>
+						<hasRating>4.5</hasRating>
+				</FileName>
+			</StructuredTextAnnotation>
+			
+			<StructuredTextAnnotation>
+				<Concept>Personal_Car</Concept>
+				<FileName>
+					<MediaUri>Images/alto.jpg</MediaUri>
+					<MediaUri1>Images/maruti_logo.jpg</MediaUri1>
+					<Title type="main" xml:lang="en-US">Maruti_Alto</Title>
+					
+						<hasPower>450 cc</hasPower>
+						<hasSeatingCapacity>5</hasSeatingCapacity>
+						<hasPrice>275000 rupees</hasPrice>
+						<hasWheels>4</hasWheels>
+						<hasSpeed>120 Kmph</hasSpeed>
+						<hasRating>4.9</hasRating>
+				</FileName>
+			</StructuredTextAnnotation>
+			
+			<StructuredTextAnnotation>
+				<Concept>Personal_Car</Concept>
+				
+				<FileName>
+					<MediaUri>Images/swift.jpg</MediaUri>
+					<MediaUri1>Images/maruti_logo.jpg</MediaUri1>
+					<Title type="main" xml:lang="en-US">Maruti_Suzuki_Swift</Title>
+						
+						<hasPower>480 cc</hasPower>
+						<hasSeatingCapacity>5</hasSeatingCapacity>
+						<hasPrice>635000 rupees</hasPrice>
+						<hasWheels>4</hasWheels>
+						<hasSpeed>160 Kmph</hasSpeed>
+						<hasRating>5.0</hasRating>
+				</FileName>
+			</StructuredTextAnnotation>
+			
+			<StructuredTextAnnotation>
+				<Concept>Passenger_Plane</Concept>
+				<FileName>
+					<MediaUri>Images/air_india.jpg</MediaUri>
+					<MediaUri1>Images/hal_logo.jpg</MediaUri1>
+					<Title type="main" xml:lang="en-US">Air_India</Title>
+					
+						<hasPower>2500 HP</hasPower>
+						<hasSeatingCapacity>32</hasSeatingCapacity>
+						<hasPrice>885650000 rupees</hasPrice>
+						<hasWheels>5</hasWheels>
+						<hasSpeed>530 Mph</hasSpeed>
+						<hasRating>4.9</hasRating>
+				</FileName>
+			</StructuredTextAnnotation>
+			
+			<StructuredTextAnnotation>
+				<Concept>Private_Bus</Concept>
+				
+				<FileName>
+					<MediaUri>Images/volvo_bus.jpg</MediaUri>
+					<MediaUri1>Images/volvo_logo.jpg</MediaUri1>
+					<Title type="main" xml:lang="en-US">Volvo_Bus</Title>
+					
+						<hasPower>1250 cc</hasPower>
+						<hasSeatingCapacity>80</hasSeatingCapacity>
+						<hasPrice>9000000 rupees</hasPrice>
+						<hasWheels>8</hasWheels>
+						<hasSpeed>100 Kmph</hasSpeed>
+						<hasRating>4.7</hasRating>
+				</FileName>
+			</StructuredTextAnnotation>
+			
+			<StructuredTextAnnotation>
+				<Concept>Space_Shuttle</Concept>
+				
+				<FileName>
+					<MediaUri>Images/discovery_space_shuttle.jpg</MediaUri>
+					<MediaUri1>Images/nasa_logo.jpg</MediaUri1>
+					<Title type="main" xml:lang="en-US">Discovery_Space_Shuttle</Title>
+					
+						<hasPower>7000 rupees HP</hasPower>
+						<hasSeatingCapacity>8</hasSeatingCapacity>
+						<hasPrice>59000000 rupees</hasPrice>
+						<hasWheels>NA</hasWheels>
+						<hasSpeed>1700 Mph</hasSpeed>
+						<hasRating>4.3</hasRating>
+				</FileName>
+			</StructuredTextAnnotation>
+			
+			<StructuredTextAnnotation>
+				<Concept>Space_Shuttle</Concept>
+				
+				<FileName>
+					<MediaUri>Images/apollo_space_shuttle.jpg</MediaUri>
+					<MediaUri1>Images/isro_logo.jpg</MediaUri1>
+					<Title type="main" xml:lang="en-US">Apollo_Space_Shuttle</Title>
+					
+						<hasPower>9000 rupees HP</hasPower>
+						<hasSeatingCapacity>8</hasSeatingCapacity>
+						<hasPrice>748000000 rupees</hasPrice>
+						<hasWheels>NA</hasWheels>
+						<hasSpeed>2300 Mph</hasSpeed>
+						<hasRating>4.9</hasRating>
+				</FileName>
+			</StructuredTextAnnotation>
+				
+			<StructuredTextAnnotation>
+				<Concept>Sports_Car</Concept>
+				
+				<FileName>
+					<MediaUri>Images/bmw_m3.jpg</MediaUri>
+					<MediaUri1>Images/bmw_logo.jpg</MediaUri1>
+					<Title type="main" xml:lang="en-US">Bmw_m3</Title>
+					
+						<hasPower>1180 cc</hasPower>
+						<hasSeatingCapacity>5</hasSeatingCapacity>
+						<hasPrice>350000 rupees</hasPrice>
+						<hasWheels>4</hasWheels>
+						<hasSpeed>380 Kmph</hasSpeed>
+						<hasRating>4.8</hasRating>
+				</FileName>
+			</StructuredTextAnnotation>
+			
+			<StructuredTextAnnotation>
+				<Concept>Sports_Car</Concept>
+				
+				<FileName>
+					<MediaUri>Images/bmw_x3.jpg</MediaUri>
+					<MediaUri1>Images/bmw_logo.jpg</MediaUri1>
+					<Title type="main" xml:lang="en-US">Bmw_x3</Title>
+					
+						<hasPower>1150 cc</hasPower>
+						<hasSeatingCapacity>5</hasSeatingCapacity>
+						<hasPrice>275000 rupees</hasPrice>
+						<hasWheels>4</hasWheels>
+						<hasSpeed>350 Kmph</hasSpeed>
+						<hasRating>4.9</hasRating>
+				</FileName>
+			</StructuredTextAnnotation>
+			
+			<StructuredTextAnnotation>
+				<Concept>Sports_Car</Concept>
+				<FileName>
+					<MediaUri>Images/a7_sportback.jpg</MediaUri>
+					<MediaUri1>Images/audi_logo.jpg</MediaUri1>
+					
+					<Title type="main" xml:lang="en-US">A7_Sportback</Title>
+					
+						<hasPower>2300 cc</hasPower>
+						<hasSeatingCapacity>4</hasSeatingCapacity>
+						<hasPrice>56749600 rupees</hasPrice>
+						<hasWheels>4</hasWheels>
+						<hasSpeed>270 Kmph</hasSpeed>
+						<hasRating>4.7</hasRating>
+									
+				</FileName>
+				
+			</StructuredTextAnnotation>
+			
+			<StructuredTextAnnotation>
+				<Concept>Sports_Car</Concept>
+				<FileName>
+				<MediaUri>Images/aston_martin_d89.jpg</MediaUri>
+				<MediaUri1>Images/aston_martin_logo.jpg</MediaUri1>
+				
+				<Title type="main" xml:lang="en-US">Aston_Martin_db9</Title>
+				
+					<hasPower>2400 cc</hasPower>
+					<hasSeatingCapacity>2</hasSeatingCapacity>
+					<hasPrice>7005000 rupees</hasPrice>
+					<hasWheels>4</hasWheels>
+					<hasSpeed>240 Kmph</hasSpeed>
+					<hasRating>4.9</hasRating>
+						
+				</FileName>
+				
+			</StructuredTextAnnotation>
+			
+			<StructuredTextAnnotation>
+				<Concept>Sports_Car</Concept>
+				
+				<FileName>
+					<MediaUri>Images/bmw_z4.jpg</MediaUri>
+					<MediaUri1>Images/bmw_logo.jpg</MediaUri1>
+					<Title type="main" xml:lang="en-US">Bmw_z4</Title>
+					
+					<hasPower>1650 cc</hasPower>
+					<hasSeatingCapacity>6</hasSeatingCapacity>
+					<hasPrice>35600000 rupees</hasPrice>
+					<hasWheels>4</hasWheels>
+					<hasSpeed>380 Kmph</hasSpeed>
+					<hasRating>4.9</hasRating>
+				</FileName>
+			</StructuredTextAnnotation>
+			
+			<StructuredTextAnnotation>
+				<Concept>Sports_Car</Concept>
+				
+				<FileName>
+					<MediaUri>Images/bmw_750.jpg</MediaUri>
+					<MediaUri1>Images/bmw_logo.jpg</MediaUri1>
+					<Title type="main" xml:lang="en-US">Bmw_750</Title>
+					
+					<hasPower>1350 cc</hasPower>
+					<hasSeatingCapacity>4</hasSeatingCapacity>
+					<hasPrice>18000000 rupees</hasPrice>
+					<hasWheels>4</hasWheels>
+					<hasSpeed>350 Kmph</hasSpeed>
+					<hasRating>4.6</hasRating>
+				</FileName>
+			</StructuredTextAnnotation>
+			
+			<StructuredTextAnnotation>
+				<Concept>Sports_Car</Concept>
+				
+				<FileName>
+					<MediaUri>Images/audi_r8_grand_am.jpg</MediaUri>
+					<MediaUri1>Images/audi_logo.jpg</MediaUri1>
+					<Title type="main" xml:lang="en-US">Audi_r8_grand_am</Title>
+					
+					<hasPower>1500 cc</hasPower>
+					<hasSeatingCapacity>6</hasSeatingCapacity>
+					<hasPrice>22500000 rupees</hasPrice>
+					<hasWheels>4</hasWheels>
+					<hasSpeed>400 Kmph</hasSpeed>
+					<hasRating>4.7</hasRating>
+				</FileName>
+			</StructuredTextAnnotation>
+			
+			<StructuredTextAnnotation>
+				<Concept>Sports_Car</Concept>
+				
+				<FileName>
+					<MediaUri>Images/porsche_911sc.jpg</MediaUri>
+					<MediaUri1>Images/porsche_logo.jpg</MediaUri1>
+					<Title type="main" xml:lang="en-US">Porsche_911sc</Title>
+					
+					<hasPower>1750 cc</hasPower>
+					<hasSeatingCapacity>4</hasSeatingCapacity>
+					<hasPrice>37500000 rupees</hasPrice>
+					<hasWheels>4</hasWheels>
+					<hasSpeed>480 Kmph</hasSpeed>
+					<hasRating>4.9</hasRating>
+				</FileName>
+			</StructuredTextAnnotation>
+			
+			<StructuredTextAnnotation>
+				<Concept>Sports_Car</Concept>
+				
+				<FileName>
+					<MediaUri>Images/fiat_x1.jpg</MediaUri>
+					<MediaUri1>Images/fiat_logo.jpg</MediaUri1>
+					<Title type="main" xml:lang="en-US">Fiat_X1_9</Title>
+					
+					<hasPower>950 cc</hasPower>
+					<hasSeatingCapacity>4</hasSeatingCapacity>
+					<hasPrice>6500000 rupees</hasPrice>
+					<hasWheels>4</hasWheels>
+					<hasSpeed>290 Kmph</hasSpeed>
+					<hasRating>4.2</hasRating>
+				</FileName>
+			</StructuredTextAnnotation>
+			
+			<StructuredTextAnnotation>
+				<Concept>Sports_Car</Concept>
+				
+				<FileName>
+					<MediaUri>Images/audi_r8.jpg</MediaUri>
+					<MediaUri1>Images/audi_logo.jpg</MediaUri1>
+					<Title type="main" xml:lang="en-US">Audi_r8</Title>
+					
+					<hasPower>1200 cc</hasPower>
+					<hasSeatingCapacity>5</hasSeatingCapacity>
+					<hasPrice>12500000 rupees</hasPrice>
+					<hasWheels>4</hasWheels>
+					<hasSpeed>330 Kmph</hasSpeed>
+					<hasRating>4.7</hasRating>
+				</FileName>
+			</StructuredTextAnnotation>
+			
+			<StructuredTextAnnotation>
+				<Concept>Sports_Car</Concept>
+				
+				<FileName>
+					<MediaUri>Images/bmw_z1.jpg</MediaUri>
+					<MediaUri1>Images/bmw_logo.jpg</MediaUri1>
+					<Title type="main" xml:lang="en-US">Bmw_z1</Title>
+					
+					<hasPower>750 cc</hasPower>
+					<hasSeatingCapacity>5</hasSeatingCapacity>
+					<hasPrice>4600000 rupees</hasPrice>
+					<hasWheels>4</hasWheels>
+					<hasSpeed>250 Kmph</hasSpeed>
+					<hasRating>4.6</hasRating>
+				</FileName>
+			</StructuredTextAnnotation>
+			
+			<StructuredTextAnnotation>
+				<Concept>Taxi</Concept>
+				
+				<FileName>
+					<MediaUri>Images/indica.jpg</MediaUri>
+					<MediaUri1>Images/tata_logo.jpg</MediaUri1>
+					<Title type="main" xml:lang="en-US">Indica</Title>
+					
+					<hasPower>350 cc</hasPower>
+					<hasSeatingCapacity>7</hasSeatingCapacity>
+					<hasPrice>575000 rupees</hasPrice>
+					<hasWheels>4</hasWheels>
+					<hasSpeed>120 Kmph</hasSpeed>
+					<hasRating>4.9</hasRating>
+				</FileName>
+			</StructuredTextAnnotation>
+			
+			
+			
+			<StructuredTextAnnotation>
+				<Concept>Taxi</Concept>
+				
+				<FileName>
+					<MediaUri>Images/innova.jpg</MediaUri>
+					<MediaUri1>Images/toyota_logo.jpg</MediaUri1>
+					<Title type="main" xml:lang="en-US">Innova</Title>
+					
+					<hasPower>1250 cc</hasPower>
+					<hasSeatingCapacity>10</hasSeatingCapacity>
+					<hasPrice>1050000 rupees</hasPrice>
+					<hasWheels>4</hasWheels>
+					<hasSpeed>120 Kmph</hasSpeed>
+					<hasRating>4.8</hasRating>
+				</FileName>
+			</StructuredTextAnnotation>
+			
+			<StructuredTextAnnotation>
+				<Concept>Truck_Transportation</Concept>
+				
+				<FileName>
+					<MediaUri>Images/amw_truck.jpg</MediaUri>
+					<MediaUri1>Images/ashok_leyland_logo.jpg</MediaUri1>
+					<Title type="main" xml:lang="en-US">Amw_Truck</Title>
+					
+					<hasPower>1250 cc</hasPower>
+					<hasSeatingCapacity>2</hasSeatingCapacity>
+					<hasPrice>3250000 rupees</hasPrice>
+					<hasWheels>16</hasWheels>
+					<hasSpeed>60 Kmph</hasSpeed>
+					<hasRating>4.8</hasRating>
+				</FileName>
+			</StructuredTextAnnotation>
+			
+			
+		</Comment>
+	</DescriptionMetadata>
+	<Description xsi:type="ContentEntityType">
+		<MultimediaContent xsi:type="ImageType">
+			
+			<Image id="image1">
+				<MediaInformation>
+					<MediaProfile>
+						<MediaFormat>
+							<Content href="urn:mpeg:mpeg7:cs:ContentCS:2001">
+								<Name>Image</Name>
+							</Content>
+							
+							<FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001">
+								<Name>jpg</Name>
+							</FileFormat>
+							
+						</MediaFormat>
+					</MediaProfile>
+				</MediaInformation>
+				<CreationInformation>
+					<Creation>
+						<Title type="main" xml:lang="en-US">Pulsar220</Title>
+						<TitleMedia>
+							<TitleImage>
+								<MediaUri>Images/bajaj_logo.jpg</MediaUri>
+							</TitleImage>
+						</TitleMedia>
+						<Abstract>
+							<FreeTextAnnotation>The two wheeler was developed by the product engineering division of Bajaj Auto.Currently there are five variants available, with engine capacities of 135 cc, 150 cc, 180 cc, 200 cc, and 220 cc.
+						</FreeTextAnnotation>
+						</Abstract>
+						<Creator>
+							<Role href="urn:mpeg:mpeg7:cs:RoleCS:2001:SINGER"></Role>
+							<Agent>
+								<xsi:type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">mpeg7:OrganizationType</xsi:type>
+								<Name>Bajaj</Name>
+							</Agent>
+						</Creator>
+					</Creation>
+					
+				</CreationInformation>
+				
+			</Image>
+			
+			<Image id="image2">
+				<MediaInformation>
+					<MediaProfile>
+						<MediaFormat>
+							<Content href="urn:mpeg:mpeg7:cs:ContentCS:2001">
+								<Name>Image</Name>
+							</Content>
+							
+							<FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001">
+								<Name>jpg</Name>
+							</FileFormat>
+							
+						</MediaFormat>
+					</MediaProfile>
+				</MediaInformation>
+				<CreationInformation>
+					<Creation>
+						<Title type="main" xml:lang="en-US">Apache_Rtr</Title>
+						<TitleMedia>
+							<TitleImage>
+								<MediaUri>Images/tvs_logo.jpg</MediaUri>
+							</TitleImage>
+						</TitleMedia>
+						<Abstract>
+							<FreeTextAnnotation>The bike is designed with a racing approach, resulting in the inclusion of a lap timer and provision for the
+					last three 0–60 km/h timings. Apache is the first bike in India to feature a petal disc brake.
+							</FreeTextAnnotation></Abstract>
+						<Creator>
+							<Role href="urn:mpeg:mpeg7:cs:RoleCS:2001:SINGER"></Role>
+							<Agent>
+								<xsi:type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">mpeg7:OrganizationType</xsi:type>
+								<Name>Ashok Leyland</Name>
+							</Agent>
+						</Creator>
+					</Creation>
+					
+				</CreationInformation>
+				
+			</Image>
+			
+			<Image id="image3">
+				<MediaInformation>
+					<MediaProfile>
+						<MediaFormat>
+							<Content href="urn:mpeg:mpeg7:cs:ContentCS:2001">
+								<Name>Image</Name>
+							</Content>
+							
+							<FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001">
+								<Name>jpg</Name>
+							</FileFormat>
+							
+						</MediaFormat>
+					</MediaProfile>
+				</MediaInformation>
+				<CreationInformation>
+					<Creation>
+						<Title type="main" xml:lang="en-US">Tug_Boat</Title>
+						<TitleMedia>
+							<TitleImage>
+								<MediaUri>Images/stx_finland_logo.jpg</MediaUri>
+							</TitleImage>
+						</TitleMedia>
+						<Abstract>
+							<FreeTextAnnotation>A tugboat (tug) is a boat that maneuvers vessels by pushing or towing them. Tugs move vessels that either should not move themselves, such as ships in a crowded harbor or a narrow canal, or those that cannot move by themselves, such as barges, disabled ships, log rafts, or oil platforms.
+					</FreeTextAnnotation>
+						</Abstract>
+						<Creator>
+							<Role href="urn:mpeg:mpeg7:cs:RoleCS:2001:SINGER"></Role>
+							<Agent>
+								<xsi:type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">mpeg7:OrganizationType</xsi:type>
+								<Name>Stx Finland</Name>
+							</Agent>
+						</Creator>
+					</Creation>
+					
+				</CreationInformation>
+				
+			</Image>
+			
+			<Image id="image4">
+				<MediaInformation>
+					<MediaProfile>
+						<MediaFormat>
+							<Content href="urn:mpeg:mpeg7:cs:ContentCS:2001">
+								<Name>Image</Name>
+							</Content>
+							
+							<FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001">
+								<Name>jpg</Name>
+							</FileFormat>
+							
+						</MediaFormat>
+					</MediaProfile>
+				</MediaInformation>
+				<CreationInformation>
+					<Creation>
+						<Title type="main" xml:lang="en-US">Maersk_Line</Title>
+						<TitleMedia>
+							<TitleImage>
+								<MediaUri>Images/samsung_logo.jpg</MediaUri>
+							</TitleImage>
+						</TitleMedia>
+						<Abstract>
+							<FreeTextAnnotation>Maersk Line is the global container division and the largest operating unit of the A.P. Moller – Maersk Group, a Danish business conglomerate. It is considered the largest container shipping company in the world by revenue and employs approximately 25,000 rupees people.s
+			</FreeTextAnnotation>
+						</Abstract>
+						<Creator>
+							<Role href="urn:mpeg:mpeg7:cs:RoleCS:2001:SINGER"></Role>
+							<Agent>
+								<xsi:type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">mpeg7:OrganizationType</xsi:type>
+								<Name>Samsung Heavy Industries</Name>
+							</Agent>
+						</Creator>
+					</Creation>
+					
+				</CreationInformation>
+				
+			</Image>
+			
+			<Image id="image5">
+				<MediaInformation>
+					<MediaProfile>
+						<MediaFormat>
+							<Content href="urn:mpeg:mpeg7:cs:ContentCS:2001">
+								<Name>Image</Name>
+							</Content>
+							
+							<FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001">
+								<Name>jpg</Name>
+							</FileFormat>
+							
+						</MediaFormat>
+					</MediaProfile>
+				</MediaInformation>
+				<CreationInformation>
+					<Creation>
+						<Title type="main" xml:lang="en-US">Dhow_Ship</Title>
+						<TitleMedia>
+							<TitleImage>
+								<MediaUri>Images/stx_finland_logo.jpg</MediaUri>
+							</TitleImage>
+						</TitleMedia>
+						<Abstract>
+							<FreeTextAnnotation>Ship for tourism purpose</FreeTextAnnotation>
+						</Abstract>
+						<Creator>
+							<Role href="urn:mpeg:mpeg7:cs:RoleCS:2001:SINGER"></Role>
+							<Agent>
+								<xsi:type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">mpeg7:OrganizationType</xsi:type>
+								<Name>Stx Finland</Name>
+							</Agent>
+						</Creator>
+					</Creation>
+					
+				</CreationInformation>
+				
+			</Image>
+			
+			<Image id="image6">
+				<MediaInformation>
+					<MediaProfile>
+						<MediaFormat>
+							<Content href="urn:mpeg:mpeg7:cs:ContentCS:2001">
+								<Name>Image</Name>
+							</Content>
+							
+							<FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001">
+								<Name>jpg</Name>
+							</FileFormat>
+							
+						</MediaFormat>
+					</MediaProfile>
+				</MediaInformation>
+				<CreationInformation>
+					<Creation>
+						<Title type="main" xml:lang="en-US">Range_Rover_Evoque</Title>
+						<TitleMedia>
+							<TitleImage>
+								<MediaUri>Images/range_logo.jpg</MediaUri>
+							</TitleImage>
+						</TitleMedia>
+						<Abstract>
+							<FreeTextAnnotation>Range_Rover_Evoque-with both two-wheel and four-wheel drive. The Evoque is designed to appeal to urban buyers and meet requirements for lower CO2 emissions and fuel economy. The production vehicle is similar to the Land Rover LRX concept.
+						</FreeTextAnnotation>
+						</Abstract>
+						<Creator>
+							<Role href="urn:mpeg:mpeg7:cs:RoleCS:2001:SINGER"></Role>
+							<Agent>
+								<xsi:type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">mpeg7:OrganizationType</xsi:type>
+								<Name>Range</Name>
+							</Agent>
+						</Creator>
+					</Creation>
+					
+				</CreationInformation>
+				
+			</Image>
+			
+			<Image id="image7">
+				<MediaInformation>
+					<MediaProfile>
+						<MediaFormat>
+							<Content href="urn:mpeg:mpeg7:cs:ContentCS:2001">
+								<Name>Image</Name>
+							</Content>
+							
+							<FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001">
+								<Name>jpg</Name>
+							</FileFormat>
+							
+						</MediaFormat>
+					</MediaProfile>
+				</MediaInformation>
+				<CreationInformation>
+					<Creation>
+						<Title type="main" xml:lang="en-US">Subaru_Forester</Title>
+						<TitleMedia>
+							<TitleImage>
+								<MediaUri>Images/subaru_logo.jpg</MediaUri>
+							</TitleImage>
+						</TitleMedia>
+						<Abstract>
+							<FreeTextAnnotation>Subaru_Forester-it grew to a mid-size crossover SUV.It includes diamond plate floor, rear steel walls, a 9,500-pound winch and a roof-mounted toboggan.
+									</FreeTextAnnotation>
+						</Abstract>
+						<Creator>
+							<Role href="urn:mpeg:mpeg7:cs:RoleCS:2001:SINGER"></Role>
+							<Agent>
+								<xsi:type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">mpeg7:OrganizationType</xsi:type>
+								<Name>Subaru</Name>
+							</Agent>
+						</Creator>
+					</Creation>
+					
+				</CreationInformation>
+				
+			</Image>
+			
+			<Image id="image8">
+				<MediaInformation>
+					<MediaProfile>
+						<MediaFormat>
+							<Content href="urn:mpeg:mpeg7:cs:ContentCS:2001">
+								<Name>Image</Name>
+							</Content>
+							
+							<FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001">
+								<Name>jpg</Name>
+							</FileFormat>
+							
+						</MediaFormat>
+					</MediaProfile>
+				</MediaInformation>
+				<CreationInformation>
+					<Creation>
+						<Title type="main" xml:lang="en-US">Evo_x_rs_road</Title>
+						<TitleMedia>
+							<TitleImage>
+								<MediaUri>Images/mitsubishi_logo.jpg</MediaUri>
+							</TitleImage>
+						</TitleMedia>
+						<Abstract>
+							<FreeTextAnnotation>Genuine Mitsubishi Evo X RS Lightweight Model This is the proper model for GPN or R4 Build only covered 9000 rupeeskm from new complete with UK registration. Loads of Carbon extras wrapped in Carbon Priced to sell no offers.These cars can not be got anywhere.
+							</FreeTextAnnotation>
+						</Abstract>
+						<Creator>
+							<Role href="urn:mpeg:mpeg7:cs:RoleCS:2001:SINGER"></Role>
+							<Agent>
+								<xsi:type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">mpeg7:OrganizationType</xsi:type>
+								<Name>Mitsubishi</Name>
+							</Agent>
+						</Creator>
+					</Creation>
+					
+				</CreationInformation>
+				
+			</Image>
+			
+			<Image id="image9">
+				<MediaInformation>
+					<MediaProfile>
+						<MediaFormat>
+							<Content href="urn:mpeg:mpeg7:cs:ContentCS:2001">
+								<Name>Image</Name>
+							</Content>
+							
+							<FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001">
+								<Name>jpg</Name>
+							</FileFormat>
+							
+						</MediaFormat>
+					</MediaProfile>
+				</MediaInformation>
+				<CreationInformation>
+					<Creation>
+						<Title type="main" xml:lang="en-US">Lancer_Evolution</Title>
+						<TitleMedia>
+							<TitleImage>
+								<MediaUri>Images/mitsubishi_logo.jpg</MediaUri>
+							</TitleImage>
+						</TitleMedia>
+						<Abstract>
+							<FreeTextAnnotation>Lancer_Evolution-is a high-performance sports car manufactured by Mitsubishi Motors that is based on the Lancer. There have been ten official versions to date, and the designation of each model is most commonly a roman numeral. All use two litre, turbocharged engines and all-wheel drive systems.
+						</FreeTextAnnotation>
+						</Abstract>
+						<Creator>
+							<Role href="urn:mpeg:mpeg7:cs:RoleCS:2001:SINGER"></Role>
+							<Agent>
+								<xsi:type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">mpeg7:OrganizationType</xsi:type>
+								<Name>Mitsubishi</Name>
+							</Agent>
+						</Creator>
+					</Creation>
+					
+				</CreationInformation>
+				
+			</Image>
+			
+			<Image id="image10">
+				<MediaInformation>
+					<MediaProfile>
+						<MediaFormat>
+							<Content href="urn:mpeg:mpeg7:cs:ContentCS:2001">
+								<Name>Image</Name>
+							</Content>
+							
+							<FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001">
+								<Name>jpg</Name>
+							</FileFormat>
+							
+						</MediaFormat>
+					</MediaProfile>
+				</MediaInformation>
+				<CreationInformation>
+					<Creation>
+						<Title type="main" xml:lang="en-US">Nissan_Leaf</Title>
+						<TitleMedia>
+							<TitleImage>
+								<MediaUri>Images/nissan_logo.jpg</MediaUri>
+							</TitleImage>
+						</TitleMedia>
+						<Abstract>
+							<FreeTextAnnotation>The Nissan Leaf (also formatted "LEAF" as a backronym for Leading, Environmentally friendly, Affordable, Family car[11]) is a compact five-door hatchbackelectric car
+								</FreeTextAnnotation>
+						</Abstract>
+						<Creator>
+							<Role href="urn:mpeg:mpeg7:cs:RoleCS:2001:SINGER"></Role>
+							<Agent>
+								<xsi:type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">mpeg7:OrganizationType</xsi:type>
+								<Name>Nissan</Name>
+							</Agent>
+						</Creator>
+					</Creation>
+					
+				</CreationInformation>
+				
+			</Image>
+			
+			<Image id="image11">
+				<MediaInformation>
+					<MediaProfile>
+						<MediaFormat>
+							<Content href="urn:mpeg:mpeg7:cs:ContentCS:2001">
+								<Name>Image</Name>
+							</Content>
+							
+							<FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001">
+								<Name>jpg</Name>
+							</FileFormat>
+							
+						</MediaFormat>
+					</MediaProfile>
+				</MediaInformation>
+				<CreationInformation>
+					<Creation>
+						<Title type="main" xml:lang="en-US">Airways_Fighter</Title>
+						<TitleMedia>
+							<TitleImage>
+								<MediaUri>Images/hal_logo.jpg</MediaUri>
+							</TitleImage>
+						</TitleMedia>
+						<Abstract>
+							<FreeTextAnnotation>Planes used in Military Combat	</FreeTextAnnotation></Abstract>
+						<Creator>
+							<Role href="urn:mpeg:mpeg7:cs:RoleCS:2001:SINGER"></Role>
+							<Agent>
+								<xsi:type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">mpeg7:OrganizationType</xsi:type>
+								<Name>Hindustan Aeronautics Limited</Name>
+							</Agent>
+						</Creator>
+					</Creation>
+					
+				</CreationInformation>
+				
+			</Image>
+			
+			<Image id="image12">
+				<MediaInformation>
+					<MediaProfile>
+						<MediaFormat>
+							<Content href="urn:mpeg:mpeg7:cs:ContentCS:2001">
+								<Name>Image</Name>
+							</Content>
+							
+							<FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001">
+								<Name>jpg</Name>
+							</FileFormat>
+							
+						</MediaFormat>
+					</MediaProfile>
+				</MediaInformation>
+				<CreationInformation>
+					<Creation>
+						<Title type="main" xml:lang="en-US">Cessna_Citation_cj4</Title>
+						<TitleMedia>
+							<TitleImage>
+								<MediaUri>Images/hal_logo.jpg</MediaUri>
+							</TitleImage>
+						</TitleMedia>
+						<Abstract>
+							<FreeTextAnnotation>The Cessna Citation CJ4 can fly non stop for up to 1,930 nautical mi, which is 1,140 nautical mi less than the average for all Jet Jets Prop Planes.
+						</FreeTextAnnotation>
+						</Abstract>
+						<Creator>
+							<Role href="urn:mpeg:mpeg7:cs:RoleCS:2001:SINGER"></Role>
+							<Agent>
+								<xsi:type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">mpeg7:OrganizationType</xsi:type>
+								<Name>Hindustan Aeronautics Limited</Name>
+							</Agent>
+						</Creator>
+					</Creation>
+					
+				</CreationInformation>
+				
+			</Image>
+			
+			<Image id="image13">
+				<MediaInformation>
+					<MediaProfile>
+						<MediaFormat>
+							<Content href="urn:mpeg:mpeg7:cs:ContentCS:2001">
+								<Name>Image</Name>
+							</Content>
+							
+							<FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001">
+								<Name>jpg</Name>
+							</FileFormat>
+							
+						</MediaFormat>
+					</MediaProfile>
+				</MediaInformation>
+				<CreationInformation>
+					<Creation>
+						<Title type="main" xml:lang="en-US">Red_Dtc</Title>
+						<TitleMedia>
+							<TitleImage>
+								<MediaUri>Images/holden_v80_logo.jpg</MediaUri>
+							</TitleImage>
+						</TitleMedia>
+						<Abstract>
+							<FreeTextAnnotation>DTC is operating Interstate Services in 6 states viz. Punjab, Haryana, Jammu  Kashmir, Uttar Pradesh, Uttarakhand and Rajasthan. The Corporation is operating about 81 Interstate Routes.Delhi Transport Corporation (DTC) is the main public transport operator of Delhi.It is the largest CNG-powered bus service operator in the world.
+							</FreeTextAnnotation>
+						</Abstract>
+						<Creator>
+							<Role href="urn:mpeg:mpeg7:cs:RoleCS:2001:SINGER"></Role>
+							<Agent>
+								<xsi:type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">mpeg7:OrganizationType</xsi:type>
+								<Name>Holden V80</Name>
+							</Agent>
+						</Creator>
+					</Creation>
+					
+				</CreationInformation>
+				
+			</Image>
+			
+			<Image id="image14">
+				<MediaInformation>
+					<MediaProfile>
+						<MediaFormat>
+							<Content href="urn:mpeg:mpeg7:cs:ContentCS:2001">
+								<Name>Image</Name>
+							</Content>
+							
+							<FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001">
+								<Name>jpg</Name>
+							</FileFormat>
+							
+						</MediaFormat>
+					</MediaProfile>
+				</MediaInformation>
+				<CreationInformation>
+					<Creation>
+						<Title type="main" xml:lang="en-US">Kolkata_Metro</Title>
+						<TitleMedia>
+							<TitleImage>
+								<MediaUri>Images/hitachi_logo.jpg</MediaUri>
+							</TitleImage>
+						</TitleMedia>
+						<Abstract>
+							<FreeTextAnnotation>It was the first such form of transportation in India, opening commercial services in 1984. It is the 17th zone of the Indian Railways.
+								</FreeTextAnnotation>
+						</Abstract>
+						<Creator>
+							<Role href="urn:mpeg:mpeg7:cs:RoleCS:2001:SINGER"></Role>
+							<Agent>
+								<xsi:type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">mpeg7:OrganizationType</xsi:type>
+								<Name>Hitachi</Name>
+							</Agent>
+						</Creator>
+					</Creation>
+					
+				</CreationInformation>
+				
+			</Image>
+			
+			<Image id="image15">
+				<MediaInformation>
+					<MediaProfile>
+						<MediaFormat>
+							<Content href="urn:mpeg:mpeg7:cs:ContentCS:2001">
+								<Name>Image</Name>
+							</Content>
+							
+							<FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001">
+								<Name>jpg</Name>
+							</FileFormat>
+							
+						</MediaFormat>
+					</MediaProfile>
+				</MediaInformation>
+				<CreationInformation>
+					<Creation>
+						<Title type="main" xml:lang="en-US">Delhi_Metro</Title>
+						<TitleMedia>
+							<TitleImage>
+								<MediaUri>Images/bombardier_logo.jpg</MediaUri>
+							</TitleImage>
+						</TitleMedia>
+						<Abstract>
+							<FreeTextAnnotation>Delhi Metro is the world's thirteenth largest metro system in terms of length. Delhi Metro is India's first 
+							modern public transportation system,which has revolutionized travel by providing a fast, reliable, safe, and comfortable means
+							of transport.</FreeTextAnnotation>
+						</Abstract>
+						<Creator>
+							<Role href="urn:mpeg:mpeg7:cs:RoleCS:2001:SINGER"></Role>
+							<Agent>
+								<xsi:type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">mpeg7:OrganizationType</xsi:type>
+								<Name>Bombardier</Name>
+							</Agent>
+						</Creator>
+					</Creation>
+					
+				</CreationInformation>
+				
+			</Image>
+			
+			<Image id="image16">
+				<MediaInformation>
+					<MediaProfile>
+						<MediaFormat>
+							<Content href="urn:mpeg:mpeg7:cs:ContentCS:2001">
+								<Name>Image</Name>
+							</Content>
+							
+							<FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001">
+								<Name>jpg</Name>
+							</FileFormat>
+							
+						</MediaFormat>
+					</MediaProfile>
+				</MediaInformation>
+				<CreationInformation>
+					<Creation>
+						<Title type="main" xml:lang="en-US">Uss Arizona</Title>
+						<TitleMedia>
+							<TitleImage>
+								<MediaUri>Images/honda_logo.jpg</MediaUri>
+							</TitleImage>
+						</TitleMedia>
+						<Abstract>
+							<FreeTextAnnotation>USS Arizona was a Pennsylvania-class battleship built for and by the United States Navy in the mid-1910s. Named in honor of the 48th state's recent admission into the union, the ship was the second and last of the Pennsylvania class of "super-dreadnought" battleships.		</FreeTextAnnotation>
+						</Abstract>
+						<Creator>
+							<Role href="urn:mpeg:mpeg7:cs:RoleCS:2001:SINGER"></Role>
+							<Agent>
+								<xsi:type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">mpeg7:OrganizationType</xsi:type>
+								<Name>Honda Cv 80</Name>
+							</Agent>
+						</Creator>
+					</Creation>
+					
+				</CreationInformation>
+				
+			</Image>
+			
+			<Image id="image17">
+				<MediaInformation>
+					<MediaProfile>
+						<MediaFormat>
+							<Content href="urn:mpeg:mpeg7:cs:ContentCS:2001">
+								<Name>Image</Name>
+							</Content>
+							
+							<FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001">
+								<Name>jpg</Name>
+							</FileFormat>
+							
+						</MediaFormat>
+					</MediaProfile>
+				</MediaInformation>
+				<CreationInformation>
+					<Creation>
+						<Title type="main" xml:lang="en-US">HMS_Hood</Title>
+						<TitleMedia>
+							<TitleImage>
+								<MediaUri>Images/hal_logo.jpg</MediaUri>
+							</TitleImage>
+						</TitleMedia>
+						<Abstract>
+							<FreeTextAnnotation>HMS Hood (pennant number 51) was the last battlecruiser built for the Royal Navy. Commissioned in 1920, she was named after the 18th-century Admiral Samuel Hood. One of four Admiral-classbattlecruisers ordered in mid-1916.
+					</FreeTextAnnotation>
+						</Abstract>
+						<Creator>
+							<Role href="urn:mpeg:mpeg7:cs:RoleCS:2001:SINGER"></Role>
+							<Agent>
+								<xsi:type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">mpeg7:OrganizationType</xsi:type>
+								<Name>Hindustan Aeronautics Limited</Name>
+							</Agent>
+						</Creator>
+					</Creation>
+					
+				</CreationInformation>
+				
+			</Image>
+			
+			<Image id="image18">
+				<MediaInformation>
+					<MediaProfile>
+						<MediaFormat>
+							<Content href="urn:mpeg:mpeg7:cs:ContentCS:2001">
+								<Name>Image</Name>
+							</Content>
+							
+							<FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001">
+								<Name>jpg</Name>
+							</FileFormat>
+							
+						</MediaFormat>
+					</MediaProfile>
+				</MediaInformation>
+				<CreationInformation>
+					<Creation>
+						<Title type="main" xml:lang="en-US">Kuala_Lumpur_Mono_Rail</Title>
+						<TitleMedia>
+							<TitleImage>
+								<MediaUri>Images/scomi_logo.jpg</MediaUri>
+							</TitleImage>
+						</TitleMedia>
+						<Abstract>
+							<FreeTextAnnotation>Kula Lumper Mono Rail Service with small bogey trains running on single rails.
+						</FreeTextAnnotation>
+						</Abstract>
+						<Creator>
+							<Role href="urn:mpeg:mpeg7:cs:RoleCS:2001:SINGER"></Role>
+							<Agent>
+								<xsi:type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">mpeg7:OrganizationType</xsi:type>
+								<Name>Scomi</Name>
+							</Agent>
+						</Creator>
+					</Creation>
+					
+				</CreationInformation>
+				
+			</Image>
+			
+			<Image id="image19">
+				<MediaInformation>
+					<MediaProfile>
+						<MediaFormat>
+							<Content href="urn:mpeg:mpeg7:cs:ContentCS:2001">
+								<Name>Image</Name>
+							</Content>
+							
+							<FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001">
+								<Name>jpg</Name>
+							</FileFormat>
+							
+						</MediaFormat>
+					</MediaProfile>
+				</MediaInformation>
+				<CreationInformation>
+					<Creation>
+						<Title type="main" xml:lang="en-US">Mumbai_Mono_Rail</Title>
+						<TitleMedia>
+							<TitleImage>
+								<MediaUri>Images/bombardier_logo.jpg</MediaUri>
+							</TitleImage>
+						</TitleMedia>
+						<Abstract>
+							<FreeTextAnnotation>The Mumbai Monorail is a monorail system under construction in the city of Mumbai, India as part of a major expansion of public transport in Mumbai. The project is being implemented by Mumbai Metropolitan Region Development Authority (MMRDA), with a consortium of Larsen  Toubro (LT) and a Malaysian infrastructure firm Scomi Engineering.
+						</FreeTextAnnotation>
+						</Abstract>
+						<Creator>
+							<Role href="urn:mpeg:mpeg7:cs:RoleCS:2001:SINGER"></Role>
+							<Agent>
+								<xsi:type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">mpeg7:OrganizationType</xsi:type>
+								<Name>Bombardier</Name>
+							</Agent>
+						</Creator>
+					</Creation>
+					
+				</CreationInformation>
+				
+			</Image>
+			
+			<Image id="image20">
+				<MediaInformation>
+					<MediaProfile>
+						<MediaFormat>
+							<Content href="urn:mpeg:mpeg7:cs:ContentCS:2001">
+								<Name>Image</Name>
+							</Content>
+							
+							<FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001">
+								<Name>jpg</Name>
+							</FileFormat>
+							
+						</MediaFormat>
+					</MediaProfile>
+				</MediaInformation>
+				<CreationInformation>
+					<Creation>
+						<Title type="main" xml:lang="en-US">Honda_Civic</Title>
+						<TitleMedia>
+							<TitleImage>
+								<MediaUri>Images/honda_logo.jpg</MediaUri>
+							</TitleImage>
+						</TitleMedia>
+						<Abstract>
+							<FreeTextAnnotation>The Honda Civic is a line of sub compact and subsequently compact cars made and manufactured by Honda.</FreeTextAnnotation>
+						</Abstract>
+						<Creator>
+							<Role href="urn:mpeg:mpeg7:cs:RoleCS:2001:SINGER"></Role>
+							<Agent>
+								<xsi:type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">mpeg7:OrganizationType</xsi:type>
+								<Name>Honda</Name>
+							</Agent>
+						</Creator>
+					</Creation>
+					
+				</CreationInformation>
+				
+			</Image>
+			
+			
+			
+			<Image id="image22">
+				<MediaInformation>
+					<MediaProfile>
+						<MediaFormat>
+							<Content href="urn:mpeg:mpeg7:cs:ContentCS:2001">
+								<Name>Image</Name>
+							</Content>
+							
+							<FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001">
+								<Name>jpg</Name>
+							</FileFormat>
+							
+						</MediaFormat>
+					</MediaProfile>
+				</MediaInformation>
+				<CreationInformation>
+					<Creation>
+						<Title type="main" xml:lang="en-US">Hyundai_Accent</Title>
+						<TitleMedia>
+							<TitleImage>
+								<MediaUri>Images/hyundai_logo.jpg</MediaUri>
+							</TitleImage>
+						</TitleMedia>
+						<Abstract>
+							<FreeTextAnnotation>The all-new 2012 Hyundai Accent is equipped with a 1.6-liter four-cylinder engine that produces 138 horsepower.
+					The Accent averages 30-mpg city and 40-mpg highway, thanks to Hyundai's Gasoline Direct Injection technology.
+						</FreeTextAnnotation>
+						</Abstract>
+						<Creator>
+							<Role href="urn:mpeg:mpeg7:cs:RoleCS:2001:SINGER"></Role>
+							<Agent>
+								<xsi:type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">mpeg7:OrganizationType</xsi:type>
+								<Name>Hyundai</Name>
+							</Agent>
+						</Creator>
+					</Creation>
+					
+				</CreationInformation>
+				
+			</Image>
+			
+			<Image id="image23">
+				<MediaInformation>
+					<MediaProfile>
+						<MediaFormat>
+							<Content href="urn:mpeg:mpeg7:cs:ContentCS:2001">
+								<Name>Image</Name>
+							</Content>
+							
+							<FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001">
+								<Name>jpg</Name>
+							</FileFormat>
+							
+						</MediaFormat>
+					</MediaProfile>
+				</MediaInformation>
+				<CreationInformation>
+					<Creation>
+						<Title type="main" xml:lang="en-US">Maruti_Alto</Title>
+						<TitleMedia>
+							<TitleImage>
+								<MediaUri>Images/maruti_logo.jpg</MediaUri>
+							</TitleImage>
+						</TitleMedia>
+						<Abstract>
+							<FreeTextAnnotation>Refreshed styling, Maruti 800 legacy, Compact proportions, Cost effective, Overall practicality.
+					Limited space, Moderate power  Performance	</FreeTextAnnotation></Abstract>
+						<Creator>
+							<Role href="urn:mpeg:mpeg7:cs:RoleCS:2001:SINGER"></Role>
+							<Agent>
+								<xsi:type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">mpeg7:OrganizationType</xsi:type>
+								<Name>Maruti Suzuki</Name>
+							</Agent>
+						</Creator>
+					</Creation>
+					
+				</CreationInformation>
+				
+			</Image>
+			
+			<Image id="image24">
+				<MediaInformation>
+					<MediaProfile>
+						<MediaFormat>
+							<Content href="urn:mpeg:mpeg7:cs:ContentCS:2001">
+								<Name>Image</Name>
+							</Content>
+							
+							<FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001">
+								<Name>jpg</Name>
+							</FileFormat>
+							
+						</MediaFormat>
+					</MediaProfile>
+				</MediaInformation>
+				<CreationInformation>
+					<Creation>
+						<Title type="main" xml:lang="en-US">Maruti_Suzuki_Swift</Title>
+						<TitleMedia>
+							<TitleImage>
+								<MediaUri>Images/maruti_logo.jpg</MediaUri>
+							</TitleImage>
+						</TitleMedia>
+						<Abstract>
+							<FreeTextAnnotation>Swift-Best in average or fuel efficiency, best in performance, low maintenance, nice interior and perfect exterior look with the reliability of Maruti leading manufacturer of cars in India.
+									</FreeTextAnnotation>
+						</Abstract>
+						<Creator>
+							<Role href="urn:mpeg:mpeg7:cs:RoleCS:2001:SINGER"></Role>
+							<Agent>
+								<xsi:type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">mpeg7:OrganizationType</xsi:type>
+								<Name>Maruti Suzuki</Name>
+							</Agent>
+						</Creator>
+					</Creation>
+					
+				</CreationInformation>
+				
+			</Image>
+			
+			<Image id="image25">
+				<MediaInformation>
+					<MediaProfile>
+						<MediaFormat>
+							<Content href="urn:mpeg:mpeg7:cs:ContentCS:2001">
+								<Name>Image</Name>
+							</Content>
+							
+							<FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001">
+								<Name>jpg</Name>
+							</FileFormat>
+							
+						</MediaFormat>
+					</MediaProfile>
+				</MediaInformation>
+				<CreationInformation>
+					<Creation>
+						<Title type="main" xml:lang="en-US">Air_India</Title>
+						<TitleMedia>
+							<TitleImage>
+								<MediaUri>Images/hal_logo.jpg</MediaUri>
+							</TitleImage>
+						</TitleMedia>
+						<Abstract>
+							<FreeTextAnnotation>Air India is the flag carrier airline of India. It is part of the government owned Air India Limited (AIL).
+					The airline operates a fleet of Airbus and Boeing aircraft serving Asia, the United States, Europe and now Australia. Its corporate
+					office is located at the Indian Airlines House, in the parliament street of New Delhi.
+								</FreeTextAnnotation>
+								</Abstract>
+						<Creator>
+							<Role href="urn:mpeg:mpeg7:cs:RoleCS:2001:SINGER"></Role>
+							<Agent>
+								<xsi:type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">mpeg7:OrganizationType</xsi:type>
+								<Name>Hindustan Aernautics Limited</Name>
+							</Agent>
+						</Creator>
+					</Creation>
+					
+				</CreationInformation>
+				
+			</Image>
+			
+			<Image id="image26">
+				<MediaInformation>
+					<MediaProfile>
+						<MediaFormat>
+							<Content href="urn:mpeg:mpeg7:cs:ContentCS:2001">
+								<Name>Image</Name>
+							</Content>
+							
+							<FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001">
+								<Name>jpg</Name>
+							</FileFormat>
+							
+						</MediaFormat>
+					</MediaProfile>
+				</MediaInformation>
+				<CreationInformation>
+					<Creation>
+						<Title type="main" xml:lang="en-US">Volvo_Bus</Title>
+						<TitleMedia>
+							<TitleImage>
+								<MediaUri>Images/ashok_leyland.jpg</MediaUri>
+							</TitleImage>
+						</TitleMedia>
+						<Abstract>
+							<FreeTextAnnotation>Volvo Buses is a subsidiary and a business area of the Swedish vehicle maker Volvo,It is the world's largest bus manufacturer, with a complete range of heavy buses for passenger transportation. The product range includes complete buses and coaches as well as chassis combined with a comprehensive range of services.		</FreeTextAnnotation>
+						</Abstract>
+						<Creator>
+							<Role href="urn:mpeg:mpeg7:cs:RoleCS:2001:SINGER"></Role>
+							<Agent>
+								<xsi:type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">mpeg7:OrganizationType</xsi:type>
+								<Name>Ashok Leyland</Name>
+							</Agent>
+						</Creator>
+					</Creation>
+					
+				</CreationInformation>
+				
+			</Image>
+			
+			
+			<Image id="image28">
+				<MediaInformation>
+					<MediaProfile>
+						<MediaFormat>
+							<Content href="urn:mpeg:mpeg7:cs:ContentCS:2001">
+								<Name>Image</Name>
+							</Content>
+							
+							<FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001">
+								<Name>jpg</Name>
+							</FileFormat>
+							
+						</MediaFormat>
+					</MediaProfile>
+				</MediaInformation>
+				<CreationInformation>
+					<Creation>
+						<Title type="main" xml:lang="en-US">Discovery_Space_Shuttle</Title>
+						<TitleMedia>
+							<TitleImage>
+								<MediaUri>Images/nasa_logo.jpg</MediaUri>
+							</TitleImage>
+						</TitleMedia>
+						<Abstract>
+							<FreeTextAnnotation>Space Shuttle Discovery (Orbiter Vehicle Designation: OV-103) is one of the retired orbiters of the Space Shuttle program of NASA, the space agency of the United States, and was operational from its maiden flight, STS-41-D on August 30, 1984.
+						</FreeTextAnnotation>
+						</Abstract>
+						<Creator>
+							<Role href="urn:mpeg:mpeg7:cs:RoleCS:2001:SINGER"></Role>
+							<Agent>
+								<xsi:type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">mpeg7:OrganizationType</xsi:type>
+								<Name>NASA</Name>
+							</Agent>
+						</Creator>
+					</Creation>
+					
+				</CreationInformation>
+				
+			</Image>
+			
+			<Image id="image1">
+				<MediaInformation>
+					<MediaProfile>
+						<MediaFormat>
+							<Content href="urn:mpeg:mpeg7:cs:ContentCS:2001">
+								<Name>Image</Name>
+							</Content>
+							
+							<FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001">
+								<Name>jpg</Name>
+							</FileFormat>
+							
+						</MediaFormat>
+					</MediaProfile>
+				</MediaInformation>
+				<CreationInformation>
+					<Creation>
+						<Title type="main" xml:lang="en-US">Apollo_Space_Shuttle</Title>
+						<TitleMedia>
+							<TitleImage>
+								<MediaUri>Images/isro_logo.jpg</MediaUri>
+							</TitleImage>
+						</TitleMedia>
+						<Abstract>
+							<FreeTextAnnotation>The Apollo program was the third human spaceflight program carried out by the National Aeronautics and Space
+					Administration (NASA) the United States' civilian space agency. The program was responsible for the landing of the first humans on
+					Earth's Moon in 1969.</FreeTextAnnotation></Abstract>
+						<Creator>
+							<Role href="urn:mpeg:mpeg7:cs:RoleCS:2001:SINGER"></Role>
+							<Agent>
+								<xsi:type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">mpeg7:OrganizationType</xsi:type>
+								<Name>ISRO</Name>
+							</Agent>
+						</Creator>
+					</Creation>
+					
+				</CreationInformation>
+				
+			</Image>
+		
+			<Image id="image30">
+				<MediaInformation>
+					<MediaProfile>
+						<MediaFormat>
+							<Content href="urn:mpeg:mpeg7:cs:ContentCS:2001">
+								<Name>Image</Name>
+							</Content>
+							
+							<FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001">
+								<Name>jpg</Name>
+							</FileFormat>
+							
+						</MediaFormat>
+					</MediaProfile>
+				</MediaInformation>
+				<CreationInformation>
+					<Creation>
+						<Title type="main" xml:lang="en-US">Bmw_m3</Title>
+						<TitleMedia>
+							<TitleImage>
+								<MediaUri>Images/bmw_logo.jpg</MediaUri>
+							</TitleImage>
+						</TitleMedia>
+						<Abstract>
+							<FreeTextAnnotation>The BMW M3 is a high-performance version of the BMW 3-Series, developed by BMW's in-house motorsport division
+								include more powerful and responsive engines, improved handling/suspension/braking systems, aerodynamic body enhancements, and interior/exterior accents.						
+				
+						</FreeTextAnnotation>
+						</Abstract>
+						<Creator>
+							<Role href="urn:mpeg:mpeg7:cs:RoleCS:2001:SINGER"></Role>
+							<Agent>
+								<xsi:type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">mpeg7:OrganizationType</xsi:type>
+								<Name>BMW</Name>
+							</Agent>
+						</Creator>
+					</Creation>
+					
+				</CreationInformation>
+				
+			</Image>
+			
+			<Image id="image31">
+				<MediaInformation>
+					<MediaProfile>
+						<MediaFormat>
+							<Content href="urn:mpeg:mpeg7:cs:ContentCS:2001">
+								<Name>Image</Name>
+							</Content>
+							
+							<FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001">
+								<Name>jpg</Name>
+							</FileFormat>
+							
+						</MediaFormat>
+					</MediaProfile>
+				</MediaInformation>
+				<CreationInformation>
+					<Creation>
+						<Title type="main" xml:lang="en-US">Bmw_x3</Title>
+						<TitleMedia>
+							<TitleImage>
+								<MediaUri>Images/bmw_logo.jpg</MediaUri>
+							</TitleImage>
+						</TitleMedia>
+						<Abstract>
+							<FreeTextAnnotation>The crossover as a Sports Activity Vehicle, the company's proprietary descriptor for its X-line of vehicles.
+						</FreeTextAnnotation>
+						</Abstract>
+						<Creator>
+							<Role href="urn:mpeg:mpeg7:cs:RoleCS:2001:SINGER"></Role>
+							<Agent>
+								<xsi:type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">mpeg7:OrganizationType</xsi:type>
+								<Name>BMW</Name>
+							</Agent>
+						</Creator>
+					</Creation>
+					
+				</CreationInformation>
+				
+			</Image>
+			
+			<Image id="image32">
+				<MediaInformation>
+					<MediaProfile>
+						<MediaFormat>
+							<Content href="urn:mpeg:mpeg7:cs:ContentCS:2001">
+								<Name>Image</Name>
+							</Content>
+							
+							<FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001">
+								<Name>jpg</Name>
+							</FileFormat>
+							
+						</MediaFormat>
+					</MediaProfile>
+				</MediaInformation>
+				<CreationInformation>
+					<Creation>
+						<Title type="main" xml:lang="en-US">A7_Sportback</Title>
+						<TitleMedia>
+							<TitleImage>
+								<MediaUri>Images/audi_logo.jpg</MediaUri>
+							</TitleImage>
+						</TitleMedia>
+						<Abstract>
+							<FreeTextAnnotation>The Audi A7 is a great-looking and beautifully built car. It’s superb at devouring motorway miles thanks to its
+					stunning high-speed composure and impressive refinement. Use of aluminium in the body keeps weight, and fuel consumption, down.</FreeTextAnnotation>
+						</Abstract>
+						<Creator>
+							<Role href="urn:mpeg:mpeg7:cs:RoleCS:2001:SINGER"></Role>
+							<Agent>
+								<xsi:type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">mpeg7:OrganizationType</xsi:type>
+								<Name>Audi</Name>
+							</Agent>
+						</Creator>
+					</Creation>
+					
+				</CreationInformation>
+				
+			</Image>
+			
+			<Image id="image33">
+				<MediaInformation>
+					<MediaProfile>
+						<MediaFormat>
+							<Content href="urn:mpeg:mpeg7:cs:ContentCS:2001">
+								<Name>Image</Name>
+							</Content>
+							
+							<FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001">
+								<Name>jpg</Name>
+							</FileFormat>
+							
+						</MediaFormat>
+					</MediaProfile>
+				</MediaInformation>
+				<CreationInformation>
+					<Creation>
+						<Title type="main" xml:lang="en-US">Aston_Martin_db9</Title>
+						<TitleMedia>
+							<TitleImage>
+								<MediaUri>Images/aston_martin_logo.jpg</MediaUri>
+							</TitleImage>
+						</TitleMedia>
+						<Abstract>
+							<FreeTextAnnotation>The engine is the 6.0L V12 from the Aston Martin V12 Vanquish. The most recent Aston Martin has a top speed
+					of 295 km/h (183 mph) and a 0 to 97 km/h (60 mph) time of 4.1 seconds.
+						</FreeTextAnnotation></Abstract>
+						<Creator>
+							<Role href="urn:mpeg:mpeg7:cs:RoleCS:2001:SINGER"></Role>
+							<Agent>
+								<xsi:type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">mpeg7:OrganizationType</xsi:type>
+								<Name>Aston Martin</Name>
+							</Agent>
+						</Creator>
+					</Creation>
+					
+				</CreationInformation>
+				
+			</Image>
+			
+			<Image id="image34">
+				<MediaInformation>
+					<MediaProfile>
+						<MediaFormat>
+							<Content href="urn:mpeg:mpeg7:cs:ContentCS:2001">
+								<Name>Image</Name>
+							</Content>
+							
+							<FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001">
+								<Name>jpg</Name>
+							</FileFormat>
+							
+						</MediaFormat>
+					</MediaProfile>
+				</MediaInformation>
+				<CreationInformation>
+					<Creation>
+						<Title type="main" xml:lang="en-US">Bmw_z4</Title>
+						<TitleMedia>
+							<TitleImage>
+								<MediaUri>Images/bmw_logo.jpg</MediaUri>
+							</TitleImage>
+						</TitleMedia>
+						<Abstract>
+							<FreeTextAnnotation>The BMW Z4 is a rear-wheel drivesports car by the Germancar makerBMW. It follows a line of past BMW roadsters such as the BMW Z1, BMW 507, BMW Z8, and the BMW Z3. The Z4 replaces the Z3.
+						</FreeTextAnnotation>
+						</Abstract>
+						<Creator>
+							<Role href="urn:mpeg:mpeg7:cs:RoleCS:2001:SINGER"></Role>
+							<Agent>
+								<xsi:type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">mpeg7:OrganizationType</xsi:type>
+								<Name>BMW</Name>
+							</Agent>
+						</Creator>
+					</Creation>
+					
+				</CreationInformation>
+				
+			</Image>
+			
+			<Image id="image35">
+				<MediaInformation>
+					<MediaProfile>
+						<MediaFormat>
+							<Content href="urn:mpeg:mpeg7:cs:ContentCS:2001">
+								<Name>Image</Name>
+							</Content>
+							
+							<FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001">
+								<Name>jpg</Name>
+							</FileFormat>
+							
+						</MediaFormat>
+					</MediaProfile>
+				</MediaInformation>
+				<CreationInformation>
+					<Creation>
+						<Title type="main" xml:lang="en-US">Bmw_750</Title>
+						<TitleMedia>
+							<TitleImage>
+								<MediaUri>Images/bmw_logo.jpg</MediaUri>
+							</TitleImage>
+						</TitleMedia>
+						<Abstract>
+							<FreeTextAnnotation>The BMW 750 is a full-size luxury vehicle produced by the German automaker BMW. It is BMW's flagship car and is only available as a sedan or extended-length limousine.
+						
+						</FreeTextAnnotation>
+						</Abstract>
+						<Creator>
+							<Role href="urn:mpeg:mpeg7:cs:RoleCS:2001:SINGER"></Role>
+							<Agent>
+								<xsi:type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">mpeg7:OrganizationType</xsi:type>
+								<Name>BMW</Name>
+							</Agent>
+						</Creator>
+					</Creation>
+					
+				</CreationInformation>
+				
+			</Image>
+			
+			<Image id="image36">
+				<MediaInformation>
+					<MediaProfile>
+						<MediaFormat>
+							<Content href="urn:mpeg:mpeg7:cs:ContentCS:2001">
+								<Name>Image</Name>
+							</Content>
+							
+							<FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001">
+								<Name>jpg</Name>
+							</FileFormat>
+							
+						</MediaFormat>
+					</MediaProfile>
+				</MediaInformation>
+				<CreationInformation>
+					<Creation>
+						<Title type="main" xml:lang="en-US">Audi_r8_grand_am</Title>
+						<TitleMedia>
+							<TitleImage>
+								<MediaUri>Images/audi_logo.jpg</MediaUri>
+							</TitleImage>
+						</TitleMedia>
+						<Abstract>
+							<FreeTextAnnotation>The car is already equipped with a set of Ohlins TTX dampers with a brand new spare set plus the original Bilstein
+					dampers. There is an extensive spare parts list, including two front splitter and a new nose, a complete set of wishbones and uprights,
+					an R8LMS flat patch and weighing scale and the Audi gearbox tool kit and gear sets.
+						
+						</FreeTextAnnotation>
+						</Abstract>
+						<Creator>
+							<Role href="urn:mpeg:mpeg7:cs:RoleCS:2001:SINGER"></Role>
+							<Agent>
+								<xsi:type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">mpeg7:OrganizationType</xsi:type>
+								<Name>Audi</Name>
+							</Agent>
+						</Creator>
+					</Creation>
+					
+				</CreationInformation>
+				
+			</Image>
+			
+			<Image id="image37">
+				<MediaInformation>
+					<MediaProfile>
+						<MediaFormat>
+							<Content href="urn:mpeg:mpeg7:cs:ContentCS:2001">
+								<Name>Image</Name>
+							</Content>
+							
+							<FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001">
+								<Name>jpg</Name>
+							</FileFormat>
+							
+						</MediaFormat>
+					</MediaProfile>
+				</MediaInformation>
+				<CreationInformation>
+					<Creation>
+						<Title type="main" xml:lang="en-US">Porsche_911sc</Title>
+						<TitleMedia>
+							<TitleImage>
+								<MediaUri>Images/porsche_logo.jpg</MediaUri>
+							</TitleImage>
+						</TitleMedia>
+						<Abstract>
+							<FreeTextAnnotation>Porsche 911 had featured in my future motoring plans. Why exactly?  Well honestly, I can't put my finger on it. Many times I have wound down the windows at traffic lights to hear the Boxer next to me sing a tune. Is it the classic body lines, is it the performance, is it the hum of a flat six boxer, is it the whale tail, is it the driving position or the instrumentation.
+												</FreeTextAnnotation>
+						</Abstract>
+						<Creator>
+							<Role href="urn:mpeg:mpeg7:cs:RoleCS:2001:SINGER"></Role>
+							<Agent>
+								<xsi:type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">mpeg7:OrganizationType</xsi:type>
+								<Name>Porsche</Name>
+							</Agent>
+						</Creator>
+					</Creation>
+					
+				</CreationInformation>
+				
+			</Image>
+			
+			<Image id="image38">
+				<MediaInformation>
+					<MediaProfile>
+						<MediaFormat>
+							<Content href="urn:mpeg:mpeg7:cs:ContentCS:2001">
+								<Name>Image</Name>
+							</Content>
+							
+							<FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001">
+								<Name>jpg</Name>
+							</FileFormat>
+							
+						</MediaFormat>
+					</MediaProfile>
+				</MediaInformation>
+				<CreationInformation>
+					<Creation>
+						<Title type="main" xml:lang="en-US">Fiat_X1_9</Title>
+						<TitleMedia>
+							<TitleImage>
+								<MediaUri>Images/fiat_logo.jpg</MediaUri>
+							</TitleImage>
+						</TitleMedia>
+						<Abstract>
+							<FreeTextAnnotation>With a transverse engine and gearbox in a mid-mounted, rear-wheel drive configuration, the X1/9 was noted for its excellent handling, lightweight-removable hardtop, front and rear-storage compartments.
+									</FreeTextAnnotation>
+						</Abstract>
+						<Creator>
+							<Role href="urn:mpeg:mpeg7:cs:RoleCS:2001:SINGER"></Role>
+							<Agent>
+								<xsi:type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">mpeg7:OrganizationType</xsi:type>
+								<Name>Fiat</Name>
+							</Agent>
+						</Creator>
+					</Creation>
+					
+				</CreationInformation>
+				
+			</Image>
+			
+			<Image id="image39">
+				<MediaInformation>
+					<MediaProfile>
+						<MediaFormat>
+							<Content href="urn:mpeg:mpeg7:cs:ContentCS:2001">
+								<Name>Image</Name>
+							</Content>
+							
+							<FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001">
+								<Name>jpg</Name>
+							</FileFormat>
+							
+						</MediaFormat>
+					</MediaProfile>
+				</MediaInformation>
+				<CreationInformation>
+					<Creation>
+						<Title type="main" xml:lang="en-US">Audi_r8</Title>
+						<TitleMedia>
+							<TitleImage>
+								<MediaUri>Images/audi_logo.jpg</MediaUri>
+							</TitleImage>
+						</TitleMedia>
+						<Abstract>
+							<FreeTextAnnotation>The Audi R8 is a mid-engine, 2-seater sports car, which uses Audi's trademark quattro permanent all-wheel
+					drive system.The car was exclusively designed, developed, and manufactured by Audi AG's high performance private subsidiary
+					company, quattro GmbH, and is based on the Lamborghini Gallardo platform.</FreeTextAnnotation>
+					
+						</Abstract>
+						<Creator>
+							<Role href="urn:mpeg:mpeg7:cs:RoleCS:2001:SINGER"></Role>
+							<Agent>
+								<xsi:type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">mpeg7:OrganizationType</xsi:type>
+								<Name>Audi</Name>
+							</Agent>
+						</Creator>
+					</Creation>
+					
+				</CreationInformation>
+				
+			</Image>
+			
+			<Image id="image40">
+				<MediaInformation>
+					<MediaProfile>
+						<MediaFormat>
+							<Content href="urn:mpeg:mpeg7:cs:ContentCS:2001">
+								<Name>Image</Name>
+							</Content>
+							
+							<FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001">
+								<Name>jpg</Name>
+							</FileFormat>
+							
+						</MediaFormat>
+					</MediaProfile>
+				</MediaInformation>
+				<CreationInformation>
+					<Creation>
+						<Title type="main" xml:lang="en-US">Bmw_z1</Title>
+						<TitleMedia>
+							<TitleImage>
+								<MediaUri>Images/bmw_logo.jpg</MediaUri>
+							</TitleImage>
+						</TitleMedia>
+						<Abstract>
+							<FreeTextAnnotation>The BMW Z1 was a two-seat roadster automobile developed by BMW.The Z1 featured doors which dropped down into the door sills.The last Z1 was hand built. It was the only 2.7L version of this car.
+							</FreeTextAnnotation>
+						</Abstract>
+						<Creator>
+							<Role href="urn:mpeg:mpeg7:cs:RoleCS:2001:SINGER"></Role>
+							<Agent>
+								<xsi:type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">mpeg7:OrganizationType</xsi:type>
+								<Name>BMW</Name>
+							</Agent>
+						</Creator>
+					</Creation>
+					
+				</CreationInformation>
+				
+			</Image>
+			
+			<Image id="image41">
+				<MediaInformation>
+					<MediaProfile>
+						<MediaFormat>
+							<Content href="urn:mpeg:mpeg7:cs:ContentCS:2001">
+								<Name>Image</Name>
+							</Content>
+							
+							<FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001">
+								<Name>jpg</Name>
+							</FileFormat>
+							
+						</MediaFormat>
+					</MediaProfile>
+				</MediaInformation>
+				<CreationInformation>
+					<Creation>
+						<Title type="main" xml:lang="en-US">Indica</Title>
+						<TitleMedia>
+							<TitleImage>
+								<MediaUri>Images/tata_logo.jpg</MediaUri>
+							</TitleImage>
+						</TitleMedia>
+						<Abstract>
+							<FreeTextAnnotation>The Tata Indica is a supermini car produced by the Indian manufacturer Tata Motors since 1998. It is the first passenger car from Tata Motors and it is also considered India's first indigenous developed passenger car.				</FreeTextAnnotation>
+						</Abstract>
+						<Creator>
+							<Role href="urn:mpeg:mpeg7:cs:RoleCS:2001:SINGER"></Role>
+							<Agent>
+								<xsi:type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">mpeg7:OrganizationType</xsi:type>
+								<Name>Tata</Name>
+							</Agent>
+						</Creator>
+					</Creation>
+					
+				</CreationInformation>
+				
+			</Image>
+				
+			<Image id="image42">
+				<MediaInformation>
+					<MediaProfile>
+						<MediaFormat>
+							<Content href="urn:mpeg:mpeg7:cs:ContentCS:2001">
+								<Name>Image</Name>
+							</Content>
+							
+							<FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001">
+								<Name>jpg</Name>
+							</FileFormat>
+							
+						</MediaFormat>
+					</MediaProfile>
+				</MediaInformation>
+				<CreationInformation>
+					<Creation>
+						<Title type="main" xml:lang="en-US">Innova</Title>
+						<TitleMedia>
+							<TitleImage>
+								<MediaUri>Images/toyota_logo.jpg</MediaUri>
+							</TitleImage>
+						</TitleMedia>
+						<Abstract>
+							<FreeTextAnnotation>Innova has achieved resounding success thanks to the utility (multiple purposes), excellent quality, competitive price and high resale value. Innova has quickly kept the bestselling car position in Vietnam market and becomes most suitable car to the society and most beloved by people
+										</FreeTextAnnotation>
+						</Abstract>
+						<Creator>
+							<Role href="urn:mpeg:mpeg7:cs:RoleCS:2001:SINGER"></Role>
+							<Agent>
+								<xsi:type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">mpeg7:OrganizationType</xsi:type>
+								<Name>Toyota</Name>
+							</Agent>
+						</Creator>
+					</Creation>
+					
+				</CreationInformation>
+				
+			</Image>
+			
+			<Image id="image43">
+				<MediaInformation>
+					<MediaProfile>
+						<MediaFormat>
+							<Content href="urn:mpeg:mpeg7:cs:ContentCS:2001">
+								<Name>Image</Name>
+							</Content>
+							
+							<FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001">
+								<Name>jpg</Name>
+							</FileFormat>
+							
+						</MediaFormat>
+					</MediaProfile>
+				</MediaInformation>
+				<CreationInformation>
+					<Creation>
+						<Title type="main" xml:lang="en-US">Amw_Truck</Title>
+						<TitleMedia>
+							<TitleImage>
+								<MediaUri>Images/ashok_leyland_logo.jpg</MediaUri>
+							</TitleImage>
+						</TitleMedia>
+						<Abstract>
+							<FreeTextAnnotation>Asia Motor Works (AMW) is a company driven by energy, enthusiasm and a positive attitude. Its core objectives
+					are innovation and customer satisfaction. AMW trucks offer dependability, low cost operation, unsurpassed handling, panoramic
+					visibility, high driver comfort and ease of maintenance.	</FreeTextAnnotation></Abstract>
+						<Creator>
+							<Role href="urn:mpeg:mpeg7:cs:RoleCS:2001:SINGER"></Role>
+							<Agent>
+								<xsi:type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">mpeg7:OrganizationType</xsi:type>
+								<Name>Ashok Leyland</Name>
+							</Agent>
+						</Creator>
+					</Creation>
+					
+				</CreationInformation>
+				
+			</Image>
+			
+			
+		</MultimediaContent>
+	</Description>
+</Mpeg7> 

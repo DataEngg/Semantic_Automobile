@@ -1,0 +1,2080 @@
+@prefix : <http://www.semanticweb.org/Vivek_Gupta/ontologies/Automobile#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix swrl: <http://www.w3.org/2003/11/swrl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix swrlb: <http://www.w3.org/2003/11/swrlb#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<Ontology/Automobile> a owl:Ontology .
+
+:Consumes a owl:ObjectProperty ;
+	rdfs:domain :Automobile ;
+	rdfs:range :Fuel_Type .
+
+:has_Engine a owl:ObjectProperty ;
+	rdfs:domain :Automobile ;
+	rdfs:range :Engine .
+
+:has_manufacturers a owl:ObjectProperty ;
+	rdfs:domain :Automobile ;
+	rdfs:range :Manufacturers .
+
+:has_Power a owl:DatatypeProperty ;
+	rdfs:domain :Automobile ;
+	rdfs:range xsd:string .
+
+:has_Price a owl:DatatypeProperty ;
+	rdfs:domain :Automobile ;
+	rdfs:range xsd:int ;
+	rdfs:subPropertyOf owl:topDataProperty .
+
+:has_Seating_capacity a owl:DatatypeProperty ;
+	rdfs:domain :Automobile ;
+	rdfs:range xsd:int ;
+	rdfs:subPropertyOf owl:topDataProperty .
+
+:has_Wheels a owl:DatatypeProperty ;
+	rdfs:domain :Automobile ;
+	rdfs:range xsd:int .
+
+:has_Width a owl:DatatypeProperty ;
+	rdfs:domain :Automobile ;
+	rdfs:range xsd:string ;
+	rdfs:subPropertyOf owl:topDataProperty .
+
+:has_height a owl:DatatypeProperty ;
+	rdfs:domain :Automobile ;
+	rdfs:range xsd:string .
+
+:has_length a owl:DatatypeProperty ;
+	rdfs:domain :Automobile ;
+	rdfs:range xsd:string .
+
+:has_load a owl:DatatypeProperty ;
+	rdfs:domain :Automobile ;
+	rdfs:range xsd:string .
+
+:has_rating a owl:DatatypeProperty ;
+	rdfs:domain :Automobile ;
+	rdfs:range xsd:float .
+
+:has_speed a owl:DatatypeProperty ;
+	rdfs:domain :Automobile ;
+	rdfs:range xsd:string ;
+	rdfs:subPropertyOf owl:topDataProperty .
+
+:AUTOMOB a owl:Class .
+
+:Aerial_Vehicle a owl:Class ;
+	rdfs:subClassOf :Automobile .
+
+:Attribute a owl:Class ;
+	rdfs:subClassOf :AUTOMOB .
+
+:Automobile a owl:Class ;
+	rdfs:subClassOf :AUTOMOB .
+
+:Bike a owl:Class ;
+	rdfs:subClassOf :Ground_Vehicle , _:node18alarv02x1 .
+
+_:node18alarv02x1 a owl:Restriction ;
+	owl:onProperty :has_Wheels ;
+	owl:hasValue "2"^^xsd:integer .
+
+:Bike rdfs:subClassOf _:node18alarv02x2 .
+
+_:node18alarv02x2 a owl:Restriction ;
+	owl:onProperty :has_Engine ;
+	owl:onClass :Engine ;
+	owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger .
+
+:Bike rdfs:subClassOf _:node18alarv02x3 .
+
+_:node18alarv02x3 a owl:Restriction ;
+	owl:onProperty :has_manufacturers ;
+	owl:onClass :Manufacturers ;
+	owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger .
+
+:Bike rdfs:subClassOf _:node18alarv02x4 .
+
+_:node18alarv02x4 a owl:Restriction ;
+	owl:onProperty :has_Price ;
+	owl:allValuesFrom xsd:int .
+
+:Bike rdfs:subClassOf _:node18alarv02x5 .
+
+_:node18alarv02x5 a owl:Restriction ;
+	owl:onProperty :has_Power ;
+	owl:allValuesFrom xsd:string .
+
+:Bike rdfs:subClassOf _:node18alarv02x6 .
+
+_:node18alarv02x6 a owl:Restriction ;
+	owl:onProperty :Consumes ;
+	owl:onClass :Fuel_Type ;
+	owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger .
+
+:Bike rdfs:subClassOf _:node18alarv02x7 .
+
+_:node18alarv02x7 a owl:Restriction ;
+	owl:onProperty :has_Seating_capacity ;
+	owl:hasValue "2"^^xsd:integer .
+
+:Bike rdfs:subClassOf _:node18alarv02x8 .
+
+_:node18alarv02x8 a owl:Restriction ;
+	owl:onProperty :has_rating ;
+	owl:maxQualifiedCardinality "5"^^xsd:nonNegativeInteger ;
+	owl:onDataRange xsd:float .
+
+:Bike rdfs:subClassOf _:node18alarv02x9 .
+
+_:node18alarv02x9 a owl:Restriction ;
+	owl:onProperty :has_speed ;
+	owl:allValuesFrom xsd:string .
+
+:Bike rdfs:subClassOf _:node18alarv02x10 .
+
+_:node18alarv02x10 a owl:Restriction ;
+	owl:onProperty :has_rating ;
+	owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+	owl:onDataRange xsd:float .
+
+:Bus a owl:Class ;
+	rdfs:subClassOf :Ground_Vehicle , _:node18alarv02x11 .
+
+_:node18alarv02x11 a owl:Restriction ;
+	owl:onProperty :has_manufacturers ;
+	owl:onClass :Manufacturers ;
+	owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger .
+
+:Bus rdfs:subClassOf _:node18alarv02x12 .
+
+_:node18alarv02x12 a owl:Restriction ;
+	owl:onProperty :has_Power ;
+	owl:allValuesFrom xsd:string .
+
+:Bus rdfs:subClassOf _:node18alarv02x13 .
+
+_:node18alarv02x13 a owl:Restriction ;
+	owl:onProperty :Consumes ;
+	owl:onClass :Fuel_Type ;
+	owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger .
+
+:Bus rdfs:subClassOf _:node18alarv02x14 .
+
+_:node18alarv02x14 a owl:Restriction ;
+	owl:onProperty :has_length ;
+	owl:allValuesFrom xsd:string .
+
+:Bus rdfs:subClassOf _:node18alarv02x15 .
+
+_:node18alarv02x15 a owl:Restriction ;
+	owl:onProperty :has_height ;
+	owl:allValuesFrom xsd:string .
+
+:Bus rdfs:subClassOf _:node18alarv02x16 .
+
+_:node18alarv02x16 a owl:Restriction ;
+	owl:onProperty :has_Engine ;
+	owl:onClass :Engine ;
+	owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger .
+
+:Bus rdfs:subClassOf _:node18alarv02x17 .
+
+_:node18alarv02x17 a owl:Restriction ;
+	owl:onProperty :has_Price ;
+	owl:allValuesFrom xsd:int .
+
+:Bus rdfs:subClassOf _:node18alarv02x18 .
+
+_:node18alarv02x18 a owl:Restriction ;
+	owl:onProperty :has_Wheels ;
+	owl:allValuesFrom xsd:int .
+
+:Bus rdfs:subClassOf _:node18alarv02x19 .
+
+_:node18alarv02x19 a owl:Restriction ;
+	owl:onProperty :has_rating ;
+	owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+	owl:onDataRange xsd:float .
+
+:Bus rdfs:subClassOf _:node18alarv02x20 .
+
+_:node18alarv02x20 a owl:Restriction ;
+	owl:onProperty :has_speed ;
+	owl:allValuesFrom xsd:string .
+
+:Bus rdfs:subClassOf _:node18alarv02x21 .
+
+_:node18alarv02x21 a owl:Restriction ;
+	owl:onProperty :has_rating ;
+	owl:maxQualifiedCardinality "5"^^xsd:nonNegativeInteger ;
+	owl:onDataRange xsd:float .
+
+:Bus rdfs:subClassOf _:node18alarv02x22 .
+
+_:node18alarv02x22 a owl:Restriction ;
+	owl:onProperty :has_Seating_capacity ;
+	owl:allValuesFrom xsd:int .
+
+:Car_Taxi a owl:Class ;
+	rdfs:subClassOf :Ground_Vehicle , _:node18alarv02x23 .
+
+_:node18alarv02x23 a owl:Restriction ;
+	owl:onProperty :has_rating ;
+	owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+	owl:onDataRange xsd:float .
+
+:Car_Taxi rdfs:subClassOf _:node18alarv02x24 .
+
+_:node18alarv02x24 a owl:Restriction ;
+	owl:onProperty :has_Seating_capacity ;
+	owl:allValuesFrom xsd:int .
+
+:Car_Taxi rdfs:subClassOf _:node18alarv02x25 .
+
+_:node18alarv02x25 a owl:Restriction ;
+	owl:onProperty :has_rating ;
+	owl:maxQualifiedCardinality "5"^^xsd:nonNegativeInteger ;
+	owl:onDataRange xsd:float .
+
+:Car_Taxi rdfs:subClassOf _:node18alarv02x26 .
+
+_:node18alarv02x26 a owl:Restriction ;
+	owl:onProperty :has_length ;
+	owl:allValuesFrom xsd:string .
+
+:Car_Taxi rdfs:subClassOf _:node18alarv02x27 .
+
+_:node18alarv02x27 a owl:Restriction ;
+	owl:onProperty :has_height ;
+	owl:allValuesFrom xsd:string .
+
+:Car_Taxi rdfs:subClassOf _:node18alarv02x28 .
+
+_:node18alarv02x28 a owl:Restriction ;
+	owl:onProperty :has_speed ;
+	owl:allValuesFrom xsd:string .
+
+:Car_Taxi rdfs:subClassOf _:node18alarv02x29 .
+
+_:node18alarv02x29 a owl:Restriction ;
+	owl:onProperty :has_Price ;
+	owl:allValuesFrom xsd:int .
+
+:Car_Taxi rdfs:subClassOf _:node18alarv02x30 .
+
+_:node18alarv02x30 a owl:Restriction ;
+	owl:onProperty :has_Power ;
+	owl:allValuesFrom xsd:string .
+
+:Car_Taxi rdfs:subClassOf _:node18alarv02x31 .
+
+_:node18alarv02x31 a owl:Restriction ;
+	owl:onProperty :Consumes ;
+	owl:onClass :Fuel_Type ;
+	owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger .
+
+:Car_Taxi rdfs:subClassOf _:node18alarv02x32 .
+
+_:node18alarv02x32 a owl:Restriction ;
+	owl:onProperty :has_Engine ;
+	owl:onClass :Engine ;
+	owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger .
+
+:Car_Taxi rdfs:subClassOf _:node18alarv02x33 .
+
+_:node18alarv02x33 a owl:Restriction ;
+	owl:onProperty :has_Wheels ;
+	owl:hasValue "4"^^xsd:integer .
+
+:Car_Taxi rdfs:subClassOf _:node18alarv02x34 .
+
+_:node18alarv02x34 a owl:Restriction ;
+	owl:onProperty :has_manufacturers ;
+	owl:onClass :Manufacturers ;
+	owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger .
+
+:Civilian_Ship a owl:Class ;
+	rdfs:subClassOf :Water_Vehicle , _:node18alarv02x35 .
+
+_:node18alarv02x35 a owl:Restriction ;
+	owl:onProperty :has_length ;
+	owl:allValuesFrom xsd:string .
+
+:Civilian_Ship rdfs:subClassOf _:node18alarv02x36 .
+
+_:node18alarv02x36 a owl:Restriction ;
+	owl:onProperty :has_Engine ;
+	owl:onClass :Engine ;
+	owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger .
+
+:Civilian_Ship rdfs:subClassOf _:node18alarv02x37 .
+
+_:node18alarv02x37 a owl:Restriction ;
+	owl:onProperty :has_Width ;
+	owl:allValuesFrom xsd:string .
+
+:Civilian_Ship rdfs:subClassOf _:node18alarv02x38 .
+
+_:node18alarv02x38 a owl:Restriction ;
+	owl:onProperty :has_rating ;
+	owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+	owl:onDataRange xsd:float .
+
+:Civilian_Ship rdfs:subClassOf _:node18alarv02x39 .
+
+_:node18alarv02x39 a owl:Restriction ;
+	owl:onProperty :has_Seating_capacity ;
+	owl:allValuesFrom xsd:int .
+
+:Civilian_Ship rdfs:subClassOf _:node18alarv02x40 .
+
+_:node18alarv02x40 a owl:Restriction ;
+	owl:onProperty :has_speed ;
+	owl:allValuesFrom xsd:string .
+
+:Civilian_Ship rdfs:subClassOf _:node18alarv02x41 .
+
+_:node18alarv02x41 a owl:Restriction ;
+	owl:onProperty :has_Price ;
+	owl:allValuesFrom xsd:int .
+
+:Civilian_Ship rdfs:subClassOf _:node18alarv02x42 .
+
+_:node18alarv02x42 a owl:Restriction ;
+	owl:onProperty :has_height ;
+	owl:allValuesFrom xsd:string .
+
+:Civilian_Ship rdfs:subClassOf _:node18alarv02x43 .
+
+_:node18alarv02x43 a owl:Restriction ;
+	owl:onProperty :Consumes ;
+	owl:onClass :Fuel_Type ;
+	owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger .
+
+:Civilian_Ship rdfs:subClassOf _:node18alarv02x44 .
+
+_:node18alarv02x44 a owl:Restriction ;
+	owl:onProperty :has_manufacturers ;
+	owl:onClass :Manufacturers ;
+	owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger .
+
+:Civilian_Ship rdfs:subClassOf _:node18alarv02x45 .
+
+_:node18alarv02x45 a owl:Restriction ;
+	owl:onProperty :has_rating ;
+	owl:maxQualifiedCardinality "5"^^xsd:nonNegativeInteger ;
+	owl:onDataRange xsd:float .
+
+:Civilian_Ship rdfs:subClassOf _:node18alarv02x46 .
+
+_:node18alarv02x46 a owl:Restriction ;
+	owl:onProperty :has_Power ;
+	owl:allValuesFrom xsd:string .
+
+:Civilian_Ship owl:disjointWith :Military_Ship .
+
+:Desert a owl:Class ;
+	rdfs:subClassOf :Car_Taxi .
+
+:Electric_car a owl:Class ;
+	rdfs:subClassOf :Car_Taxi .
+
+:Engine a owl:Class ;
+	rdfs:subClassOf :Attribute .
+
+:Fighter_Plane a owl:Class ;
+	rdfs:subClassOf :Plane , _:node18alarv02x47 .
+
+_:node18alarv02x47 a owl:Restriction ;
+	owl:onProperty :has_Width ;
+	owl:allValuesFrom xsd:string .
+
+:Fighter_Plane rdfs:subClassOf _:node18alarv02x48 .
+
+_:node18alarv02x48 a owl:Restriction ;
+	owl:onProperty :has_Seating_capacity ;
+	owl:maxCardinality "2"^^xsd:nonNegativeInteger .
+
+:Fighter_Plane rdfs:subClassOf _:node18alarv02x49 .
+
+_:node18alarv02x49 a owl:Restriction ;
+	owl:onProperty :has_speed ;
+	owl:allValuesFrom xsd:string .
+
+:Fighter_Plane rdfs:subClassOf _:node18alarv02x50 .
+
+_:node18alarv02x50 a owl:Restriction ;
+	owl:onProperty :Consumes ;
+	owl:onClass :Fuel_Type ;
+	owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger .
+
+:Fighter_Plane rdfs:subClassOf _:node18alarv02x51 .
+
+_:node18alarv02x51 a owl:Restriction ;
+	owl:onProperty :has_manufacturers ;
+	owl:onClass :Manufacturers ;
+	owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger .
+
+:Fighter_Plane rdfs:subClassOf _:node18alarv02x52 .
+
+_:node18alarv02x52 a owl:Restriction ;
+	owl:onProperty :has_length ;
+	owl:allValuesFrom xsd:string .
+
+:Fighter_Plane rdfs:subClassOf _:node18alarv02x53 .
+
+_:node18alarv02x53 a owl:Restriction ;
+	owl:onProperty :has_Engine ;
+	owl:onClass :Engine ;
+	owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger .
+
+:Fighter_Plane rdfs:subClassOf _:node18alarv02x54 .
+
+_:node18alarv02x54 a owl:Restriction ;
+	owl:onProperty :has_rating ;
+	owl:maxQualifiedCardinality "5"^^xsd:nonNegativeInteger ;
+	owl:onDataRange xsd:float .
+
+:Fighter_Plane rdfs:subClassOf _:node18alarv02x55 .
+
+_:node18alarv02x55 a owl:Restriction ;
+	owl:onProperty :has_Wheels ;
+	owl:hasValue "5"^^xsd:integer .
+
+:Fighter_Plane rdfs:subClassOf _:node18alarv02x56 .
+
+_:node18alarv02x56 a owl:Restriction ;
+	owl:onProperty :has_Power ;
+	owl:allValuesFrom xsd:string .
+
+:Fighter_Plane rdfs:subClassOf _:node18alarv02x57 .
+
+_:node18alarv02x57 a owl:Restriction ;
+	owl:onProperty :has_rating ;
+	owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+	owl:onDataRange xsd:float .
+
+:Fighter_Plane rdfs:subClassOf _:node18alarv02x58 .
+
+_:node18alarv02x58 a owl:Restriction ;
+	owl:onProperty :has_Seating_capacity ;
+	owl:minCardinality "1"^^xsd:nonNegativeInteger .
+
+:Fighter_Plane rdfs:subClassOf _:node18alarv02x59 .
+
+_:node18alarv02x59 a owl:Restriction ;
+	owl:onProperty :has_Price ;
+	owl:allValuesFrom xsd:int .
+
+:Fighter_Plane rdfs:subClassOf _:node18alarv02x60 .
+
+_:node18alarv02x60 a owl:Restriction ;
+	owl:onProperty :has_height ;
+	owl:allValuesFrom xsd:string .
+
+:Fighter_Plane owl:disjointWith :Passenger_Plane .
+
+:Fuel_Type a owl:Class ;
+	owl:equivalentClass _:node18alarv02x61 .
+
+_:node18alarv02x61 a owl:Class ;
+	owl:oneOf _:node18alarv02x62 .
+
+_:node18alarv02x62 rdf:first :Fuel_oil ;
+	rdf:rest _:node18alarv02x63 .
+
+_:node18alarv02x63 rdf:first :Jet_Fuel ;
+	rdf:rest _:node18alarv02x64 .
+
+_:node18alarv02x64 rdf:first :Grades ;
+	rdf:rest _:node18alarv02x65 .
+
+_:node18alarv02x65 rdf:first :Coal ;
+	rdf:rest _:node18alarv02x66 .
+
+_:node18alarv02x66 rdf:first :Magnetic ;
+	rdf:rest _:node18alarv02x67 .
+
+_:node18alarv02x67 rdf:first :CNG ;
+	rdf:rest _:node18alarv02x68 .
+
+_:node18alarv02x68 rdf:first :Fuel_Coal ;
+	rdf:rest _:node18alarv02x69 .
+
+_:node18alarv02x69 rdf:first :Diesel ;
+	rdf:rest _:node18alarv02x70 .
+
+_:node18alarv02x70 rdf:first :Electricity ;
+	rdf:rest _:node18alarv02x71 .
+
+_:node18alarv02x71 rdf:first :Aviation_Fuel ;
+	rdf:rest _:node18alarv02x72 .
+
+_:node18alarv02x72 rdf:first :Liquid_Hydrogen_oxygen ;
+	rdf:rest _:node18alarv02x73 .
+
+_:node18alarv02x73 rdf:first :Petrol ;
+	rdf:rest rdf:nil .
+
+:Fuel_Type rdfs:subClassOf :Attribute .
+
+:Government a owl:Class ;
+	rdfs:subClassOf :Bus ;
+	owl:disjointWith :Private .
+
+:Ground_Vehicle a owl:Class ;
+	rdfs:subClassOf :Automobile .
+
+:Manufacturers a owl:Class ;
+	rdfs:subClassOf :Attribute .
+
+:Metro a owl:Class ;
+	rdfs:subClassOf :Train .
+
+:Military_Ship a owl:Class ;
+	rdfs:subClassOf :Water_Vehicle , _:node18alarv02x74 .
+
+_:node18alarv02x74 a owl:Restriction ;
+	owl:onProperty :Consumes ;
+	owl:onClass :Fuel_Type ;
+	owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger .
+
+:Military_Ship rdfs:subClassOf _:node18alarv02x75 .
+
+_:node18alarv02x75 a owl:Restriction ;
+	owl:onProperty :has_Seating_capacity ;
+	owl:allValuesFrom xsd:int .
+
+:Military_Ship rdfs:subClassOf _:node18alarv02x76 .
+
+_:node18alarv02x76 a owl:Restriction ;
+	owl:onProperty :has_manufacturers ;
+	owl:onClass :Manufacturers ;
+	owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger .
+
+:Military_Ship rdfs:subClassOf _:node18alarv02x77 .
+
+_:node18alarv02x77 a owl:Restriction ;
+	owl:onProperty :has_length ;
+	owl:allValuesFrom xsd:string .
+
+:Military_Ship rdfs:subClassOf _:node18alarv02x78 .
+
+_:node18alarv02x78 a owl:Restriction ;
+	owl:onProperty :has_speed ;
+	owl:allValuesFrom xsd:string .
+
+:Military_Ship rdfs:subClassOf _:node18alarv02x79 .
+
+_:node18alarv02x79 a owl:Restriction ;
+	owl:onProperty :has_rating ;
+	owl:maxQualifiedCardinality "5"^^xsd:nonNegativeInteger ;
+	owl:onDataRange xsd:float .
+
+:Military_Ship rdfs:subClassOf _:node18alarv02x80 .
+
+_:node18alarv02x80 a owl:Restriction ;
+	owl:onProperty :has_Engine ;
+	owl:onClass :Engine ;
+	owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger .
+
+:Military_Ship rdfs:subClassOf _:node18alarv02x81 .
+
+_:node18alarv02x81 a owl:Restriction ;
+	owl:onProperty :has_Price ;
+	owl:allValuesFrom xsd:int .
+
+:Military_Ship rdfs:subClassOf _:node18alarv02x82 .
+
+_:node18alarv02x82 a owl:Restriction ;
+	owl:onProperty :has_Width ;
+	owl:allValuesFrom xsd:string .
+
+:Military_Ship rdfs:subClassOf _:node18alarv02x83 .
+
+_:node18alarv02x83 a owl:Restriction ;
+	owl:onProperty :has_Power ;
+	owl:allValuesFrom xsd:string .
+
+:Military_Ship rdfs:subClassOf _:node18alarv02x84 .
+
+_:node18alarv02x84 a owl:Restriction ;
+	owl:onProperty :has_height ;
+	owl:allValuesFrom xsd:string .
+
+:Military_Ship rdfs:subClassOf _:node18alarv02x85 .
+
+_:node18alarv02x85 a owl:Restriction ;
+	owl:onProperty :has_rating ;
+	owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+	owl:onDataRange xsd:float .
+
+:Mono_Rail a owl:Class ;
+	rdfs:subClassOf :Train .
+
+:Normal a owl:Class ;
+	rdfs:subClassOf :Car_Taxi .
+
+:Passenger_Plane a owl:Class ;
+	rdfs:subClassOf :Plane , _:node18alarv02x86 .
+
+_:node18alarv02x86 a owl:Restriction ;
+	owl:onProperty :has_Engine ;
+	owl:onClass :Engine ;
+	owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger .
+
+:Passenger_Plane rdfs:subClassOf _:node18alarv02x87 .
+
+_:node18alarv02x87 a owl:Restriction ;
+	owl:onProperty :has_rating ;
+	owl:maxQualifiedCardinality "5"^^xsd:nonNegativeInteger ;
+	owl:onDataRange xsd:float .
+
+:Passenger_Plane rdfs:subClassOf _:node18alarv02x88 .
+
+_:node18alarv02x88 a owl:Restriction ;
+	owl:onProperty :has_Width ;
+	owl:allValuesFrom xsd:string .
+
+:Passenger_Plane rdfs:subClassOf _:node18alarv02x89 .
+
+_:node18alarv02x89 a owl:Restriction ;
+	owl:onProperty :has_rating ;
+	owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+	owl:onDataRange xsd:float .
+
+:Passenger_Plane rdfs:subClassOf _:node18alarv02x90 .
+
+_:node18alarv02x90 a owl:Restriction ;
+	owl:onProperty :has_manufacturers ;
+	owl:onClass :Manufacturers ;
+	owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger .
+
+:Passenger_Plane rdfs:subClassOf _:node18alarv02x91 .
+
+_:node18alarv02x91 a owl:Restriction ;
+	owl:onProperty :has_Price ;
+	owl:allValuesFrom xsd:int .
+
+:Passenger_Plane rdfs:subClassOf _:node18alarv02x92 .
+
+_:node18alarv02x92 a owl:Restriction ;
+	owl:onProperty :has_length ;
+	owl:allValuesFrom xsd:string .
+
+:Passenger_Plane rdfs:subClassOf _:node18alarv02x93 .
+
+_:node18alarv02x93 a owl:Restriction ;
+	owl:onProperty :Consumes ;
+	owl:onClass :Fuel_Type ;
+	owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger .
+
+:Passenger_Plane rdfs:subClassOf _:node18alarv02x94 .
+
+_:node18alarv02x94 a owl:Restriction ;
+	owl:onProperty :has_Wheels ;
+	owl:hasValue "5"^^xsd:integer .
+
+:Passenger_Plane rdfs:subClassOf _:node18alarv02x95 .
+
+_:node18alarv02x95 a owl:Restriction ;
+	owl:onProperty :has_Seating_capacity ;
+	owl:allValuesFrom xsd:int .
+
+:Passenger_Plane rdfs:subClassOf _:node18alarv02x96 .
+
+_:node18alarv02x96 a owl:Restriction ;
+	owl:onProperty :has_height ;
+	owl:allValuesFrom xsd:string .
+
+:Passenger_Plane rdfs:subClassOf _:node18alarv02x97 .
+
+_:node18alarv02x97 a owl:Restriction ;
+	owl:onProperty :has_speed ;
+	owl:allValuesFrom xsd:string .
+
+:Passenger_Plane rdfs:subClassOf _:node18alarv02x98 .
+
+_:node18alarv02x98 a owl:Restriction ;
+	owl:onProperty :has_Power ;
+	owl:allValuesFrom xsd:string .
+
+:Plane a owl:Class ;
+	rdfs:subClassOf :Aerial_Vehicle ;
+	owl:disjointWith :Space_Shuttle .
+
+:Private a owl:Class ;
+	rdfs:subClassOf :Bus .
+
+:Railways a owl:Class ;
+	rdfs:subClassOf :Train .
+
+:Space_Shuttle a owl:Class ;
+	rdfs:subClassOf :Aerial_Vehicle , _:node18alarv02x99 .
+
+_:node18alarv02x99 a owl:Restriction ;
+	owl:onProperty :has_rating ;
+	owl:maxQualifiedCardinality "5"^^xsd:nonNegativeInteger ;
+	owl:onDataRange xsd:float .
+
+:Space_Shuttle rdfs:subClassOf _:node18alarv02x100 .
+
+_:node18alarv02x100 a owl:Restriction ;
+	owl:onProperty :has_Wheels ;
+	owl:allValuesFrom xsd:int .
+
+:Space_Shuttle rdfs:subClassOf _:node18alarv02x101 .
+
+_:node18alarv02x101 a owl:Restriction ;
+	owl:onProperty :has_Price ;
+	owl:allValuesFrom xsd:int .
+
+:Space_Shuttle rdfs:subClassOf _:node18alarv02x102 .
+
+_:node18alarv02x102 a owl:Restriction ;
+	owl:onProperty :Consumes ;
+	owl:onClass :Fuel_Type ;
+	owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger .
+
+:Space_Shuttle rdfs:subClassOf _:node18alarv02x103 .
+
+_:node18alarv02x103 a owl:Restriction ;
+	owl:onProperty :has_Power ;
+	owl:allValuesFrom xsd:string .
+
+:Space_Shuttle rdfs:subClassOf _:node18alarv02x104 .
+
+_:node18alarv02x104 a owl:Restriction ;
+	owl:onProperty :has_Seating_capacity ;
+	owl:allValuesFrom xsd:int .
+
+:Space_Shuttle rdfs:subClassOf _:node18alarv02x105 .
+
+_:node18alarv02x105 a owl:Restriction ;
+	owl:onProperty :has_Width ;
+	owl:allValuesFrom xsd:string .
+
+:Space_Shuttle rdfs:subClassOf _:node18alarv02x106 .
+
+_:node18alarv02x106 a owl:Restriction ;
+	owl:onProperty :has_speed ;
+	owl:allValuesFrom xsd:string .
+
+:Space_Shuttle rdfs:subClassOf _:node18alarv02x107 .
+
+_:node18alarv02x107 a owl:Restriction ;
+	owl:onProperty :has_Engine ;
+	owl:onClass :Engine ;
+	owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger .
+
+:Space_Shuttle rdfs:subClassOf _:node18alarv02x108 .
+
+_:node18alarv02x108 a owl:Restriction ;
+	owl:onProperty :has_length ;
+	owl:allValuesFrom xsd:string .
+
+:Space_Shuttle rdfs:subClassOf _:node18alarv02x109 .
+
+_:node18alarv02x109 a owl:Restriction ;
+	owl:onProperty :has_rating ;
+	owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+	owl:onDataRange xsd:float .
+
+:Space_Shuttle rdfs:subClassOf _:node18alarv02x110 .
+
+_:node18alarv02x110 a owl:Restriction ;
+	owl:onProperty :has_height ;
+	owl:allValuesFrom xsd:string .
+
+:Space_Shuttle rdfs:subClassOf _:node18alarv02x111 .
+
+_:node18alarv02x111 a owl:Restriction ;
+	owl:onProperty :has_manufacturers ;
+	owl:onClass :Manufacturers ;
+	owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger .
+
+:Sports a owl:Class ;
+	rdfs:subClassOf :Car_Taxi .
+
+:Taxi a owl:Class ;
+	rdfs:subClassOf :Car_Taxi .
+
+:Train a owl:Class ;
+	rdfs:subClassOf :Ground_Vehicle , _:node18alarv02x112 .
+
+_:node18alarv02x112 a owl:Restriction ;
+	owl:onProperty :has_Price ;
+	owl:allValuesFrom xsd:int .
+
+:Train rdfs:subClassOf _:node18alarv02x113 .
+
+_:node18alarv02x113 a owl:Restriction ;
+	owl:onProperty :has_height ;
+	owl:allValuesFrom xsd:string .
+
+:Train rdfs:subClassOf _:node18alarv02x114 .
+
+_:node18alarv02x114 a owl:Restriction ;
+	owl:onProperty :has_manufacturers ;
+	owl:onClass :Manufacturers ;
+	owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger .
+
+:Train rdfs:subClassOf _:node18alarv02x115 .
+
+_:node18alarv02x115 a owl:Restriction ;
+	owl:onProperty :has_rating ;
+	owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+	owl:onDataRange xsd:float .
+
+:Train rdfs:subClassOf _:node18alarv02x116 .
+
+_:node18alarv02x116 a owl:Restriction ;
+	owl:onProperty :has_Seating_capacity ;
+	owl:allValuesFrom xsd:int .
+
+:Train rdfs:subClassOf _:node18alarv02x117 .
+
+_:node18alarv02x117 a owl:Restriction ;
+	owl:onProperty :has_length ;
+	owl:allValuesFrom xsd:string .
+
+:Train rdfs:subClassOf _:node18alarv02x118 .
+
+_:node18alarv02x118 a owl:Restriction ;
+	owl:onProperty :Consumes ;
+	owl:onClass :Fuel_Type ;
+	owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger .
+
+:Train rdfs:subClassOf _:node18alarv02x119 .
+
+_:node18alarv02x119 a owl:Restriction ;
+	owl:onProperty :has_rating ;
+	owl:maxQualifiedCardinality "5"^^xsd:nonNegativeInteger ;
+	owl:onDataRange xsd:float .
+
+:Train rdfs:subClassOf _:node18alarv02x120 .
+
+_:node18alarv02x120 a owl:Restriction ;
+	owl:onProperty :has_Engine ;
+	owl:onClass :Engine ;
+	owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger .
+
+:Train rdfs:subClassOf _:node18alarv02x121 .
+
+_:node18alarv02x121 a owl:Restriction ;
+	owl:onProperty :has_Power ;
+	owl:allValuesFrom xsd:string .
+
+:Train rdfs:subClassOf _:node18alarv02x122 .
+
+_:node18alarv02x122 a owl:Restriction ;
+	owl:onProperty :has_speed ;
+	owl:allValuesFrom xsd:string .
+
+:Train rdfs:subClassOf _:node18alarv02x123 .
+
+_:node18alarv02x123 a owl:Restriction ;
+	owl:onProperty :has_Wheels ;
+	owl:allValuesFrom xsd:int .
+
+:Truck_Transportation a owl:Class ;
+	rdfs:subClassOf :Ground_Vehicle , _:node18alarv02x124 .
+
+_:node18alarv02x124 a owl:Restriction ;
+	owl:onProperty :has_manufacturers ;
+	owl:onClass :Manufacturers ;
+	owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger .
+
+:Truck_Transportation rdfs:subClassOf _:node18alarv02x125 .
+
+_:node18alarv02x125 a owl:Restriction ;
+	owl:onProperty :has_Power ;
+	owl:allValuesFrom xsd:string .
+
+:Truck_Transportation rdfs:subClassOf _:node18alarv02x126 .
+
+_:node18alarv02x126 a owl:Restriction ;
+	owl:onProperty :has_height ;
+	owl:allValuesFrom xsd:string .
+
+:Truck_Transportation rdfs:subClassOf _:node18alarv02x127 .
+
+_:node18alarv02x127 a owl:Restriction ;
+	owl:onProperty :has_Engine ;
+	owl:onClass :Engine ;
+	owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger .
+
+:Truck_Transportation rdfs:subClassOf _:node18alarv02x128 .
+
+_:node18alarv02x128 a owl:Restriction ;
+	owl:onProperty :has_rating ;
+	owl:maxQualifiedCardinality "5"^^xsd:nonNegativeInteger ;
+	owl:onDataRange xsd:float .
+
+:Truck_Transportation rdfs:subClassOf _:node18alarv02x129 .
+
+_:node18alarv02x129 a owl:Restriction ;
+	owl:onProperty :has_speed ;
+	owl:allValuesFrom xsd:string .
+
+:Truck_Transportation rdfs:subClassOf _:node18alarv02x130 .
+
+_:node18alarv02x130 a owl:Restriction ;
+	owl:onProperty :has_load ;
+	owl:allValuesFrom xsd:string .
+
+:Truck_Transportation rdfs:subClassOf _:node18alarv02x131 .
+
+_:node18alarv02x131 a owl:Restriction ;
+	owl:onProperty :Consumes ;
+	owl:onClass :Fuel_Type ;
+	owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger .
+
+:Truck_Transportation rdfs:subClassOf _:node18alarv02x132 .
+
+_:node18alarv02x132 a owl:Restriction ;
+	owl:onProperty :has_rating ;
+	owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+	owl:onDataRange xsd:float .
+
+:Truck_Transportation rdfs:subClassOf _:node18alarv02x133 .
+
+_:node18alarv02x133 a owl:Restriction ;
+	owl:onProperty :has_Price ;
+	owl:allValuesFrom xsd:int .
+
+:Truck_Transportation rdfs:subClassOf _:node18alarv02x134 .
+
+_:node18alarv02x134 a owl:Restriction ;
+	owl:onProperty :has_Seating_capacity ;
+	owl:hasValue "2"^^xsd:integer .
+
+:Truck_Transportation rdfs:subClassOf _:node18alarv02x135 .
+
+_:node18alarv02x135 a owl:Restriction ;
+	owl:onProperty :has_Wheels ;
+	owl:allValuesFrom xsd:int .
+
+:Truck_Transportation rdfs:subClassOf _:node18alarv02x136 .
+
+_:node18alarv02x136 a owl:Restriction ;
+	owl:onProperty :has_length ;
+	owl:allValuesFrom xsd:string .
+
+:Water_Vehicle a owl:Class ;
+	rdfs:subClassOf :Automobile .
+
+:dl1 a owl:Class ;
+	owl:equivalentClass _:node18alarv02x137 .
+
+_:node18alarv02x137 a owl:Class ;
+	owl:intersectionOf _:node18alarv02x138 .
+
+_:node18alarv02x138 rdf:first :Ground_Vehicle ;
+	rdf:rest _:node18alarv02x140 .
+
+_:node18alarv02x140 rdf:first _:node18alarv02x139 .
+
+_:node18alarv02x139 a owl:Restriction ;
+	owl:onProperty :has_rating ;
+	owl:hasValue "5.0"^^xsd:float .
+
+_:node18alarv02x140 rdf:rest rdf:nil .
+
+:dl2 a owl:Class ;
+	owl:equivalentClass _:node18alarv02x141 .
+
+_:node18alarv02x141 a owl:Class ;
+	owl:intersectionOf _:node18alarv02x142 .
+
+_:node18alarv02x142 rdf:first :Water_Vehicle ;
+	rdf:rest _:node18alarv02x144 .
+
+_:node18alarv02x144 rdf:first _:node18alarv02x143 .
+
+_:node18alarv02x143 a owl:Restriction ;
+	owl:onProperty :has_Seating_capacity ;
+	owl:hasValue "1200"^^xsd:int .
+
+_:node18alarv02x144 rdf:rest rdf:nil .
+
+:dl3 a owl:Class ;
+	owl:equivalentClass _:node18alarv02x145 .
+
+_:node18alarv02x145 a owl:Class ;
+	owl:intersectionOf _:node18alarv02x146 .
+
+_:node18alarv02x146 rdf:first :Aerial_Vehicle ;
+	rdf:rest _:node18alarv02x148 .
+
+_:node18alarv02x148 rdf:first _:node18alarv02x147 .
+
+_:node18alarv02x147 a owl:Restriction ;
+	owl:onProperty :has_rating ;
+	owl:hasValue "4.1"^^xsd:float .
+
+_:node18alarv02x148 rdf:rest rdf:nil .
+
+:dl5 a owl:Class ;
+	owl:equivalentClass _:node18alarv02x149 .
+
+_:node18alarv02x149 a owl:Class ;
+	owl:intersectionOf _:node18alarv02x150 .
+
+_:node18alarv02x150 rdf:first :Water_Vehicle ;
+	rdf:rest _:node18alarv02x152 .
+
+_:node18alarv02x152 rdf:first _:node18alarv02x151 .
+
+_:node18alarv02x151 a owl:Restriction ;
+	owl:onProperty :has_speed ;
+	owl:hasValue "25 knots"^^xsd:string .
+
+_:node18alarv02x152 rdf:rest rdf:nil .
+
+:A7_sportback a owl:NamedIndividual , :Sports ;
+	:has_Power "2300 cc"^^xsd:string ;
+	:has_speed "270 kmph"^^xsd:string ;
+	:has_Seating_capacity "4"^^xsd:int ;
+	:has_Wheels "4"^^xsd:int ;
+	:has_rating "4.7"^^xsd:float ;
+	:has_height "6 feet"^^xsd:string ;
+	:has_Price "67496000"^^xsd:int ;
+	:has_length "8 feet"^^xsd:string ;
+	:has_manufacturers :Audi ;
+	:has_Engine :Chrysler_A57_multi ;
+	:Consumes :Gasoline .
+
+:AMW a owl:NamedIndividual , :Truck_Transportation ;
+	:has_height "12 feet"^^xsd:string ;
+	:has_Power "1200 cc"^^xsd:string ;
+	:has_length "14 feet"^^xsd:string ;
+	:has_Wheels "16"^^xsd:int ;
+	:has_Seating_capacity "2"^^xsd:int ;
+	:has_rating "4.0"^^xsd:float ;
+	:has_load "500 kg"^^xsd:string ;
+	:has_Price "5050000"^^xsd:int ;
+	:has_speed "60 kmph"^^xsd:string ;
+	:has_manufacturers :Ashok_Leyland ;
+	:has_Engine :BMW_Six_Stroke ;
+	:Consumes :Diesel .
+
+:Accent a owl:NamedIndividual , :Normal , :Taxi ;
+	:has_speed "100 kmph"^^xsd:string ;
+	:has_Power "1495 cc"^^xsd:string ;
+	:has_Wheels "4"^^xsd:int ;
+	:has_rating "4.0"^^xsd:float ;
+	:has_Seating_capacity "5"^^xsd:int ;
+	:has_Price "517866"^^xsd:int ;
+	:has_height "7 feet"^^xsd:string ;
+	:has_length "9 feet"^^xsd:string ;
+	:has_manufacturers :Hyundai ;
+	:has_Engine :Knight_Sleeve_Valve ;
+	:Consumes :Petrol .
+
+:AirIndia a owl:NamedIndividual , :Passenger_Plane ;
+	:has_Price "15000000"^^xsd:int ;
+	:has_Width "16 feet"^^xsd:string ;
+	:has_length "17 feet"^^xsd:string ;
+	:has_height "18 feet"^^xsd:string ;
+	:has_Seating_capacity "22"^^xsd:int ;
+	:has_Power "2500 hp"^^xsd:string ;
+	:has_rating "4.1"^^xsd:float ;
+	:has_Wheels "5"^^xsd:int ;
+	:has_speed "500 mph"^^xsd:string ;
+	:Consumes :Aviation_Fuel ;
+	:has_Engine :Holden_V80 ;
+	:has_manufacturers :TurboShaft .
+
+:Alto_800 a owl:NamedIndividual , :Normal , :Taxi ;
+	:has_Price "320999"^^xsd:int ;
+	:has_Wheels "4"^^xsd:int ;
+	:has_rating "4.0"^^xsd:float ;
+	:has_Seating_capacity "5"^^xsd:int ;
+	:has_height "6.5 feet"^^xsd:string ;
+	:has_length "8 feet"^^xsd:string ;
+	:has_speed "90 kmph"^^xsd:string ;
+	:has_Power "900 cc"^^xsd:string ;
+	:has_Engine :Cummins_ISB ;
+	:has_manufacturers :Maruti ;
+	:Consumes :Petrol .
+
+:Apache a owl:NamedIndividual , :Bike ;
+	:has_Power "180 cc"^^xsd:string ;
+	:has_speed "180 kmph"^^xsd:string ;
+	:has_Seating_capacity "2"^^xsd:int ;
+	:has_Wheels "2"^^xsd:int ;
+	:has_rating "4.1"^^xsd:float ;
+	:has_Price "76800"^^xsd:int ;
+	:has_Engine :DTS_i_150 ;
+	:Consumes :Petrol ;
+	:has_manufacturers :TVS .
+
+:Apollo a owl:NamedIndividual , :Space_Shuttle ;
+	:has_Power "10000 hp"^^xsd:string ;
+	:has_Price "1000000000"^^xsd:int ;
+	:has_speed "1500 mph"^^xsd:string ;
+	:has_length "19 feet"^^xsd:string ;
+	:has_Width "21 feet"^^xsd:string ;
+	:has_rating "5.0"^^xsd:float ;
+	:has_height "70 feet"^^xsd:string ;
+	:has_Seating_capacity "8"^^xsd:int ;
+	:has_manufacturers :ISRO ;
+	:Consumes :Liquid_Hydrogen_oxygen ;
+	:has_Engine :TurboShaft .
+
+:Ashok_Leyland a owl:NamedIndividual , :Manufacturers .
+
+:Aston_Martin a owl:NamedIndividual , :Manufacturers .
+
+:Aston_Martin_DB9 a owl:NamedIndividual , :Sports ;
+	:has_Seating_capacity "2"^^xsd:int ;
+	:has_speed "240 kmph"^^xsd:string ;
+	:has_Power "2400 cc"^^xsd:string ;
+	:has_Wheels "4"^^xsd:int ;
+	:has_rating "5.0"^^xsd:float ;
+	:has_height "6 feet"^^xsd:string ;
+	:has_Price "70050040"^^xsd:int ;
+	:has_length "9 feet"^^xsd:string ;
+	:has_manufacturers :Aston_Martin ;
+	:has_Engine :Commer_Knocker ;
+	:Consumes :Gasoline .
+
+:Audi a owl:NamedIndividual , :Manufacturers .
+
+:Audi_R8 a owl:NamedIndividual , :Sports ;
+	:has_Seating_capacity "2"^^xsd:int ;
+	:has_speed "200 kmph"^^xsd:string ;
+	:has_Power "2400 cc"^^xsd:string ;
+	:has_Wheels "4"^^xsd:int ;
+	:has_rating "4.7"^^xsd:float ;
+	:has_height "5.11 feet"^^xsd:string ;
+	:has_Price "50034030"^^xsd:int ;
+	:has_length "8 feet"^^xsd:string ;
+	:has_manufacturers :Audi ;
+	:Consumes :Gasoline ;
+	:has_Engine :Knight_Sleeve_Valve .
+
+:Audi_R8_GRAND-AM a owl:NamedIndividual , :Sports ;
+	:has_Power "2100 cc"^^xsd:string ;
+	:has_speed "230 kmph"^^xsd:string ;
+	:has_Seating_capacity "4"^^xsd:int ;
+	:has_Wheels "4"^^xsd:int ;
+	:has_rating "4.8"^^xsd:float ;
+	:has_height "6 feet"^^xsd:string ;
+	:has_Price "69000450"^^xsd:int ;
+	:has_length "9 feet"^^xsd:string ;
+	:has_manufacturers :Audi ;
+	:Consumes :Gasoline ;
+	:has_Engine :K12 .
+
+:Aviation_Fuel a owl:NamedIndividual , :Fuel_Type .
+
+:BMW a owl:NamedIndividual , :Manufacturers .
+
+:BMW_3_Series a owl:NamedIndividual , :Normal ;
+	:has_length "10 feet"^^xsd:string ;
+	:has_speed "145 kmph"^^xsd:string ;
+	:has_Power "2000 cc"^^xsd:string ;
+	:has_Price "30000000"^^xsd:int ;
+	:has_Wheels "4"^^xsd:int ;
+	:has_rating "4.8"^^xsd:float ;
+	:has_Seating_capacity "5"^^xsd:int ;
+	:has_height "8 feet"^^xsd:string ;
+	:has_manufacturers :BMW ;
+	:Consumes :Gasoline ;
+	:has_Engine :Gobron_Opposed_Piston .
+
+:BMW_750 a owl:NamedIndividual , :Sports ;
+	:has_length "10 feet"^^xsd:string ;
+	:has_Seating_capacity "2"^^xsd:int ;
+	:has_Power "2200 cc"^^xsd:string ;
+	:has_speed "290 kmph"^^xsd:string ;
+	:has_Wheels "4"^^xsd:int ;
+	:has_rating "5.0"^^xsd:float ;
+	:has_Price "67845900"^^xsd:int ;
+	:has_height "7 feet"^^xsd:string ;
+	:has_manufacturers :BMW ;
+	:has_Engine :British_racing_Motors ;
+	:Consumes :Gasoline .
+
+:BMW_M3 a owl:NamedIndividual , :Normal ;
+	:has_speed "140 kmph"^^xsd:string ;
+	:has_Power "2000 cc"^^xsd:string ;
+	:has_Price "30000000"^^xsd:int ;
+	:has_Wheels "4"^^xsd:int ;
+	:has_Seating_capacity "5"^^xsd:int ;
+	:has_rating "5.0"^^xsd:float ;
+	:has_height "7 feet"^^xsd:string ;
+	:has_length "9 feet"^^xsd:string ;
+	:has_manufacturers :BMW ;
+	:has_Engine :British_racing_Motors ;
+	:Consumes :Gasoline .
+
+:BMW_Six_Stroke a owl:NamedIndividual , :Engine .
+
+:BMW_X3 a owl:NamedIndividual , :Normal ;
+	:has_length "10 feet"^^xsd:string ;
+	:has_speed "150 kmph"^^xsd:string ;
+	:has_Power "1900 cc"^^xsd:string ;
+	:has_Price "25000000"^^xsd:int ;
+	:has_Wheels "4"^^xsd:int ;
+	:has_Seating_capacity "5"^^xsd:int ;
+	:has_rating "5.0"^^xsd:float ;
+	:has_height "7 feet"^^xsd:string ;
+	:has_manufacturers :BMW ;
+	:Consumes :Gasoline ;
+	:has_Engine :Mazada .
+
+:BMW_Z1 a owl:NamedIndividual , :Sports ;
+	:has_length "10 feet"^^xsd:string ;
+	:has_Power "2300 cc"^^xsd:string ;
+	:has_speed "280 kmph"^^xsd:string ;
+	:has_Seating_capacity "4"^^xsd:int ;
+	:has_Wheels "4"^^xsd:int ;
+	:has_rating "4.9"^^xsd:float ;
+	:has_Price "58943987"^^xsd:int ;
+	:has_height "7 feet"^^xsd:string ;
+	:has_manufacturers :BMW ;
+	:has_Engine :Chrysler_A57_multi ;
+	:Consumes :Gasoline .
+
+:BMW_Z4 a owl:NamedIndividual , :Sports ;
+	:has_Seating_capacity "2"^^xsd:int ;
+	:has_Power "2500 cc"^^xsd:string ;
+	:has_speed "300 kmph"^^xsd:string ;
+	:has_Wheels "4"^^xsd:int ;
+	:has_rating "5.0"^^xsd:float ;
+	:has_length "6 feet"^^xsd:string ;
+	:has_height "9 feet"^^xsd:string ;
+	:has_Price "97493000"^^xsd:int ;
+	:has_manufacturers :BMW ;
+	:Consumes :Gasoline ;
+	:has_Engine :Gobron_Opposed_Piston .
+
+:Bajaj a owl:NamedIndividual , :Manufacturers .
+
+:Bombardier a owl:NamedIndividual , :Manufacturers .
+
+:British_racing_Motors a owl:NamedIndividual , :Manufacturers .
+
+:CNG a owl:NamedIndividual , :Fuel_Type .
+
+:CR4 a owl:NamedIndividual , :Engine .
+
+:Cessna_Citation_CJ4 a owl:NamedIndividual , :Fighter_Plane ;
+	:has_height "15 feet"^^xsd:string ;
+	:has_Price "16050000"^^xsd:int ;
+	:has_length "18 feet"^^xsd:string ;
+	:has_Seating_capacity "2"^^xsd:int ;
+	:has_Width "20 feet"^^xsd:string ;
+	:has_Power "3000 hp"^^xsd:string ;
+	:has_rating "4.8"^^xsd:float ;
+	:has_Wheels "5"^^xsd:int ;
+	:has_speed "650 mph"^^xsd:string ;
+	:Consumes :Jet_Fuel ;
+	:has_Engine :TurboFan .
+
+:Chrysler_A57_multi a owl:NamedIndividual , :Manufacturers .
+
+:Cifa a owl:NamedIndividual , :Manufacturers .
+
+:Civic a owl:NamedIndividual , :Normal ;
+	:has_speed "100 kmph"^^xsd:string ;
+	:has_Power "1400 cc"^^xsd:string ;
+	:has_Wheels "4"^^xsd:int ;
+	:has_rating "4.3"^^xsd:float ;
+	:has_Seating_capacity "6"^^xsd:int ;
+	:has_height "6 feet"^^xsd:string ;
+	:has_Price "600000"^^xsd:int ;
+	:has_length "9 feet"^^xsd:string ;
+	:Consumes :Diesel ;
+	:has_manufacturers :Honda ;
+	:has_Engine :Mazada .
+
+:Cizeta_moroder a owl:NamedIndividual , :Engine .
+
+:Coal a owl:NamedIndividual , :Fuel_Type .
+
+:Commer_Knocker a owl:NamedIndividual , :Engine .
+
+:Cummins_ISB a owl:NamedIndividual , :Engine .
+
+:DTC a owl:NamedIndividual , :Government ;
+	:has_height "10 feet"^^xsd:string ;
+	:has_length "12 feet"^^xsd:string ;
+	:has_Price "2000000"^^xsd:int ;
+	:has_rating "4.0"^^xsd:float ;
+	:has_Seating_capacity "60"^^xsd:int ;
+	:has_speed "60 kmph"^^xsd:string ;
+	:has_Power "750 cc"^^xsd:string ;
+	:has_Wheels "8"^^xsd:int ;
+	:Consumes :CNG ;
+	:has_Engine :Holden_V80 ;
+	:has_manufacturers :TATA .
+
+:DTS_i_150 a owl:NamedIndividual , :Engine .
+
+:DTS_i_180 a owl:NamedIndividual , :Engine .
+
+:DTS_i_220 a owl:NamedIndividual , :Engine .
+
+:Damen a owl:NamedIndividual , :Manufacturers .
+
+:Delhi_metro a owl:NamedIndividual , :Metro ;
+	:has_height "10 feet"^^xsd:string ;
+	:has_Power "100 Kw"^^xsd:string ;
+	:has_speed "120 kmph"^^xsd:string ;
+	:has_Price "20000000"^^xsd:int ;
+	:has_rating "5.0"^^xsd:float ;
+	:has_Seating_capacity "500"^^xsd:int ;
+	:has_length "60 feet"^^xsd:string ;
+	:has_Wheels "96"^^xsd:int ;
+	:has_manufacturers :Bombardier ;
+	:has_Engine :Cummins_ISB ;
+	:Consumes :Electricity .
+
+:Dhow a owl:NamedIndividual , :Civilian_Ship ;
+	:has_Width "20 feet"^^xsd:string ;
+	:has_height "20 feet"^^xsd:string ;
+	:has_speed "25 knots"^^xsd:string ;
+	:has_rating "3.5"^^xsd:float ;
+	:has_length "40 feet"^^xsd:string ;
+	:has_Seating_capacity "500"^^xsd:int ;
+	:has_Price "50000000"^^xsd:int ;
+	:has_Power "750 HP"^^xsd:string ;
+	:has_Engine :Cummins_ISB ;
+	:Consumes :Fuel_oil ;
+	:has_manufacturers :Stx_Finland .
+
+:Diesel a owl:NamedIndividual , :Fuel_Type .
+
+:Discovery a owl:NamedIndividual , :Space_Shuttle ;
+	:has_Price "1000000000"^^xsd:int ;
+	:has_Width "18 feet"^^xsd:string ;
+	:has_length "18 feet"^^xsd:string ;
+	:has_rating "4.9"^^xsd:float ;
+	:has_speed "6000 mph"^^xsd:string ;
+	:has_height "70 feet"^^xsd:string ;
+	:has_Power "7000 hp"^^xsd:string ;
+	:has_Seating_capacity "8"^^xsd:int ;
+	:Consumes :Liquid_Hydrogen_oxygen ;
+	:has_manufacturers :NASA ;
+	:has_Engine :TurboFan .
+
+:Electricity a owl:NamedIndividual , :Fuel_Type .
+
+:Evo_X_RS_Road a owl:NamedIndividual , :Desert ;
+	:has_Power "1300 cc"^^xsd:string ;
+	:has_Seating_capacity "2"^^xsd:int ;
+	:has_Wheels "4"^^xsd:int ;
+	:has_rating "4.7"^^xsd:float ;
+	:has_height "6 feet"^^xsd:string ;
+	:has_Price "7846000"^^xsd:int ;
+	:has_speed "85 kmph"^^xsd:string ;
+	:has_length "9 feet"^^xsd:string ;
+	:has_Engine :British_racing_Motors ;
+	:Consumes :Gasoline ;
+	:has_manufacturers :Mitsubishi .
+
+:Fiat a owl:NamedIndividual , :Manufacturers .
+
+<Ontology/Automobile#Fiat_X1/9> a owl:NamedIndividual , :Sports ;
+	:has_speed "180 kmph"^^xsd:string ;
+	:has_Power "2100 cc"^^xsd:string ;
+	:has_Seating_capacity "4"^^xsd:int ;
+	:has_Wheels "4"^^xsd:int ;
+	:has_rating "5.0"^^xsd:float ;
+	:has_Price "50000000"^^xsd:int ;
+	:has_height "7 feet"^^xsd:string ;
+	:has_length "9 feet"^^xsd:string ;
+	:has_manufacturers :Fiat ;
+	:Consumes :Gasoline ;
+	:has_Engine :K12 .
+
+:Five_Stroke a owl:NamedIndividual , :Engine .
+
+:Flat_Twin a owl:NamedIndividual , :Engine .
+
+:Four_stroke a owl:NamedIndividual , :Engine .
+
+:Frightinear a owl:NamedIndividual , :Manufacturers .
+
+:Fuel_Coal a owl:NamedIndividual , :Fuel_Type .
+
+:Fuel_oil a owl:NamedIndividual , :Fuel_Type .
+
+:Gasoline a owl:NamedIndividual , :Fuel_Type .
+
+:Gobron_Opposed_Piston a owl:NamedIndividual , :Manufacturers .
+
+:Grades a owl:NamedIndividual , :Fuel_Type .
+
+:HMS_Hood a owl:NamedIndividual , :Military_Ship ;
+	:has_Seating_capacity "1000"^^xsd:int ;
+	:has_height "25 feet"^^xsd:string ;
+	:has_rating "3.5"^^xsd:float ;
+	:has_speed "30 knots"^^xsd:string ;
+	:has_length "45 feet"^^xsd:string ;
+	:has_Width "55 feet"^^xsd:string ;
+	:has_Price "65000000"^^xsd:int ;
+	:has_Power "800 HP"^^xsd:string ;
+	:has_Engine :Cummins_ISB ;
+	:Consumes :Fuel_Coal ;
+	:has_manufacturers :Hindustan_Aeronautics_limited .
+
+:Hero a owl:NamedIndividual , :Manufacturers .
+
+:Hindustan_Aeronautics_limited a owl:NamedIndividual , :Manufacturers .
+
+:Hitachi a owl:NamedIndividual , :Manufacturers .
+
+:Holden_V80 a owl:NamedIndividual , :Engine .
+
+:Honda a owl:NamedIndividual , :Manufacturers .
+
+:Honda_CV_80 a owl:NamedIndividual , :Engine .
+
+:Hyundai a owl:NamedIndividual , :Manufacturers .
+
+:ISRO a owl:NamedIndividual , :Manufacturers .
+
+:Indian_Railways a owl:NamedIndividual , :Manufacturers .
+
+:Indica a owl:NamedIndividual , :Taxi ;
+	:has_speed "100 kmph"^^xsd:string ;
+	:has_Power "1200 cc"^^xsd:string ;
+	:has_rating "3.5"^^xsd:float ;
+	:has_Wheels "4"^^xsd:int ;
+	:has_Price "499999"^^xsd:int ;
+	:has_Seating_capacity "5"^^xsd:int ;
+	:has_height "7 feet"^^xsd:string ;
+	:has_length "8 feet"^^xsd:string ;
+	:has_Engine :CR4 ;
+	:Consumes :Petrol ;
+	:has_manufacturers :TATA .
+
+:Innova a owl:NamedIndividual , :Normal , :Taxi ;
+	:has_Seating_capacity "10"^^xsd:int ;
+	:has_length "10 feet"^^xsd:string ;
+	:has_speed "100 kmph"^^xsd:string ;
+	:has_Power "1650 cc"^^xsd:string ;
+	:has_Wheels "4"^^xsd:int ;
+	:has_rating "4.5"^^xsd:float ;
+	:has_Price "750000"^^xsd:int ;
+	:has_height "8 feet"^^xsd:string ;
+	:has_Engine :Cummins_ISB ;
+	:Consumes :Diesel ;
+	:has_manufacturers :Toyota .
+
+:Jet_Fuel a owl:NamedIndividual , :Fuel_Type .
+
+:K12 a owl:NamedIndividual , :Engine .
+
+:Knight_Sleeve_Valve a owl:NamedIndividual , :Engine .
+
+:Kolkata_Metro a owl:NamedIndividual , :Metro ;
+	:has_height "10 feet"^^xsd:string ;
+	:has_speed "100 kmph"^^xsd:string ;
+	:has_Price "10000000"^^xsd:int ;
+	:has_rating "4.6"^^xsd:float ;
+	:has_Seating_capacity "400"^^xsd:int ;
+	:has_length "60 feet"^^xsd:string ;
+	:has_Power "60 kw"^^xsd:string ;
+	:has_Wheels "80"^^xsd:int ;
+	:has_Engine :Cummins_ISB ;
+	:Consumes :Electricity ;
+	:has_manufacturers :Hitachi .
+
+:Kualalumpur a owl:NamedIndividual , :Mono_Rail ;
+	:has_height "10 feet"^^xsd:string ;
+	:has_Price "14000000"^^xsd:int ;
+	:has_length "25 feet"^^xsd:string ;
+	:has_rating "3.8"^^xsd:float ;
+	:has_Seating_capacity "500"^^xsd:int ;
+	:has_speed "600 mph"^^xsd:string ;
+	:has_Power "70 kw"^^xsd:string ;
+	:has_Wheels "80"^^xsd:int ;
+	:Consumes :Electricity ;
+	:has_Engine :Grades ;
+	:has_manufacturers :Scomi .
+
+:Lancer_Evolution a owl:NamedIndividual , :Desert ;
+	:has_Power "1500 cc"^^xsd:string ;
+	:has_Seating_capacity "2"^^xsd:int ;
+	:has_Wheels "4"^^xsd:int ;
+	:has_rating "4.9"^^xsd:float ;
+	:has_height "6 feet"^^xsd:string ;
+	:has_Price "6000000"^^xsd:int ;
+	:has_length "8 feet"^^xsd:string ;
+	:has_speed "90 kmph"^^xsd:string ;
+	:has_Engine :Chrysler_A57_multi ;
+	:Consumes :Gasoline ;
+	:has_manufacturers :Mitsubishi .
+
+:Liquid_Hydrogen_oxygen a owl:NamedIndividual , :Fuel_Type .
+
+:Maersk_line a owl:NamedIndividual , :Civilian_Ship ;
+	:has_height "20 feet"^^xsd:string ;
+	:has_Width "25 feet"^^xsd:string ;
+	:has_speed "28 knots"^^xsd:string ;
+	:has_rating "4.0"^^xsd:float ;
+	:has_length "40 feet"^^xsd:string ;
+	:has_Price "56000030"^^xsd:int ;
+	:has_Seating_capacity "800"^^xsd:int ;
+	:has_Power "800 HP"^^xsd:string ;
+	:Consumes :Fuel_oil ;
+	:has_Engine :Gobron_Opposed_Piston ;
+	:has_manufacturers :Samsung_heavy_Industries .
+
+:Magnetic a owl:NamedIndividual , :Fuel_Type .
+
+:Maruti a owl:NamedIndividual , :Manufacturers .
+
+:Mazada a owl:NamedIndividual , :Engine .
+
+:Mitsubishi a owl:NamedIndividual , :Manufacturers .
+
+:Mumbai_monorail a owl:NamedIndividual , :Mono_Rail ;
+	:has_height "10 feet"^^xsd:string ;
+	:has_length "30 feet"^^xsd:string ;
+	:has_rating "4.8"^^xsd:float ;
+	:has_Price "569730000"^^xsd:int ;
+	:has_Seating_capacity "600"^^xsd:int ;
+	:has_speed "650 mph"^^xsd:string ;
+	:has_Power "75 kw"^^xsd:string ;
+	:has_Wheels "80"^^xsd:int ;
+	:has_manufacturers :Bombardier ;
+	:Consumes :Electricity ;
+	:has_Engine :Grades .
+
+:NASA a owl:NamedIndividual , :Manufacturers .
+
+:Nissan a owl:NamedIndividual , :Manufacturers .
+
+:Nissan_leaf a owl:NamedIndividual , :Electric_car ;
+	:has_speed "100 kmph"^^xsd:string ;
+	:has_Power "1500 cc"^^xsd:string ;
+	:has_Wheels "4"^^xsd:int ;
+	:has_rating "5.0"^^xsd:float ;
+	:has_Price "500670"^^xsd:int ;
+	:has_Seating_capacity "6"^^xsd:int ;
+	:has_height "6 feet"^^xsd:string ;
+	:has_length "8 feet"^^xsd:string ;
+	:Consumes :Electricity ;
+	:has_Engine :Knight_Sleeve_Valve ;
+	:has_manufacturers :Nissan .
+
+:Petrol a owl:NamedIndividual , :Fuel_Type .
+
+:Piston a owl:NamedIndividual , :Engine .
+
+:Porsche a owl:NamedIndividual , :Manufacturers .
+
+:Porsche_911SC a owl:NamedIndividual , :Sports ;
+	:has_length "10 feet"^^xsd:string ;
+	:has_Power "2500 cc"^^xsd:string ;
+	:has_speed "300 kmph"^^xsd:string ;
+	:has_Wheels "4"^^xsd:int ;
+	:has_Seating_capacity "4"^^xsd:int ;
+	:has_rating "5.0"^^xsd:float ;
+	:has_Price "59645987"^^xsd:int ;
+	:has_height "6 feet"^^xsd:string ;
+	:has_Engine :CR4 ;
+	:Consumes :Gasoline ;
+	:has_manufacturers :Porsche .
+
+:Pulsar_220 a owl:NamedIndividual , :Bike ;
+	:has_Seating_capacity "2"^^xsd:int ;
+	:has_Wheels "2"^^xsd:int ;
+	:has_Power "220 cc"^^xsd:string ;
+	:has_speed "220 kmph"^^xsd:string ;
+	:has_rating "4.5"^^xsd:float ;
+	:has_Price "90500"^^xsd:int ;
+	:has_manufacturers :Bajaj ;
+	:has_Engine :DTS_i_220 ;
+	:Consumes :Petrol .
+
+:Rajdhani a owl:NamedIndividual , :Railways ;
+	:has_height "10 feet"^^xsd:string ;
+	:has_length "100 feet"^^xsd:string ;
+	:has_Price "1000000000"^^xsd:int ;
+	:has_speed "120 kmph"^^xsd:string ;
+	:has_Power "150 kW"^^xsd:string ;
+	:has_rating "5.0"^^xsd:float ;
+	:has_Wheels "500"^^xsd:int ;
+	:has_Seating_capacity "800"^^xsd:int ;
+	:has_Engine :Cummins_ISB ;
+	:Consumes :Electricity ;
+	:has_manufacturers :Indian_Railways .
+
+:Range a owl:NamedIndividual , :Manufacturers .
+
+:Range_Rover_Evoque a owl:NamedIndividual , :Desert ;
+	:has_Power "1500 cc"^^xsd:string ;
+	:has_Seating_capacity "2"^^xsd:int ;
+	:has_Wheels "4"^^xsd:int ;
+	:has_rating "4.3"^^xsd:float ;
+	:has_height "5.11 feet"^^xsd:string ;
+	:has_Price "6706499"^^xsd:int ;
+	:has_length "8 feet"^^xsd:string ;
+	:has_speed "90 kmph"^^xsd:string ;
+	:Consumes :Gasoline ;
+	:has_Engine :Knight_Sleeve_Valve ;
+	:has_manufacturers :Range .
+
+:Rocket_Booster_solid a owl:NamedIndividual , :Engine .
+
+:Samsung_heavy_Industries a owl:NamedIndividual , :Manufacturers .
+
+:Scomi a owl:NamedIndividual , :Manufacturers .
+
+:Stx_Finland a owl:NamedIndividual , :Manufacturers .
+
+:Subaru a owl:NamedIndividual , :Manufacturers .
+
+:Subaru_Forester a owl:NamedIndividual , :Desert ;
+	:has_Power "1400 cc"^^xsd:string ;
+	:has_Seating_capacity "2"^^xsd:int ;
+	:has_Wheels "4"^^xsd:int ;
+	:has_rating "4.6"^^xsd:float ;
+	:has_Price "4000000"^^xsd:int ;
+	:has_height "6 feet"^^xsd:string ;
+	:has_length "7 feet"^^xsd:string ;
+	:has_speed "80 kmph"^^xsd:string ;
+	:Consumes :Gasoline ;
+	:has_Engine :Gobron_Opposed_Piston ;
+	:has_manufacturers :Subaru .
+
+:Swift a owl:NamedIndividual , :Normal , :Taxi ;
+	:has_speed "120 kmph"^^xsd:string ;
+	:has_Wheels "4"^^xsd:int ;
+	:has_Power "450 cc"^^xsd:string ;
+	:has_rating "5.0"^^xsd:float ;
+	:has_Seating_capacity "6"^^xsd:int ;
+	:has_Price "650000"^^xsd:int ;
+	:has_height "7 feet"^^xsd:string ;
+	:has_length "8 feet"^^xsd:string ;
+	:has_Engine :Cummins_ISB ;
+	:Consumes :Diesel ;
+	:has_manufacturers :Maruti .
+
+:TATA a owl:NamedIndividual , :Manufacturers .
+
+:TVS a owl:NamedIndividual , :Manufacturers .
+
+:Toyota a owl:NamedIndividual , :Manufacturers .
+
+:Tug_boat a owl:NamedIndividual , :Civilian_Ship ;
+	:has_height "22 feet"^^xsd:string ;
+	:has_speed "30 knots"^^xsd:string ;
+	:has_Width "32 feet"^^xsd:string ;
+	:has_rating "4.0"^^xsd:float ;
+	:has_length "45 feet"^^xsd:string ;
+	:has_Seating_capacity "600"^^xsd:int ;
+	:has_Price "60000000"^^xsd:int ;
+	:has_Power "750 HP"^^xsd:string ;
+	:has_Engine :Cummins_ISB ;
+	:Consumes :Fuel_oil ;
+	:has_manufacturers :Scomi .
+
+:TurboFan a owl:NamedIndividual , :Engine .
+
+:TurboShaft a owl:NamedIndividual , :Engine .
+
+:Turbojet a owl:NamedIndividual , :Engine .
+
+:Two_Stroke a owl:NamedIndividual , :Engine .
+
+:USS_Arizona a owl:NamedIndividual , :Military_Ship ;
+	:has_Seating_capacity "1200"^^xsd:int ;
+	:has_height "20 feet"^^xsd:string ;
+	:has_Width "30 feet"^^xsd:string ;
+	:has_speed "35 knots"^^xsd:string ;
+	:has_rating "4.5"^^xsd:float ;
+	:has_length "40 feet"^^xsd:string ;
+	:has_Price "70000000"^^xsd:int ;
+	:has_Power "850 HP"^^xsd:string ;
+	:Consumes :Fuel_oil ;
+	:has_manufacturers :Hindustan_Aeronautics_limited ;
+	:has_Engine :Honda_CV_80 .
+
+:VOLVO a owl:NamedIndividual , :Private ;
+	:has_height "10 feet"^^xsd:string ;
+	:has_Power "1000 cc"^^xsd:string ;
+	:has_length "15 feet"^^xsd:string ;
+	:has_rating "4.5"^^xsd:float ;
+	:has_Price "5500000"^^xsd:int ;
+	:has_Wheels "8"^^xsd:int ;
+	:has_Seating_capacity "80"^^xsd:int ;
+	:has_speed "80 kmph"^^xsd:string ;
+	:has_manufacturers :Ashok_Leyland ;
+	:Consumes :CNG ;
+	:has_Engine :Holden_V80 .
+
+:Airways a owl:NamedIndividual , :Fighter_Plane ;
+	:has_Seating_capacity "1"^^xsd:int ;
+	:has_Price "10000000"^^xsd:int ;
+	:has_height "15 feet"^^xsd:string ;
+	:has_length "17 feet"^^xsd:string ;
+	:has_Power "2400 hp"^^xsd:string ;
+	:has_Width "30 feet"^^xsd:string ;
+	:has_rating "4.2"^^xsd:float ;
+	:has_Wheels "5"^^xsd:int ;
+	:has_speed "600 mph"^^xsd:string ;
+	:has_Engine :Cummins_ISB ;
+	:has_manufacturers :Hindustan_Aeronautics_limited ;
+	:Consumes :Jet_Fuel .
+
+_:node18alarv02x153 a owl:Axiom ;
+	owl:annotatedTarget :Fighter_Plane ;
+	owl:annotatedSource :Airways ;
+	owl:annotatedProperty rdf:type ;
+	rdfs:comment _:node18alarv02x154 .
+
+_:node18alarv02x155 a owl:AllDifferent ;
+	owl:distinctMembers _:node18alarv02x156 .
+
+_:node18alarv02x156 rdf:first :Indica ;
+	rdf:rest _:node18alarv02x157 .
+
+_:node18alarv02x157 rdf:first :Innova ;
+	rdf:rest rdf:nil .
+
+_:node18alarv02x158 a owl:AllDifferent ;
+	owl:distinctMembers _:node18alarv02x159 .
+
+_:node18alarv02x159 rdf:first :Evo_X_RS_Road ;
+	rdf:rest _:node18alarv02x160 .
+
+_:node18alarv02x160 rdf:first :Lancer_Evolution ;
+	rdf:rest _:node18alarv02x161 .
+
+_:node18alarv02x161 rdf:first :Range_Rover_Evoque ;
+	rdf:rest _:node18alarv02x162 .
+
+_:node18alarv02x162 rdf:first :Subaru_Forester ;
+	rdf:rest rdf:nil .
+
+_:node18alarv02x163 a owl:AllDifferent ;
+	owl:distinctMembers _:node18alarv02x164 .
+
+_:node18alarv02x164 rdf:first :HMS_Hood ;
+	rdf:rest _:node18alarv02x165 .
+
+_:node18alarv02x165 rdf:first :USS_Arizona ;
+	rdf:rest rdf:nil .
+
+_:node18alarv02x166 a owl:AllDifferent ;
+	owl:distinctMembers _:node18alarv02x167 .
+
+_:node18alarv02x167 rdf:first :Accent ;
+	rdf:rest _:node18alarv02x168 .
+
+_:node18alarv02x168 rdf:first :Alto_800 ;
+	rdf:rest _:node18alarv02x169 .
+
+_:node18alarv02x169 rdf:first :BMW_3_Series ;
+	rdf:rest _:node18alarv02x170 .
+
+_:node18alarv02x170 rdf:first :BMW_M3 ;
+	rdf:rest _:node18alarv02x171 .
+
+_:node18alarv02x171 rdf:first :BMW_X3 ;
+	rdf:rest _:node18alarv02x172 .
+
+_:node18alarv02x172 rdf:first :Civic ;
+	rdf:rest _:node18alarv02x173 .
+
+_:node18alarv02x173 rdf:first :Innova ;
+	rdf:rest _:node18alarv02x174 .
+
+_:node18alarv02x174 rdf:first :Swift ;
+	rdf:rest rdf:nil .
+
+_:node18alarv02x175 a owl:AllDifferent ;
+	owl:distinctMembers _:node18alarv02x176 .
+
+_:node18alarv02x176 rdf:first :Dhow ;
+	rdf:rest _:node18alarv02x177 .
+
+_:node18alarv02x177 rdf:first :Maersk_line ;
+	rdf:rest _:node18alarv02x178 .
+
+_:node18alarv02x178 rdf:first :Tug_boat ;
+	rdf:rest rdf:nil .
+
+_:node18alarv02x179 a owl:AllDifferent ;
+	owl:distinctMembers _:node18alarv02x180 .
+
+_:node18alarv02x180 rdf:first :Apache ;
+	rdf:rest _:node18alarv02x181 .
+
+_:node18alarv02x181 rdf:first :Pulsar_220 ;
+	rdf:rest rdf:nil .
+
+_:node18alarv02x182 a owl:AllDifferent ;
+	owl:distinctMembers _:node18alarv02x183 .
+
+_:node18alarv02x183 rdf:first :Kualalumpur ;
+	rdf:rest _:node18alarv02x184 .
+
+_:node18alarv02x184 rdf:first :Mumbai_monorail ;
+	rdf:rest rdf:nil .
+
+_:node18alarv02x185 a owl:AllDifferent ;
+	owl:distinctMembers _:node18alarv02x186 .
+
+_:node18alarv02x186 rdf:first :Apollo ;
+	rdf:rest _:node18alarv02x187 .
+
+_:node18alarv02x187 rdf:first :Discovery ;
+	rdf:rest rdf:nil .
+
+_:node18alarv02x188 a owl:AllDisjointClasses ;
+	owl:members _:node18alarv02x189 .
+
+_:node18alarv02x189 rdf:first :Aerial_Vehicle ;
+	rdf:rest _:node18alarv02x190 .
+
+_:node18alarv02x190 rdf:first :Ground_Vehicle ;
+	rdf:rest _:node18alarv02x191 .
+
+_:node18alarv02x191 rdf:first :Water_Vehicle ;
+	rdf:rest rdf:nil .
+
+_:node18alarv02x192 a owl:AllDifferent ;
+	owl:distinctMembers _:node18alarv02x193 .
+
+_:node18alarv02x193 rdf:first :A7_sportback ;
+	rdf:rest _:node18alarv02x194 .
+
+_:node18alarv02x194 rdf:first :Aston_Martin_DB9 ;
+	rdf:rest _:node18alarv02x195 .
+
+_:node18alarv02x195 rdf:first :Audi_R8 ;
+	rdf:rest _:node18alarv02x196 .
+
+_:node18alarv02x196 rdf:first :Audi_R8_GRAND-AM ;
+	rdf:rest _:node18alarv02x197 .
+
+_:node18alarv02x197 rdf:first :BMW_750 ;
+	rdf:rest _:node18alarv02x198 .
+
+_:node18alarv02x198 rdf:first :BMW_Z1 ;
+	rdf:rest _:node18alarv02x199 .
+
+_:node18alarv02x199 rdf:first :BMW_Z4 ;
+	rdf:rest _:node18alarv02x200 .
+
+_:node18alarv02x200 rdf:first <Ontology/Automobile#Fiat_X1/9> ;
+	rdf:rest _:node18alarv02x201 .
+
+_:node18alarv02x201 rdf:first :Porsche_911SC ;
+	rdf:rest rdf:nil .
+
+_:node18alarv02x202 a owl:AllDisjointClasses ;
+	owl:members _:node18alarv02x203 .
+
+_:node18alarv02x203 rdf:first :Metro ;
+	rdf:rest _:node18alarv02x204 .
+
+_:node18alarv02x204 rdf:first :Mono_Rail ;
+	rdf:rest _:node18alarv02x205 .
+
+_:node18alarv02x205 rdf:first :Railways ;
+	rdf:rest rdf:nil .
+
+_:node18alarv02x206 a owl:AllDifferent ;
+	owl:distinctMembers _:node18alarv02x207 .
+
+_:node18alarv02x207 rdf:first :Cessna_Citation_CJ4 ;
+	rdf:rest _:node18alarv02x208 .
+
+_:node18alarv02x208 rdf:first :Airways ;
+	rdf:rest rdf:nil .
+
+_:node18alarv02x209 a owl:AllDisjointClasses ;
+	owl:members _:node18alarv02x210 .
+
+_:node18alarv02x210 rdf:first :Bike ;
+	rdf:rest _:node18alarv02x211 .
+
+_:node18alarv02x211 rdf:first :Bus ;
+	rdf:rest _:node18alarv02x212 .
+
+_:node18alarv02x212 rdf:first :Car_Taxi ;
+	rdf:rest _:node18alarv02x213 .
+
+_:node18alarv02x213 rdf:first :Train ;
+	rdf:rest _:node18alarv02x214 .
+
+_:node18alarv02x214 rdf:first :Truck_Transportation ;
+	rdf:rest rdf:nil .
+
+_:node18alarv02x215 a owl:AllDifferent ;
+	owl:distinctMembers _:node18alarv02x216 .
+
+_:node18alarv02x216 rdf:first :Delhi_metro ;
+	rdf:rest _:node18alarv02x217 .
+
+_:node18alarv02x217 rdf:first :Kolkata_Metro ;
+	rdf:rest rdf:nil .
+
+_:node18alarv02x218 a owl:AllDifferent ;
+	owl:distinctMembers _:node18alarv02x219 .
+
+_:node18alarv02x219 rdf:first :Innova ;
+	rdf:rest _:node18alarv02x220 .
+
+_:node18alarv02x220 rdf:first :Swift ;
+	rdf:rest rdf:nil .
+
+<urn:swrl#x> a swrl:Variable .
+
+<urn:swrl#y> a swrl:Variable .
+
+_:node18alarv02x221 a swrl:Imp ;
+	swrl:body _:node18alarv02x222 .
+
+_:node18alarv02x222 a swrl:AtomList ;
+	rdf:first _:node18alarv02x223 .
+
+_:node18alarv02x223 a swrl:ClassAtom ;
+	swrl:classPredicate :Automobile ;
+	swrl:argument1 <urn:swrl#x> .
+
+_:node18alarv02x222 rdf:rest _:node18alarv02x224 .
+
+_:node18alarv02x224 a swrl:AtomList ;
+	rdf:rest rdf:nil ;
+	rdf:first _:node18alarv02x225 .
+
+_:node18alarv02x225 a swrl:IndividualPropertyAtom ;
+	swrl:propertyPredicate :has_manufacturers ;
+	swrl:argument1 <urn:swrl#x> ;
+	swrl:argument2 <urn:swrl#y> .
+
+_:node18alarv02x221 swrl:head _:node18alarv02x226 .
+
+_:node18alarv02x226 a swrl:AtomList ;
+	rdf:rest rdf:nil ;
+	rdf:first _:node18alarv02x227 .
+
+_:node18alarv02x227 a swrl:ClassAtom ;
+	swrl:classPredicate :Manufacturers ;
+	swrl:argument1 <urn:swrl#y> .
+
+_:node18alarv02x228 a swrl:Imp ;
+	swrl:body _:node18alarv02x229 .
+
+_:node18alarv02x229 a swrl:AtomList ;
+	rdf:rest _:node18alarv02x230 .
+
+_:node18alarv02x230 a swrl:AtomList ;
+	rdf:first _:node18alarv02x231 .
+
+_:node18alarv02x231 a swrl:DatavaluedPropertyAtom ;
+	swrl:propertyPredicate :has_Price ;
+	swrl:argument1 <urn:swrl#x> ;
+	swrl:argument2 <urn:swrl#y> .
+
+_:node18alarv02x230 rdf:rest _:node18alarv02x232 .
+
+_:node18alarv02x232 a swrl:AtomList ;
+	rdf:rest rdf:nil ;
+	rdf:first _:node18alarv02x233 .
+
+_:node18alarv02x233 a swrl:BuiltinAtom ;
+	swrl:builtin swrlb:lessThanOrEqual ;
+	swrl:arguments _:node18alarv02x234 .
+
+_:node18alarv02x234 a rdf:List ;
+	rdf:first <urn:swrl#y> ;
+	rdf:rest _:node18alarv02x235 .
+
+_:node18alarv02x235 a rdf:List ;
+	rdf:first "120000"^^xsd:integer ;
+	rdf:rest rdf:nil .
+
+_:node18alarv02x229 rdf:first _:node18alarv02x236 .
+
+_:node18alarv02x236 a swrl:ClassAtom ;
+	swrl:classPredicate :Ground_Vehicle ;
+	swrl:argument1 <urn:swrl#x> .
+
+_:node18alarv02x228 swrl:head _:node18alarv02x237 .
+
+_:node18alarv02x237 a swrl:AtomList ;
+	rdf:rest rdf:nil ;
+	rdf:first _:node18alarv02x238 .
+
+_:node18alarv02x238 a swrl:ClassAtom ;
+	swrl:classPredicate :Bike ;
+	swrl:argument1 <urn:swrl#x> .
+
+_:node18alarv02x239 a swrl:Imp ;
+	swrl:head _:node18alarv02x240 .
+
+_:node18alarv02x240 a swrl:AtomList ;
+	rdf:rest rdf:nil ;
+	rdf:first _:node18alarv02x241 .
+
+_:node18alarv02x241 a swrl:ClassAtom ;
+	swrl:classPredicate :Engine ;
+	swrl:argument1 <urn:swrl#y> .
+
+_:node18alarv02x239 swrl:body _:node18alarv02x242 .
+
+_:node18alarv02x242 a swrl:AtomList ;
+	rdf:rest _:node18alarv02x243 .
+
+_:node18alarv02x243 a swrl:AtomList ;
+	rdf:rest rdf:nil ;
+	rdf:first _:node18alarv02x244 .
+
+_:node18alarv02x244 a swrl:IndividualPropertyAtom ;
+	swrl:propertyPredicate :has_Engine ;
+	swrl:argument1 <urn:swrl#x> ;
+	swrl:argument2 <urn:swrl#y> .
+
+_:node18alarv02x242 rdf:first _:node18alarv02x245 .
+
+_:node18alarv02x245 a swrl:ClassAtom ;
+	swrl:classPredicate :Civilian_Ship ;
+	swrl:argument1 <urn:swrl#x> .
+
+_:node18alarv02x246 a swrl:Imp ;
+	swrl:body _:node18alarv02x247 .
+
+_:node18alarv02x247 a swrl:AtomList ;
+	rdf:first _:node18alarv02x248 .
+
+_:node18alarv02x248 a swrl:ClassAtom ;
+	swrl:classPredicate :Fuel_Type ;
+	swrl:argument1 <urn:swrl#y> .
+
+_:node18alarv02x247 rdf:rest _:node18alarv02x249 .
+
+_:node18alarv02x249 a swrl:AtomList ;
+	rdf:rest rdf:nil ;
+	rdf:first _:node18alarv02x250 .
+
+_:node18alarv02x250 a swrl:IndividualPropertyAtom ;
+	swrl:propertyPredicate :Consumes ;
+	swrl:argument1 <urn:swrl#x> ;
+	swrl:argument2 <urn:swrl#y> .
+
+_:node18alarv02x246 swrl:head _:node18alarv02x251 .
+
+_:node18alarv02x251 a swrl:AtomList ;
+	rdf:rest rdf:nil ;
+	rdf:first _:node18alarv02x252 .
+
+_:node18alarv02x252 a swrl:ClassAtom ;
+	swrl:classPredicate :Automobile ;
+	swrl:argument1 <urn:swrl#x> .

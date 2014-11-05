@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+ <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+   <title></title>
+ </head>
+ <body>
+    <script type="text/javascript">
+         if (window.XMLHttpRequest)
+             {// code for IE7+, Firefox, Chrome, Opera, Safari
+                 xmlhttp=new XMLHttpRequest();
+             }
+         else
+             {// code for IE6, IE5
+                 xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+             }
+         xmlhttp.open("GET","catalog.xml",false);
+         xmlhttp.send();
+         xmlDoc=xmlhttp.responseXML;
+
+         var x=xmlDoc.getElementsByTagName("book");
+         for (i=0;i<x.length;i++)
+             {
+                 document.write("<b>From:</b> ");
+                 document.write(x[i].getElementsByTagName("title")[0].childNodes[0].nodeValue);
+                 document.write("<br />");
+                 document.write("<b>Date:</b> ");
+                 document.write(x[i].getElementsByTagName("author")[0].childNodes[0].nodeValue);
+                 document.write("<br />");
+                 document.write("<b>Message:</b> ");
+                 document.write(x[i].getElementsByTagName("publisher")[0].childNodes[0].nodeValue);
+                 document.write("<br />");
+				 document.write("<b>Image</b> <img src='"+x[i].getElementsByTagName("path")[0].childNodes[0].nodeValue+"' />");
+                 //document.write(x[i].getElementsByTagName("path")[0].childNodes[0].nodeValue);
+                 document.write("<br />");
+                 document.write("<br />");
+
+             }
+     </script>
+
+     <div>Hi</div>
+
+</body>
+</html>

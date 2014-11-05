@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Mpeg7
+	xmlns="urn:mpeg:mpeg7:schema:2004"
+	xmlns:mpeg7="urn:mpeg:mpeg7:schema:2004"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="urn:mpeg:mpeg7:schema:2004 mpeg7-2004.xsd">
+
+	<DescriptionMetadata>
+		<Version>1.0</Version>
+	</DescriptionMetadata>
+	<CreationInformation>
+		<Creation>
+			<Title type="main" xml:lang="en-US">Delhi Mtero</Title>
+			<TitleMedia>
+             			<TitleImage>
+              				 <MediaUri>Videos/delhi_metro.mpeg</MediaUri>
+             			</TitleImage>
+           		</TitleMedia>
+			<Abstract>
+					<FreeTextAnnotation>Delhi Metro is the world's thirteenth largest metro system in terms of length. Delhi Metro is India's first modern public transportation system,which has revolutionized travel by providing a fast, reliable, safe, and comfortable means of transport.
+						
+					</FreeTextAnnotation>
+				</Abstract>
+				<StructuredAnnotation>
+					<WhatObject href="http://www.semanticweb.org/Vivek_Gupta/ontologies/Automobile#Metro"> 
+					        <Name>Metro</Name> 
+					</WhatObject>
+				</StructuredAnnotation>
+		</Creation>
+	</CreationInformation>
+	<Description xsi:type="ContentEntityType">
+		<MultimediaContent xsi:type="AudioVisualType">
+			<AudioVisual id="delhi_metro">
+				<MediaInformation>
+					<MediaProfile>
+						<MediaFormat>
+							<Content href="urn:mpeg:mpeg7:cs:ContentCS:2001">
+								<Name>AudioVisual</Name>
+							</Content>
+							<Medium href="urn:mpeg:mpeg7:cs:MediumCS:2001">
+								<Name>DVD</Name>
+							</Medium>
+							<FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001">
+								<Name>mpeg</Name>
+							</FileFormat>
+							<BitRate>1332000</BitRate>
+							<VisualCoding>
+               							<Format colorDomain="color" href="urn:mpeg:mpeg7:cs:VisualCodingFormatCS:2001:2.2">
+                 							<Name>MPEG-2 Video Main Profile</Name>
+               							</Format>
+               							<Frame aspectRatio="1.77" height="720" rate="50.000000" structure="interlaced" width="407" />
+             						</VisualCoding>
+							<AudioCoding>
+								<Format href="urn:mpeg:mpeg7:cs:AudioCodingFormatCS:2001">
+									<Name>MPEG-2 Audio AAC</Name>
+								</Format>
+								<AudioChannels>2</AudioChannels>
+								<Sample bitsPer="16" rate="48000.000000" />
+							</AudioCoding>
+						</MediaFormat>
+					</MediaProfile>
+				</MediaInformation>
+				<MediaTime>
+					<MediaTimePoint>T00:00:00</MediaTimePoint>
+					<MediaDuration>PT3M36S</MediaDuration>
+				</MediaTime>
+			</AudioVisual>
+		</MultimediaContent>
+	</Description>
+</Mpeg7> 

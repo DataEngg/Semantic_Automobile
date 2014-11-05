@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Mpeg7 
+	xmlns="urn:mpeg:mpeg7:schema:2004" 
+	xmlns:mpeg7="urn:mpeg:mpeg7:schema:2004" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="urn:mpeg:mpeg7:schema:2004 mpeg7-2004.xsd"> 
+
+	<Description xsi:type="ContentEntityType">
+	<MultimediaContent xsi:type="ImageType">
+	<Image id="rajdhani">
+	
+	<MediaInformation>
+		<MediaProfile>
+			<MediaFormat>
+				<Title type="main" xml:lang="en-US">Rajdhani</Title>
+				<Content href="MPEG7ContentCS">
+					<Name>image</Name>
+				</Content>
+				<FileFormat href="urn:mpeg:mepg7:cs:VisualCodingFormatCS:2001:1">
+					<Name>jpeg</Name>
+				</FileFormat>
+			   <VisualCoding>
+					<Frame height="300" width="200"/>
+			   </VisualCoding>
+			</MediaFormat>
+			<MediaInstance>
+				<InstanceIdentifier>rajdhani</InstanceIdentifier>
+				<MediaLocator>
+					<MediaUri>Images/rajdhani.jpg</MediaUri>
+				</MediaLocator>
+				<Abstract>
+					<FreeTextAnnotation>Rajdhani Express is a passenger train service in India operated by Indian Railways connecting New Delhi with other important destinations, especially state capitals.
+						
+					</FreeTextAnnotation>
+				</Abstract>
+				<StructuredAnnotation>
+					<WhatObject href="http://www.semanticweb.org/Vivek_Gupta/ontologies/Automobile#Railways"> 
+					        <Name>Railways</Name> 
+					</WhatObject>
+				</StructuredAnnotation>
+			</MediaInstance>
+		</MediaProfile>
+	</MediaInformation>
+	</Image>
+	</MultimediaContent>
+	</Description>
+</Mpeg7>

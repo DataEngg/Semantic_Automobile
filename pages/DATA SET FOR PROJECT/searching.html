@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+ <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+   <title></title>
+ </head>
+ <body>
+    <script type="text/javascript">
+         if (window.XMLHttpRequest)
+             {// code for IE7+, Firefox, Chrome, Opera, Safari
+                 xmlhttp=new XMLHttpRequest();
+             }
+         else
+             {// code for IE6, IE5
+                 xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+             }
+         xmlhttp.open("GET","catalog.xml",false);
+         xmlhttp.send();
+         xmlDoc=xmlhttp.responseXML;
+
+         var x=xmlDoc.getElementsByTagName("item");
+         for (i=0;i<x.length;i++)
+            {
+                 document.write(x[i].childNodes[0].nodeValue);
+				 var s=x[i].childNodes[0].nodeValue;
+				 search(s);
+				 document.write("<br>");
+
+            }
+	function search(fr)
+	 {   
+	  if (window.XMLHttpRequest)
+             {// code for IE7+, Firefox, Chrome, Opera, Safari
+                 xmlhttp=new XMLHttpRequest();
+				
+             }
+         else
+             {// code for IE6, IE5
+                 xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+             }
+         xmlhttp.open("GET",fr,false);
+		  
+         xmlhttp.send();
+         xmlDoc=xmlhttp.responseXML;
+		 var x=xmlDoc.getElementsByTagName("Mpeg7");
+          document.write("<b>Image</b> <img src='"+x[0].getElementsByTagName("MediaUri")[0].childNodes[0].nodeValue+"' />");
+            
+                // document.write(x[i].childNodes[0].nodeValue);
+				 document.write("<br>");
+
+             
+	 }
+			
+     </script>
+	
+	<script type="text/JavaScript">
+	 
+	 
+	 </script>
+
+    
+
+</body>
+</html>

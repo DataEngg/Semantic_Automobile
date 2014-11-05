@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Mpeg7 
+	xmlns="urn:mpeg:mpeg7:schema:2004" 
+	xmlns:mpeg7="urn:mpeg:mpeg7:schema:2004" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="urn:mpeg:mpeg7:schema:2004 mpeg7-2004.xsd"> 
+
+	<Description xsi:type="ContentEntityType">
+	<MultimediaContent xsi:type="ImageType">
+	<Image id="audi_r8_grand_am">
+	
+	<MediaInformation>
+		<MediaProfile>
+			<MediaFormat>
+				<Title type="main" xml:lang="en-US">AUDI R8 Grand AM</Title>
+				<Content href="MPEG7ContentCS">
+					<Name>image</Name>
+				</Content>
+				<FileFormat href="urn:mpeg:mepg7:cs:VisualCodingFormatCS:2001:1">
+					<Name>jpeg</Name>
+				</FileFormat>
+			   <VisualCoding>
+					<Frame height="300" width="200"/>
+			   </VisualCoding>
+			</MediaFormat>
+			<MediaInstance>
+				<InstanceIdentifier>Audi_R8_Grand_AM</InstanceIdentifier>
+				<MediaLocator>
+					<MediaUri>Images/audi_r8_grand_am.jpg</MediaUri>
+				</MediaLocator>
+				<Abstract>
+					<FreeTextAnnotation>The car is already equipped with a set of Ohlins TTX dampers with a brand new spare set plus the original Bilstein dampers. There is an extensive spare parts list, including two front splitter and a new nose, a complete set of wishbones and uprights, an R8LMS flat patch and weighing scale and the Audi gearbox tool kit and gear sets.
+						
+					</FreeTextAnnotation>
+				</Abstract>
+<StructuredAnnotation>
+					<WhatObject href="http://www.semanticweb.org/Vivek_Gupta/ontologies/Automobile#Sports_Car"> 
+					        <Name>Sports_Car</Name> 
+					</WhatObject>
+				</StructuredAnnotation>
+			</MediaInstance>
+		</MediaProfile>
+	</MediaInformation>
+	</Image>
+	</MultimediaContent>
+	</Description>
+</Mpeg7>

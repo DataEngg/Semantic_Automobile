@@ -1,0 +1,124 @@
+<html>
+<head>
+ 
+
+<script type="text/javascript" src="js/jquery-1-4-2.min.js"></script>
+  <!-- Chang URLs to wherever Video.js files will be hosted -->
+  <link href="video-js.css" rel="stylesheet" type="text/css">
+  <!-- video.js must be in the <head> for older IEs to work. -->
+  <script src="video.js"></script>
+
+<script type="text/javascript">
+var l;
+var s;
+function qs(search_for) {
+		var query = window.location.search.substring(1);
+		var parms = query.split('&');
+		for (var i=0; i<parms.length; i++) {
+			var pos = parms[i].indexOf('=');
+			if (pos > 0  && search_for == parms[i].substring(0,pos)) {
+				return parms[i].substring(pos+1);;
+			}
+		}
+		return "";
+	}
+	function like(k)
+ {   var p=k;
+	 if (window.XMLHttpRequest)
+
+             {// code for IE7+, Firefox, Chrome, Opera, Safari
+                 xmlhttp=new XMLHttpRequest();
+             }
+         else
+             {// code for IE6, IE5
+                 xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+             }
+
+         xmlhttp.open("GET","annotated_dataset.xml",false);
+         xmlhttp.send();
+         xmlDoc=xmlhttp.responseXML;
+           document.write("<html>");
+		  document.write("<title>Images</title>");
+		 document.write("<body background=images/Beautiful.jpg>");		 
+		 //document.write("<body bgcolor='red'>");
+		document.write("<table border=1 width='800' align='center'>");
+		document.write("<tr><th width='110'>Media Object</th><th>Power</th><th>Seating Capacity</th><th>Price</th><th>Wheels</th><th>Speed</th><th>Rating</th><th>Consumes</th><th>Engine</th></tr>");
+         var x=xmlDoc.getElementsByTagName("StructuredTextAnnotation");
+		 //var m=xmlDoc.getElementsByTagName("FileName");
+
+
+         for (var i=0;i<x.length;i++)
+            {				
+          if( (p.toLowerCase()).match((x[i].getElementsByTagName("Title")[0].childNodes[0].nodeValue).toLowerCase()))
+		  {
+		// alert("kjdjcsdc");
+		  var y=xmlDoc.getElementsByTagName("hasPower");
+			var z=xmlDoc.getElementsByTagName("hasSeatingCapacity");
+		 var u=xmlDoc.getElementsByTagName("Title");
+		 var n=xmlDoc.getElementsByTagName("hasPrice");
+		  var e=xmlDoc.getElementsByTagName("hasWheels");
+		  var c=xmlDoc.getElementsByTagName("hasSpeed");
+		  var a=xmlDoc.getElementsByTagName("hasRating");
+		  var f=xmlDoc.getElementsByTagName("consumes");
+		  var b=xmlDoc.getElementsByTagName("hasEngine");
+		  
+		//document.getElementsByTagName("video").getElementByTagName("source")[0].src= s;
+		 document.write("<tr>");
+		 document.write("<td align='center'><h3>"+u[i].childNodes[0].nodeValue+"</h3></td>");
+		  document.write("<td align='center'>"+y[i].childNodes[0].nodeValue+"</td>");
+		  document.write("<td align='center'>"+z[i].childNodes[0].nodeValue+"</td>");
+		  document.write("<td align='center'>"+n[i].childNodes[0].nodeValue+"</td>");
+		   document.write("<td align='center'>"+e[i].childNodes[0].nodeValue+"</td>");
+		    document.write("<td align='center'>"+c[i].childNodes[0].nodeValue+"</td>");
+			 document.write("<td align='center'>"+a[i].childNodes[0].nodeValue+"</td>");
+			document.write("<td align='center'>"+f[i].childNodes[0].nodeValue+"</td>");
+			document.write("<td align='center'>"+b[i].childNodes[0].nodeValue+"</td>");
+			
+			 
+		  //document.write('<td><video id="example_video_1" class="video-js vjs-default-skin controls" preload="none" width="50" height="50" poster="images/logo1.png" data-setup="{}"> <source src="'+x[i].getElementsByTagName("VideoUri")[0].childNodes[0].nodeValue+'" type="video/mp4" /></video></td>');		 
+         document.write("</tr>");      
+          s=(x[i].getElementsByTagName("VideoUri")[0].childNodes[0].nodeValue);
+		
+		  }
+			}			
+		  document.write("</table>");
+          document.write("</body>");
+		  document.write("</html>");		 
+		
+		
+		
+}
+function setval(id,newvalue)
+ {
+ var d=document.getElementById(id);
+ d.src=newvalue;
+ //alert("Kunal");
+ }
+ window.onload=function()
+ {
+   setval("kun",s);
+  }	 
+</script>
+</head>
+<body>
+
+<h1 align="center"> Welcome To Description</h1>
+
+<div align="center">
+<video id="example_video_1" class="video-js vjs-default-skin" controls preload="none" width="700" height="400" poster="images/logo1.png" data-setup="{}">
+    <source type='video/mp4' id="kun" />
+
+    <track kind="captions" src="demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+    <track kind="subtitles" src="demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+  </video>
+  <br>
+  </div>
+<script type="text/javascript">
+  l=(qs("myvar"));
+  like(l);
+ 
+</script>
+<p></p>
+</body>
+</html>
+

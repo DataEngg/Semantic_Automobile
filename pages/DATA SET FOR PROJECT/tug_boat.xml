@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Mpeg7 
+	xmlns="urn:mpeg:mpeg7:schema:2004" 
+	xmlns:mpeg7="urn:mpeg:mpeg7:schema:2004" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="urn:mpeg:mpeg7:schema:2004 mpeg7-2004.xsd"> 
+
+	<Description xsi:type="ContentEntityType">
+	<MultimediaContent xsi:type="ImageType">
+	<Image id="tug_boat">
+	
+	<MediaInformation>
+		<MediaProfile>
+			<MediaFormat>
+				<Title type="main" xml:lang="en-US">Tug Boat</Title>
+				<Content href="MPEG7ContentCS">
+					<Name>image</Name>
+				</Content>
+				<FileFormat href="urn:mpeg:mepg7:cs:VisualCodingFormatCS:2001:1">
+					<Name>jpeg</Name>
+				</FileFormat>
+			   <VisualCoding>
+					<Frame height="300" width="200"/>
+			   </VisualCoding>
+			</MediaFormat>
+			<MediaInstance>
+				<InstanceIdentifier>tug_boat</InstanceIdentifier>
+				<MediaLocator>
+					<MediaUri>Images/tug_boat.jpg</MediaUri>
+				</MediaLocator>
+				<Abstract>
+					<FreeTextAnnotation> A tugboat (tug) is a boat that maneuvers vessels by pushing or towing them. Tugs move vessels that either should not move themselves, such as ships in a crowded harbor or a narrow canal, or those that cannot move by themselves, such as barges, disabled ships, log rafts, or oil platforms.
+					</FreeTextAnnotation>
+				</Abstract>
+				<StructuredAnnotation>
+					<WhatObject href="http://www.semanticweb.org/Vivek_Gupta/ontologies/Automobile#Civilia_Ship"> 
+					        <Name>Civilia_Ship</Name> 
+					</WhatObject>
+				</StructuredAnnotation>
+			</MediaInstance>
+		</MediaProfile>
+	</MediaInformation>
+	</Image>
+	</MultimediaContent>
+	</Description>
+</Mpeg7>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mpeg7
+	xmlns="urn:mpeg:mpeg7:schema:2004"
+	xmlns:mpeg7="urn:mpeg:mpeg7:schema:2004"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="urn:mpeg:mpeg7:schema:2004 mpeg7-2004.xsd">
+
+	<DescriptionMetadata>
+		<Version>1.0</Version>
+		<Comment>
+			<StructuredTextAnnotation>
+				<Concept>Sports_Car</Concept>
+				<FileName>
+					<MediaUri>Images/a7_sportback.jpg</MediaUri>
+					<MediaUri1>Images/audi_logo.jpg</MediaUri1>
+					<VideoUri>Videos/audi_r8.mp4</VideoUri>
+					<Title type="main" xml:lang="en-US">A7_Sportback</Title>
+					
+						<hasPower>2300 cc</hasPower>
+						<hasSeatingCapacity>4</hasSeatingCapacity>
+						<hasPrice>56749600</hasPrice>
+									
+				</FileName>
+				
+			</StructuredTextAnnotation>
+			
+			<StructuredTextAnnotation>
+				<Concept>Sports_Car</Concept>
+				<FileName>
+				<MediaUri>Images/aston_martin_db9.jpg</MediaUri>
+				<MediaUri1>Images/aston_martin_logo.jpg</MediaUri1>
+				<VideoUri>Videos/audi_r8.mp4</VideoUri>
+				<Title type="main" xml:lang="en-US">Aston_Martin_db9</Title>
+				
+					<hasPower>2400 cc</hasPower>
+					<hasSeatingCapacity>2</hasSeatingCapacity>
+					<hasPrice>7005000</hasPrice>
+						
+				</FileName>
+				
+			</StructuredTextAnnotation>
+			
+			<StructuredTextAnnotation>
+				<Concept>Bike</Concept>
+				
+				<FileName>
+					<MediaUri>Images/pulsar220.jpg</MediaUri>
+					<MediaUri1>Images/bajaj_logo.jpg</MediaUri1>
+					
+					<Title type="main" xml:lang="en-US">Pulsar_220</Title>
+					
+						<hasPower>220 cc</hasPower>
+						<hasSeatingCapacity>2</hasSeatingCapacity>
+						<hasPrice>90500</hasPrice>
+						<VideoUri>Video/2013.mp4</VideoUri>
+					
+						
+				</FileName>
+			</StructuredTextAnnotation>
+			
+		</Comment>
+	</DescriptionMetadata>
+	<Description xsi:type="ContentEntityType">
+		<MultimediaContent xsi:type="ImageType">
+			
+			<Image id="image1">
+				<MediaInformation>
+					<MediaProfile>
+						<MediaFormat>
+							<Content href="urn:mpeg:mpeg7:cs:ContentCS:2001">
+								<Name>Image</Name>
+							</Content>
+							
+							<FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001">
+								<Name>jpg</Name>
+							</FileFormat>
+							
+						</MediaFormat>
+					</MediaProfile>
+				</MediaInformation>
+				<CreationInformation>
+					<Creation>
+						<Title type="main" xml:lang="en-US">A7_Sportback</Title>
+						<TitleMedia>
+							<TitleImage>
+								<MediaUri>Images/audi_logo.jpg</MediaUri>
+							</TitleImage>
+						</TitleMedia>
+						<Abstract>
+							<FreeTextAnnotation>The Audi A7 is a great-looking and beautifully built car. It’s superb at devouring motorway miles thanks to its
+					stunning high-speed composure and impressive refinement. Use of aluminium in the body keeps weight, and fuel consumption, down.</FreeTextAnnotation>
+						</Abstract>
+						<Creator>
+							<Role href="urn:mpeg:mpeg7:cs:RoleCS:2001:SINGER"></Role>
+							<Agent>
+								<xsi:type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">mpeg7:OrganizationType</xsi:type>
+								<Name>Audi</Name>
+							</Agent>
+						</Creator>
+					</Creation>
+					
+				</CreationInformation>
+				
+			</Image>
+			
+			<Image id="image3">
+				<MediaInformation>
+					<MediaProfile>
+						<MediaFormat>
+							<Content href="urn:mpeg:mpeg7:cs:ContentCS:2001">
+								<Name>Image</Name>
+							</Content>
+							
+							<FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001">
+								<Name>jpg</Name>
+							</FileFormat>
+							
+						</MediaFormat>
+					</MediaProfile>
+				</MediaInformation>
+				<CreationInformation>
+					<Creation>
+						<Title type="main" xml:lang="en-US">Aston_Martin_db9</Title>
+						<TitleMedia>
+							<TitleImage>
+								<MediaUri>Images/aston_martin_logo.jpg</MediaUri>
+							</TitleImage>
+						</TitleMedia>
+						<Abstract>
+							<FreeTextAnnotation>The engine is the 6.0L V12 from the Aston Martin V12 Vanquish. The most recent Aston Martin has a top speed
+					of 295 km/h (183 mph) and a 0 to 97 km/h (60 mph) time of 4.1 seconds.
+						</FreeTextAnnotation></Abstract>
+						<Creator>
+							<Role href="urn:mpeg:mpeg7:cs:RoleCS:2001:SINGER"></Role>
+							<Agent>
+								<xsi:type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">mpeg7:OrganizationType</xsi:type>
+								<Name>Aston Martin</Name>
+							</Agent>
+						</Creator>
+					</Creation>
+					
+				</CreationInformation>
+				
+			</Image>
+			
+			<Image id="image3">
+				<MediaInformation>
+					<MediaProfile>
+						<MediaFormat>
+							<Content href="urn:mpeg:mpeg7:cs:ContentCS:2001">
+								<Name>Image</Name>
+							</Content>
+							
+							<FileFormat href="urn:mpeg:mpeg7:cs:FileFormatCS:2001">
+								<Name>jpg</Name>
+							</FileFormat>
+							
+						</MediaFormat>
+					</MediaProfile>
+				</MediaInformation>
+				<CreationInformation>
+					<Creation>
+						<Title type="main" xml:lang="en-US">Pulsar220</Title>
+						<TitleMedia>
+							<TitleImage>
+								<MediaUri>Images/bajaj_logo.jpg</MediaUri>
+							</TitleImage>
+						</TitleMedia>
+						<Abstract>
+							<FreeTextAnnotation>The two wheeler was developed by the product engineering division of Bajaj Auto.Currently there are five variants available, with engine capacities of 135 cc, 150 cc, 180 cc, 200 cc, and 220 cc.
+						</FreeTextAnnotation>
+						</Abstract>
+						<Creator>
+							<Role href="urn:mpeg:mpeg7:cs:RoleCS:2001:SINGER"></Role>
+							<Agent>
+								<xsi:type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">mpeg7:OrganizationType</xsi:type>
+								<Name>Bajaj</Name>
+							</Agent>
+						</Creator>
+					</Creation>
+					
+				</CreationInformation>
+				
+			</Image>
+		</MultimediaContent>
+	</Description>
+</Mpeg7> 

@@ -1,0 +1,20 @@
+prefix : <http://www.semanticweb.org/Vivek_Gupta/ontologies/Automobile#> 
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+prefix swrl: <http://www.w3.org/2003/11/swrl#> 
+prefix owl: <http://www.w3.org/2002/07/owl#> 
+prefix xsd: <http://www.w3.org/2001/XMLSchema#> 
+prefix swrlb: <http://www.w3.org/2003/11/swrlb#> 
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+Select ?x
+where{?x rdfs:subClassOf _:b0}
+
+
+prefix : <http://www.semanticweb.org/Vivek_Gupta/ontologies/Automobile#> 
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+prefix swrl: <http://www.w3.org/2003/11/swrl#> 
+prefix owl: <http://www.w3.org/2002/07/owl#> 
+prefix xsd: <http://www.w3.org/2001/XMLSchema#> 
+prefix swrlb: <http://www.w3.org/2003/11/swrlb#> 
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+Select ?x
+where{:Bike rdfs:subClassOf ?x}
